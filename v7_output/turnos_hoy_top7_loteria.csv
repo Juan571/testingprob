@@ -1,0 +1,5 @@
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-09-11 08:00:00,2026-09-11,08:00,HIT,"lapa,iguana,elefante,culebra,chivo,rana,caiman,camello,venado,leon,pavo,ardilla,tigre,alacran","alacran,caballo",alacran
+2026-09-11 09:00:00,2026-09-11,09:00,HIT,"iguana,caiman,lapa,chivo,culebra,rana,elefante,camello,pavo,toro,zorro,carnero,tigre,venado",lapa,lapa
+2026-09-11 10:00:00,2026-09-11,10:00,HIT,"iguana,culebra,elefante,leon,camello,pavo,chivo,carnero,rana,gallo,venado,zorro,perico,tigre","caiman,carnero",carnero
+2026-09-11 11:00:00,2026-09-11,11:00,MISS,"iguana,culebra,chivo,gallo,venado,rana,camello,leon,zorro,ardilla,pavo,tigre,jirafa,perico","elefante,zamuro",

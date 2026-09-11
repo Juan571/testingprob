@@ -1,0 +1,3810 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>
+V7 - Predictor de Animales
+</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background:
+        #f4f6f8;
+
+    color:
+        #1f2937;
+}
+
+.container {
+    max-width: 1500px;
+
+    margin:
+        0 auto;
+
+    padding:
+        30px;
+}
+
+.header {
+    background:
+        linear-gradient(
+            135deg,
+            #111827,
+            #374151
+        );
+
+    color:
+        white;
+
+    padding:
+        30px;
+
+    border-radius:
+        18px;
+
+    margin-bottom:
+        25px;
+}
+
+.header h1 {
+    margin:
+        0 0 10px 0;
+}
+
+.header p {
+    opacity:
+        .8;
+}
+
+.cards {
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(
+                200px,
+                1fr
+            )
+        );
+
+    gap:
+        18px;
+
+    margin-bottom:
+        25px;
+}
+
+.card {
+    background:
+        white;
+
+    border-radius:
+        14px;
+
+    padding:
+        22px;
+
+    box-shadow:
+        0 4px 15px
+        rgba(
+            0,
+            0,
+            0,
+            .06
+        );
+}
+
+.card .value {
+    font-size:
+        30px;
+
+    font-weight:
+        bold;
+
+    margin-top:
+        8px;
+}
+
+.section {
+    background:
+        white;
+
+    padding:
+        25px;
+
+    border-radius:
+        16px;
+
+    margin-bottom:
+        25px;
+
+    box-shadow:
+        0 4px 15px
+        rgba(
+            0,
+            0,
+            0,
+            .05
+        );
+}
+
+.section h2 {
+    margin-top:
+        0;
+}
+
+table {
+    width:
+        100%;
+
+    border-collapse:
+        collapse;
+}
+
+th,
+td {
+    padding:
+        12px;
+
+    border-bottom:
+        1px solid
+        #e5e7eb;
+
+    text-align:
+        left;
+}
+
+th {
+    background:
+        #f9fafb;
+}
+
+.rank {
+    font-weight:
+        bold;
+
+    font-size:
+        18px;
+}
+
+.animal {
+    font-weight:
+        bold;
+
+    font-size:
+        16px;
+}
+
+.prob {
+    font-weight:
+        bold;
+}
+
+.bar {
+    width:
+        100%;
+
+    max-width:
+        300px;
+
+    height:
+        8px;
+
+    background:
+        #e5e7eb;
+
+    border-radius:
+        5px;
+
+    margin-top:
+        5px;
+
+    overflow:
+        hidden;
+}
+
+.bar-fill {
+    height:
+        100%;
+
+    background:
+        #2563eb;
+
+    border-radius:
+        5px;
+}
+
+.status {
+    display:
+        inline-block;
+
+    padding:
+        6px 12px;
+
+    border-radius:
+        20px;
+
+    font-weight:
+        bold;
+}
+
+.hit {
+    background:
+        #dcfce7;
+
+    color:
+        #166534;
+}
+
+.miss {
+    background:
+        #fee2e2;
+
+    color:
+        #991b1b;
+}
+
+.none {
+    background:
+        #f3f4f6;
+
+    color:
+        #6b7280;
+}
+
+.next {
+    border:
+        3px solid
+        #2563eb;
+}
+
+.highlight {
+    font-size:
+        24px;
+
+    font-weight:
+        bold;
+
+    margin:
+        10px 0;
+}
+
+canvas {
+    width:
+        100%;
+
+    height:
+        380px;
+    
+    border: 1px solid #dbe2e8;
+    border-radius: 6px;
+}
+
+@media(max-width:900px) {
+
+    .container {
+        padding:
+            15px;
+    }
+
+    table {
+        font-size:
+            12px;
+    }
+
+    th,
+    td {
+        padding:
+            7px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+
+<h1>
+🐾 V7 — Predictor de Animales
+</h1>
+
+<p>
+Modelo probabilístico basado en histórico,
+hora, recencia, tendencia e influencia entre loterías.
+</p>
+
+<p>
+Última actualización:
+<strong>
+2026-09-11 12:28:59
+</strong>
+</p>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- RESUMEN -->
+<!-- ========================================================= -->
+
+<div class="cards">
+
+<div class="card">
+
+<div>
+Último resultado
+</div>
+
+<div class="value">
+2026-09-11 11:00
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div>
+Animales resultado
+</div>
+
+<div class="value">
+elefante, zamuro
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div>
+Backtest
+</div>
+
+<div class="value">
+361
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div>
+Hits
+</div>
+
+<div class="value">
+184
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div>
+Tasa de aciertos
+</div>
+
+<div class="value">
+50.97%
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- SIGUIENTE TURNO -->
+<!-- ========================================================= -->
+
+<div class="section next">
+
+<h2>
+🎯 Próximo turno real
+</h2>
+
+<div class="highlight">
+
+2026-09-11 12:00
+
+</div>
+
+<p>
+Esta es la única predicción futura que genera
+el V7.
+</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+#
+</th>
+
+<th>
+Animal
+</th>
+
+<th>
+Probabilidad
+</th>
+
+<th>
+Hora
+</th>
+
+<th>
+Histórico
+</th>
+
+<th>
+Reciente
+</th>
+
+<th>
+Hora
+</th>
+
+<th>
+Cross Lottery
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+            <tr>
+                <td class="rank">
+                    1
+                </td>
+
+                <td class="animal">
+                    iguana
+                </td>
+
+                <td>
+                    <div class="prob">
+                        2.86%
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.59%"
+                        ></div>
+                    </div>
+                </td>
+
+                <td>
+                    0.8818897637795275
+                </td>
+
+                <td>
+                    0.982
+                </td>
+
+                <td>
+                    0.714
+                </td>
+
+                <td>
+                    0.882
+                </td>
+
+                <td>
+                    0.000
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    2
+                </td>
+
+                <td class="animal">
+                    culebra
+                </td>
+
+                <td>
+                    <div class="prob">
+                        2.86%
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.58%"
+                        ></div>
+                    </div>
+                </td>
+
+                <td>
+                    0.7401574803149608
+                </td>
+
+                <td>
+                    0.831
+                </td>
+
+                <td>
+                    0.714
+                </td>
+
+                <td>
+                    0.740
+                </td>
+
+                <td>
+                    0.000
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    3
+                </td>
+
+                <td class="animal">
+                    chivo
+                </td>
+
+                <td>
+                    <div class="prob">
+                        2.82%
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.45%"
+                        ></div>
+                    </div>
+                </td>
+
+                <td>
+                    0.8425196850393701
+                </td>
+
+                <td>
+                    0.963
+                </td>
+
+                <td>
+                    0.714
+                </td>
+
+                <td>
+                    0.843
+                </td>
+
+                <td>
+                    0.000
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    4
+                </td>
+
+                <td class="animal">
+                    leon
+                </td>
+
+                <td>
+                    <div class="prob">
+                        2.78%
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.33%"
+                        ></div>
+                    </div>
+                </td>
+
+                <td>
+                    0.7874015748031497
+                </td>
+
+                <td>
+                    0.888
+                </td>
+
+                <td>
+                    0.429
+                </td>
+
+                <td>
+                    0.787
+                </td>
+
+                <td>
+                    0.000
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    5
+                </td>
+
+                <td class="animal">
+                    rana
+                </td>
+
+                <td>
+                    <div class="prob">
+                        2.77%
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.31%"
+                        ></div>
+                    </div>
+                </td>
+
+                <td>
+                    0.8188976377952757
+                </td>
+
+                <td>
+                    0.961
+                </td>
+
+                <td>
+                    0.286
+                </td>
+
+                <td>
+                    0.819
+                </td>
+
+                <td>
+                    0.000
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    6
+                </td>
+
+                <td class="animal">
+                    venado
+                </td>
+
+                <td>
+                    <div class="prob">
+                        2.77%
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.30%"
+                        ></div>
+                    </div>
+                </td>
+
+                <td>
+                    1.0
+                </td>
+
+                <td>
+                    0.973
+                </td>
+
+                <td>
+                    0.286
+                </td>
+
+                <td>
+                    1.000
+                </td>
+
+                <td>
+                    0.000
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    7
+                </td>
+
+                <td class="animal">
+                    gallo
+                </td>
+
+                <td>
+                    <div class="prob">
+                        2.76%
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.29%"
+                        ></div>
+                    </div>
+                </td>
+
+                <td>
+                    0.8818897637795275
+                </td>
+
+                <td>
+                    0.960
+                </td>
+
+                <td>
+                    0.286
+                </td>
+
+                <td>
+                    0.882
+                </td>
+
+                <td>
+                    0.000
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    8
+                </td>
+
+                <td class="animal">
+                    zorro
+                </td>
+
+                <td>
+                    <div class="prob">
+                        2.76%
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.28%"
+                        ></div>
+                    </div>
+                </td>
+
+                <td>
+                    0.8976377952755906
+                </td>
+
+                <td>
+                    1.000
+                </td>
+
+                <td>
+                    0.286
+                </td>
+
+                <td>
+                    0.898
+                </td>
+
+                <td>
+                    0.000
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    9
+                </td>
+
+                <td class="animal">
+                    paloma
+                </td>
+
+                <td>
+                    <div class="prob">
+                        2.76%
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.28%"
+                        ></div>
+                    </div>
+                </td>
+
+                <td>
+                    0.8267716535433072
+                </td>
+
+                <td>
+                    0.883
+                </td>
+
+                <td>
+                    0.571
+                </td>
+
+                <td>
+                    0.827
+                </td>
+
+                <td>
+                    0.000
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    10
+                </td>
+
+                <td class="animal">
+                    pavo
+                </td>
+
+                <td>
+                    <div class="prob">
+                        2.76%
+                    </div>
+
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.27%"
+                        ></div>
+                    </div>
+                </td>
+
+                <td>
+                    0.9606299212598426
+                </td>
+
+                <td>
+                    0.935
+                </td>
+
+                <td>
+                    0.286
+                </td>
+
+                <td>
+                    0.961
+                </td>
+
+                <td>
+                    0.000
+                </td>
+            </tr>
+            
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- SIGUIENTE TURNO — POR LOTERÍA -->
+<!-- ========================================================= -->
+
+<div class="section next">
+
+<h2>
+🎯 Próximo turno real — lagranjita
+</h2>
+
+<div class="highlight">
+
+2026-09-11 12:00
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+#
+</th>
+
+<th>
+Animal
+</th>
+
+<th>
+Probabilidad
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+            <tr>
+                <td class="rank">
+                    1
+                </td>
+                <td class="animal">
+                    iguana
+                </td>
+                <td>
+                    <div class="prob">
+                        2.88%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.63%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    2
+                </td>
+                <td class="animal">
+                    culebra
+                </td>
+                <td>
+                    <div class="prob">
+                        2.84%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.53%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    3
+                </td>
+                <td class="animal">
+                    chivo
+                </td>
+                <td>
+                    <div class="prob">
+                        2.84%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.51%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    4
+                </td>
+                <td class="animal">
+                    rana
+                </td>
+                <td>
+                    <div class="prob">
+                        2.79%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.36%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    5
+                </td>
+                <td class="animal">
+                    zorro
+                </td>
+                <td>
+                    <div class="prob">
+                        2.78%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.33%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    6
+                </td>
+                <td class="animal">
+                    venado
+                </td>
+                <td>
+                    <div class="prob">
+                        2.77%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.30%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    7
+                </td>
+                <td class="animal">
+                    leon
+                </td>
+                <td>
+                    <div class="prob">
+                        2.76%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.28%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    8
+                </td>
+                <td class="animal">
+                    pavo
+                </td>
+                <td>
+                    <div class="prob">
+                        2.76%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.27%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    9
+                </td>
+                <td class="animal">
+                    gallo
+                </td>
+                <td>
+                    <div class="prob">
+                        2.75%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.25%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    10
+                </td>
+                <td class="animal">
+                    paloma
+                </td>
+                <td>
+                    <div class="prob">
+                        2.74%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.23%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<div class="section next">
+
+<h2>
+🎯 Próximo turno real — lottoactivo
+</h2>
+
+<div class="highlight">
+
+2026-09-11 12:00
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+#
+</th>
+
+<th>
+Animal
+</th>
+
+<th>
+Probabilidad
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+            <tr>
+                <td class="rank">
+                    1
+                </td>
+                <td class="animal">
+                    iguana
+                </td>
+                <td>
+                    <div class="prob">
+                        2.89%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.68%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    2
+                </td>
+                <td class="animal">
+                    culebra
+                </td>
+                <td>
+                    <div class="prob">
+                        2.85%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.54%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    3
+                </td>
+                <td class="animal">
+                    chivo
+                </td>
+                <td>
+                    <div class="prob">
+                        2.79%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.36%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    4
+                </td>
+                <td class="animal">
+                    leon
+                </td>
+                <td>
+                    <div class="prob">
+                        2.78%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.34%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    5
+                </td>
+                <td class="animal">
+                    zorro
+                </td>
+                <td>
+                    <div class="prob">
+                        2.77%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.31%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    6
+                </td>
+                <td class="animal">
+                    toro
+                </td>
+                <td>
+                    <div class="prob">
+                        2.76%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.28%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    7
+                </td>
+                <td class="animal">
+                    paloma
+                </td>
+                <td>
+                    <div class="prob">
+                        2.76%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.27%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    8
+                </td>
+                <td class="animal">
+                    pavo
+                </td>
+                <td>
+                    <div class="prob">
+                        2.75%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.26%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    9
+                </td>
+                <td class="animal">
+                    gallo
+                </td>
+                <td>
+                    <div class="prob">
+                        2.75%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.26%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    10
+                </td>
+                <td class="animal">
+                    camello
+                </td>
+                <td>
+                    <div class="prob">
+                        2.75%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:8.25%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- PRÓXIMOS 11 TURNOS -->
+<!-- ========================================================= -->
+
+<div class="section next">
+
+<h2>
+🎯 Próximos 11 turnos — probabilidad de aparecer
+</h2>
+
+<div class="highlight">
+
+2026-09-11 12:00
+
+</div>
+
+<p>
+Probabilidad de que cada animal aparezca AL MENOS UNA VEZ
+en los próximos 11 turnos (en cualquiera de las dos loterías).
+</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+#
+</th>
+
+<th>
+Animal
+</th>
+
+<th>
+Probabilidad (11 turnos)
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+            <tr>
+                <td class="rank">
+                    1
+                </td>
+                <td class="animal">
+                    zorro
+                </td>
+                <td>
+                    <div class="prob">
+                        48.8%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:78.0%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    2
+                </td>
+                <td class="animal">
+                    iguana
+                </td>
+                <td>
+                    <div class="prob">
+                        48.0%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:76.9%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    3
+                </td>
+                <td class="animal">
+                    ardilla
+                </td>
+                <td>
+                    <div class="prob">
+                        47.5%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:76.0%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    4
+                </td>
+                <td class="animal">
+                    venado
+                </td>
+                <td>
+                    <div class="prob">
+                        47.2%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:75.5%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    5
+                </td>
+                <td class="animal">
+                    oso
+                </td>
+                <td>
+                    <div class="prob">
+                        47.1%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:75.4%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    6
+                </td>
+                <td class="animal">
+                    rana
+                </td>
+                <td>
+                    <div class="prob">
+                        46.8%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:74.9%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    7
+                </td>
+                <td class="animal">
+                    camello
+                </td>
+                <td>
+                    <div class="prob">
+                        46.8%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:74.8%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    8
+                </td>
+                <td class="animal">
+                    gallo
+                </td>
+                <td>
+                    <div class="prob">
+                        46.6%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:74.6%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    9
+                </td>
+                <td class="animal">
+                    chivo
+                </td>
+                <td>
+                    <div class="prob">
+                        46.5%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:74.4%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="rank">
+                    10
+                </td>
+                <td class="animal">
+                    jirafa
+                </td>
+                <td>
+                    <div class="prob">
+                        46.0%
+                    </div>
+                    <div class="bar">
+                        <div
+                            class="bar-fill"
+                            style="width:73.5%"
+                        ></div>
+                    </div>
+                </td>
+            </tr>
+            
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- TURNOS DEL DÍA ACTUAL -->
+<!-- ========================================================= -->
+
+<div class="section">
+
+<h2>
+📊 Turnos de hoy — HIT / MISS
+</h2>
+
+<p>
+Se muestran únicamente predicciones que ya existían
+para esos turnos. No se generan predicciones nuevas
+para los turnos mostrados.
+</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Fecha
+</th>
+
+<th>
+Hora
+</th>
+
+<th>
+Top 10 predicho
+</th>
+
+<th>
+Resultado real
+</th>
+
+<th>
+Coincidencia
+</th>
+
+<th>
+Resultado
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+            <tr>
+
+                <td>
+                    2026-09-11
+                </td>
+
+                <td>
+                    11:00
+                </td>
+
+                <td>
+                    iguana,culebra,chivo,rana,leon,camello,gallo,venado,zorro,pavo
+                </td>
+
+                <td>
+                    elefante,zamuro
+                </td>
+
+                <td>
+                    
+                </td>
+
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    2026-09-11
+                </td>
+
+                <td>
+                    10:00
+                </td>
+
+                <td>
+                    culebra,iguana,leon,elefante,camello,chivo,rana,carnero,pavo,zorro
+                </td>
+
+                <td>
+                    caiman,carnero
+                </td>
+
+                <td>
+                    carnero
+                </td>
+
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    2026-09-11
+                </td>
+
+                <td>
+                    09:00
+                </td>
+
+                <td>
+                    iguana,caiman,lapa,culebra,chivo,elefante,camello,rana,toro,venado
+                </td>
+
+                <td>
+                    lapa
+                </td>
+
+                <td>
+                    lapa
+                </td>
+
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    2026-09-11
+                </td>
+
+                <td>
+                    08:00
+                </td>
+
+                <td>
+                    lapa,elefante,iguana,culebra,caiman,chivo,rana,camello,leon,venado
+                </td>
+
+                <td>
+                    alacran,caballo
+                </td>
+
+                <td>
+                    
+                </td>
+
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+
+            </tr>
+            
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- TURNOS DEL DÍA ACTUAL - TOP 5 POR LOTERÍA -->
+<!-- ========================================================= -->
+
+<div class="section">
+
+<h2>
+📊 Turnos de hoy — HIT / MISS por lotería (Top 5)
+</h2>
+
+<p>
+Se toman los 5 mejores animales de CADA lotería por separado
+y se comparan contra el ganador real de esa lotería.
+</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Fecha
+</th>
+
+<th>
+Hora
+</th>
+
+<th>
+Lotería
+</th>
+
+<th>
+Top 5 predicho
+</th>
+
+<th>
+Resultado real
+</th>
+
+<th>
+Resultado
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    11:00
+                </td>
+                <td>
+                    lagranjita
+                </td>
+                <td>
+                    iguana,culebra,chivo,gallo,venado
+                </td>
+                <td>
+                    elefante
+                </td>
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    11:00
+                </td>
+                <td>
+                    lottoactivo
+                </td>
+                <td>
+                    culebra,iguana,chivo,rana,camello
+                </td>
+                <td>
+                    zamuro
+                </td>
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    10:00
+                </td>
+                <td>
+                    lagranjita
+                </td>
+                <td>
+                    iguana,culebra,elefante,leon,camello
+                </td>
+                <td>
+                    caiman
+                </td>
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    10:00
+                </td>
+                <td>
+                    lottoactivo
+                </td>
+                <td>
+                    culebra,iguana,carnero,leon,chivo
+                </td>
+                <td>
+                    carnero
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    09:00
+                </td>
+                <td>
+                    lagranjita
+                </td>
+                <td>
+                    iguana,caiman,lapa,chivo,culebra
+                </td>
+                <td>
+                    lapa
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    09:00
+                </td>
+                <td>
+                    lottoactivo
+                </td>
+                <td>
+                    iguana,lapa,caiman,culebra,chivo
+                </td>
+                <td>
+                    lapa
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    08:00
+                </td>
+                <td>
+                    lagranjita
+                </td>
+                <td>
+                    lapa,iguana,elefante,culebra,chivo
+                </td>
+                <td>
+                    caballo
+                </td>
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    08:00
+                </td>
+                <td>
+                    lottoactivo
+                </td>
+                <td>
+                    lapa,iguana,elefante,chivo,culebra
+                </td>
+                <td>
+                    alacran
+                </td>
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+            </tr>
+            
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- TURNOS DEL DÍA ACTUAL - TOP 7 POR LOTERÍA -->
+<!-- ========================================================= -->
+
+<div class="section">
+
+<h2>
+🏦 Turnos de hoy — Top 7 por lotería
+</h2>
+
+<p>
+Se toman los 7 mejores animales de cada lotería.
+Si un animal se repite entre loterías, se omite
+y se toma el siguiente. Luego se unen en una sola
+lista y se compara contra el resultado real.
+</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Fecha
+</th>
+
+<th>
+Hora
+</th>
+
+<th>
+Top 7 por lotería predicho
+</th>
+
+<th>
+Resultado real
+</th>
+
+<th>
+Coincidencia
+</th>
+
+<th>
+Resultado
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+            <tr>
+
+                <td>
+                    2026-09-11
+                </td>
+
+                <td>
+                    11:00
+                </td>
+
+                <td>
+                    iguana,culebra,chivo,gallo,venado,rana,camello,leon,zorro,ardilla,pavo,tigre,jirafa,perico
+                </td>
+
+                <td>
+                    elefante,zamuro
+                </td>
+
+                <td>
+                    
+                </td>
+
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    2026-09-11
+                </td>
+
+                <td>
+                    10:00
+                </td>
+
+                <td>
+                    iguana,culebra,elefante,leon,camello,pavo,chivo,carnero,rana,gallo,venado,zorro,perico,tigre
+                </td>
+
+                <td>
+                    caiman,carnero
+                </td>
+
+                <td>
+                    carnero
+                </td>
+
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    2026-09-11
+                </td>
+
+                <td>
+                    09:00
+                </td>
+
+                <td>
+                    iguana,caiman,lapa,chivo,culebra,rana,elefante,camello,pavo,toro,zorro,carnero,tigre,venado
+                </td>
+
+                <td>
+                    lapa
+                </td>
+
+                <td>
+                    lapa
+                </td>
+
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    2026-09-11
+                </td>
+
+                <td>
+                    08:00
+                </td>
+
+                <td>
+                    lapa,iguana,elefante,culebra,chivo,rana,caiman,camello,venado,leon,pavo,ardilla,tigre,alacran
+                </td>
+
+                <td>
+                    alacran,caballo
+                </td>
+
+                <td>
+                    alacran
+                </td>
+
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+
+            </tr>
+            
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- TURNOS DEL DÍA ACTUAL - TOP 7 POR LOTERÍA (SEPARADOS) -->
+<!-- ========================================================= -->
+
+<div class="section">
+
+<h2>
+🏦 Turnos de hoy — Top 7 por lotería (separados)
+</h2>
+
+<p>
+Cada lotería por separado: sus 7 mejores probabilidades,
+comparadas contra su propio ganador real.
+</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Fecha
+</th>
+
+<th>
+Hora
+</th>
+
+<th>
+Lotería
+</th>
+
+<th>
+Top 7 predicho
+</th>
+
+<th>
+Resultado real
+</th>
+
+<th>
+Resultado
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    11:00
+                </td>
+                <td>
+                    lagranjita
+                </td>
+                <td>
+                    iguana,culebra,chivo,gallo,venado,rana,camello
+                </td>
+                <td>
+                    elefante
+                </td>
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    11:00
+                </td>
+                <td>
+                    lottoactivo
+                </td>
+                <td>
+                    culebra,iguana,chivo,rana,camello,gallo,leon
+                </td>
+                <td>
+                    zamuro
+                </td>
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    10:00
+                </td>
+                <td>
+                    lagranjita
+                </td>
+                <td>
+                    iguana,culebra,elefante,leon,camello,pavo,chivo
+                </td>
+                <td>
+                    caiman
+                </td>
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    10:00
+                </td>
+                <td>
+                    lottoactivo
+                </td>
+                <td>
+                    culebra,iguana,carnero,leon,chivo,rana,elefante
+                </td>
+                <td>
+                    carnero
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    09:00
+                </td>
+                <td>
+                    lagranjita
+                </td>
+                <td>
+                    iguana,caiman,lapa,chivo,culebra,rana,elefante
+                </td>
+                <td>
+                    lapa
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    09:00
+                </td>
+                <td>
+                    lottoactivo
+                </td>
+                <td>
+                    iguana,lapa,caiman,culebra,chivo,elefante,camello
+                </td>
+                <td>
+                    lapa
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    08:00
+                </td>
+                <td>
+                    lagranjita
+                </td>
+                <td>
+                    lapa,iguana,elefante,culebra,chivo,rana,caiman
+                </td>
+                <td>
+                    caballo
+                </td>
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    08:00
+                </td>
+                <td>
+                    lottoactivo
+                </td>
+                <td>
+                    lapa,iguana,elefante,chivo,culebra,caiman,rana
+                </td>
+                <td>
+                    alacran
+                </td>
+                <td>
+                    <span class="status miss">
+                        ✗ MISS
+                    </span>
+                </td>
+            </tr>
+            
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- HISTÓRICO 11 TURNOS -->
+<!-- ========================================================= -->
+
+<div class="section">
+
+<h2>
+📅 Histórico 11 turnos — HIT / MISS (últimos 30 turnos)
+</h2>
+
+<p>
+Para cada turno: los 5 animales con mayor probabilidad de aparecer
+en los siguientes 11 turnos, y cuántos de ellos aparecieron realmente.
+</p>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Fecha
+</th>
+
+<th>
+Hora
+</th>
+
+<th>
+Top 5 (11 turnos)
+</th>
+
+<th>
+Aciertos
+</th>
+
+<th>
+Animales acertados
+</th>
+
+<th>
+Resultado
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    10:00
+                </td>
+                <td>
+                    zorro,iguana,carnero,ardilla,elefante
+                </td>
+                <td>
+                    1/5
+                </td>
+                <td>
+                    elefante
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    09:00
+                </td>
+                <td>
+                    zorro,carnero,iguana,ardilla,elefante
+                </td>
+                <td>
+                    2/5
+                </td>
+                <td>
+                    carnero,elefante
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-11
+                </td>
+                <td>
+                    08:00
+                </td>
+                <td>
+                    zorro,carnero,ardilla,iguana,elefante
+                </td>
+                <td>
+                    2/5
+                </td>
+                <td>
+                    carnero,elefante
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    19:00
+                </td>
+                <td>
+                    zorro,carnero,ardilla,elefante,lapa
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    carnero,elefante,lapa
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    18:00
+                </td>
+                <td>
+                    zorro,carnero,ardilla,elefante,lapa
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    carnero,elefante,lapa
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    17:00
+                </td>
+                <td>
+                    zorro,carnero,delfin,ardilla,elefante
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    carnero,delfin,elefante
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    16:00
+                </td>
+                <td>
+                    delfin,carnero,zorro,ardilla,elefante
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    carnero,delfin,elefante
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    15:00
+                </td>
+                <td>
+                    delfin,elefante,ardilla,carnero,lapa
+                </td>
+                <td>
+                    4/5
+                </td>
+                <td>
+                    carnero,delfin,elefante,lapa
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    14:00
+                </td>
+                <td>
+                    delfin,elefante,ardilla,venado,lapa
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    delfin,elefante,lapa
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    13:00
+                </td>
+                <td>
+                    delfin,elefante,ardilla,oso,venado
+                </td>
+                <td>
+                    2/5
+                </td>
+                <td>
+                    delfin,elefante
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    12:00
+                </td>
+                <td>
+                    delfin,elefante,ardilla,oso,venado
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    delfin,elefante,oso
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    11:00
+                </td>
+                <td>
+                    ardilla,chivo,venado,elefante,oso
+                </td>
+                <td>
+                    1/5
+                </td>
+                <td>
+                    oso
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    10:00
+                </td>
+                <td>
+                    ardilla,oso,venado,lapa,chivo
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    chivo,lapa,oso
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    09:00
+                </td>
+                <td>
+                    ardilla,oso,lapa,venado,camello
+                </td>
+                <td>
+                    1/5
+                </td>
+                <td>
+                    oso
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-10
+                </td>
+                <td>
+                    08:00
+                </td>
+                <td>
+                    cebra,ardilla,oso,lapa,venado
+                </td>
+                <td>
+                    2/5
+                </td>
+                <td>
+                    cebra,oso
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    19:00
+                </td>
+                <td>
+                    zorro,cebra,ardilla,oso,venado
+                </td>
+                <td>
+                    2/5
+                </td>
+                <td>
+                    cebra,oso
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    18:00
+                </td>
+                <td>
+                    zorro,cebra,ardilla,oso,venado
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    cebra,oso,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    17:00
+                </td>
+                <td>
+                    zorro,cebra,gallo,oso,camello
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    cebra,oso,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    16:00
+                </td>
+                <td>
+                    zorro,cebra,iguana,camello,gallo
+                </td>
+                <td>
+                    4/5
+                </td>
+                <td>
+                    cebra,gallo,iguana,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    15:00
+                </td>
+                <td>
+                    zorro,carnero,cebra,iguana,gallo
+                </td>
+                <td>
+                    4/5
+                </td>
+                <td>
+                    cebra,gallo,iguana,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    14:00
+                </td>
+                <td>
+                    zorro,carnero,cebra,camello,iguana
+                </td>
+                <td>
+                    4/5
+                </td>
+                <td>
+                    carnero,cebra,iguana,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    13:00
+                </td>
+                <td>
+                    zorro,carnero,cebra,camello,oso
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    carnero,cebra,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    12:00
+                </td>
+                <td>
+                    zorro,carnero,cebra,camello,oso
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    carnero,cebra,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    11:00
+                </td>
+                <td>
+                    zorro,carnero,cebra,camello,oso
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    carnero,cebra,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    10:00
+                </td>
+                <td>
+                    zorro,carnero,cebra,camello,oso
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    carnero,cebra,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    09:00
+                </td>
+                <td>
+                    zorro,cebra,carnero,oso,delfin
+                </td>
+                <td>
+                    4/5
+                </td>
+                <td>
+                    carnero,cebra,delfin,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-09
+                </td>
+                <td>
+                    08:00
+                </td>
+                <td>
+                    zorro,cebra,carnero,oso,delfin
+                </td>
+                <td>
+                    3/5
+                </td>
+                <td>
+                    carnero,delfin,zorro
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-08
+                </td>
+                <td>
+                    19:00
+                </td>
+                <td>
+                    zorro,cebra,elefante,carnero,oso
+                </td>
+                <td>
+                    2/5
+                </td>
+                <td>
+                    carnero,elefante
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    2026-09-08
+                </td>
+                <td>
+                    18:00
+                </td>
+                <td>
+                    zorro,cebra,elefante,oso,delfin
+                </td>
+                <td>
+                    2/5
+                </td>
+                <td>
+                    delfin,elefante
+                </td>
+                <td>
+                    <span class="status hit">
+                        ✓ HIT
+                    </span>
+                </td>
+            </tr>
+            
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- GRÁFICA -->
+<!-- ========================================================= -->
+
+<div class="section">
+
+<h2>
+📈 Evolución de HIT / MISS
+</h2>
+
+<canvas
+    id="hitChart">
+</canvas>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- PATRONES -->
+<!-- ========================================================= -->
+
+<div class="section">
+
+<h2>
+🔎 Patrones encontrados
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+Patrón
+</th>
+
+<th>
+Descripción
+</th>
+
+<th>
+Muestras
+</th>
+
+<th>
+Hits
+</th>
+
+<th>
+Tasa
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 13:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    20
+                </td>
+
+                <td>
+                    66.67%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 19:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    20
+                </td>
+
+                <td>
+                    66.67%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 10:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    17
+                </td>
+
+                <td>
+                    56.67%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 16:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    16
+                </td>
+
+                <td>
+                    53.33%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    TOP_10_GLOBAL
+                </td>
+
+                <td>
+                    Al menos uno de los Top 10 coincide con el resultado del turno
+                </td>
+
+                <td>
+                    361
+                </td>
+
+                <td>
+                    184
+                </td>
+
+                <td>
+                    50.97%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 18:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    15
+                </td>
+
+                <td>
+                    50.00%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 12:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    15
+                </td>
+
+                <td>
+                    50.00%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 09:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    15
+                </td>
+
+                <td>
+                    50.00%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 14:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    14
+                </td>
+
+                <td>
+                    46.67%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 15:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    14
+                </td>
+
+                <td>
+                    46.67%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 11:00
+                </td>
+
+                <td>
+                    31
+                </td>
+
+                <td>
+                    14
+                </td>
+
+                <td>
+                    45.16%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 17:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    13
+                </td>
+
+                <td>
+                    43.33%
+                </td>
+
+            </tr>
+            
+            <tr>
+
+                <td>
+                    HORA
+                </td>
+
+                <td>
+                    Hora 08:00
+                </td>
+
+                <td>
+                    30
+                </td>
+
+                <td>
+                    11
+                </td>
+
+                <td>
+                    36.67%
+                </td>
+
+            </tr>
+            
+
+</tbody>
+
+</table>
+
+</div>
+
+
+<!-- ========================================================= -->
+<!-- METODOLOGÍA -->
+<!-- ========================================================= -->
+
+<div class="section">
+
+<h2>
+🧠 Cómo funciona el modelo
+</h2>
+
+<ul>
+
+<li>
+<strong>Histórico:</strong>
+frecuencia global del animal.
+</li>
+
+<li>
+<strong>Reciente:</strong>
+comportamiento de los últimos resultados.
+</li>
+
+<li>
+<strong>Hora:</strong>
+comportamiento específico del animal
+en el horario objetivo.
+</li>
+
+<li>
+<strong>Recencia:</strong>
+cuánto tiempo ha pasado desde la última
+aparición del animal.
+</li>
+
+<li>
+<strong>Tendencia:</strong>
+compara el comportamiento reciente
+contra el histórico.
+</li>
+
+<li>
+<strong>Cross Lottery:</strong>
+busca relaciones entre resultados
+de diferentes loterías.
+</li>
+
+<li>
+<strong>Sin data leakage:</strong>
+al predecir un turno solamente se utilizan
+resultados anteriores a ese turno.
+</li>
+
+</ul>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+const labels =
+    ["09-08 18:00", "09-08 19:00", "09-09 08:00", "09-09 09:00", "09-09 10:00", "09-09 11:00", "09-09 12:00", "09-09 13:00", "09-09 14:00", "09-09 15:00", "09-09 16:00", "09-09 17:00", "09-09 18:00", "09-09 19:00", "09-10 08:00", "09-10 09:00", "09-10 10:00", "09-10 11:00", "09-10 12:00", "09-10 13:00", "09-10 14:00", "09-10 15:00", "09-10 16:00", "09-10 17:00", "09-10 18:00", "09-10 19:00", "09-11 08:00", "09-11 09:00", "09-11 10:00", "09-11 11:00"];
+
+const values =
+    [1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0];
+
+
+const canvas =
+    document.getElementById(
+        "hitChart"
+    );
+
+const ctx =
+    canvas.getContext(
+        "2d"
+    );
+
+
+function resizeCanvas() {
+
+    const rect =
+        canvas.getBoundingClientRect();
+
+    canvas.width =
+        rect.width * window.devicePixelRatio;
+
+    canvas.height =
+        380 * window.devicePixelRatio;
+
+    ctx.scale(
+        window.devicePixelRatio,
+        window.devicePixelRatio
+    );
+
+    drawChart(
+        rect.width,
+        380
+    );
+}
+
+
+function drawChart(width, height) {
+    ctx.clearRect(0, 0, width, height);
+    if (!values.length) return;
+
+    const padding = 60;
+    const chartWidth = width - padding * 2;
+    const chartHeight = height - padding * 2;
+    const barWidth = Math.max(chartWidth / values.length - 2, 2);
+    const barMaxHeight = chartHeight - 40;
+
+    // Ejes
+    ctx.strokeStyle = '#dbe2e8';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(padding, padding);
+    ctx.lineTo(padding, height - padding);
+    ctx.lineTo(width - padding, height - padding);
+    ctx.stroke();
+
+    // Etiquetas eje Y
+    ctx.fillStyle = '#6b7280';
+    ctx.font = '11px Arial';
+    ctx.textAlign = 'right';
+    ctx.fillText('100%', padding - 10, padding + 5);
+    ctx.fillText('50%', padding - 10, padding + (chartHeight / 2) + 5);
+    ctx.fillText('0%', padding - 10, height - padding + 5);
+
+    // Línea referencia
+    ctx.strokeStyle = '#f0f0f0';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(padding, padding + (chartHeight / 2));
+    ctx.lineTo(width - padding, padding + (chartHeight / 2));
+    ctx.stroke();
+
+    // Barras
+    values.forEach((value, index) => {
+        const x = padding + (index * barWidth) + (barWidth / 2);
+        const barHeight = value === 1 ? barMaxHeight : barMaxHeight / 2;
+        const y = height - padding - barHeight;
+
+        ctx.fillStyle = value ? '#18794e' : '#b42318';
+        ctx.fillRect(x - (barWidth / 2) + 1, y, barWidth - 2, barHeight);
+
+        if (index % Math.max(1, Math.floor(values.length / 8)) === 0) {
+            ctx.save();
+            ctx.translate(x, height - padding + 8);
+            ctx.rotate(-Math.PI / 4);
+            ctx.textAlign = 'right';
+            ctx.fillStyle = '#6b7280';
+            ctx.font = '10px Arial';
+            ctx.fillText(labels[index], 0, 0);
+            ctx.restore();
+        }
+    });
+}
+
+
+window.addEventListener(
+    "resize",
+    resizeCanvas
+);
+
+resizeCanvas();
+
+</script>
+
+</body>
+
+</html>
