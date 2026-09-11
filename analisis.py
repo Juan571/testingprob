@@ -7,7 +7,7 @@
 # 1. Lee resultados.csv
 # 2. Limpia y normaliza los datos
 # 3. Detecta automáticamente los turnos reales
-# 4. Backtest de los últimos 30 días
+# 4. Backtest de los últimos 90 días (3 meses)
 # 5. No utiliza información futura para generar predicciones
 # 6. Analiza:
 #       - frecuencia histórica
@@ -58,7 +58,7 @@ INPUT_FILE = os.path.join(BASE_DIR, "resultados.csv")
 
 OUTPUT_DIR = os.path.join(BASE_DIR, "v7_output")
 
-BACKTEST_DAYS = 30
+BACKTEST_DAYS = 90
 
 # Cantidad de animales mostrados en ranking
 TOP_N = 10
@@ -775,20 +775,41 @@ def cross_lottery_scores(
 
         return normalize_dict(raw)
 
-    lotteries = list(
-        previous["lottery"]
-        .dropna()
-        .unique()
+    lotteries = [
+        lot
+        for lot in previous["lottery"].dropna().unique()
+        if lot != target_lottery
+    ]
+
+    if not lotteries:
+
+        return normalize_dict(raw)
+
+    target_rows = previous[
+        previous["lottery"] == target_lottery
+    ]
+
+    if target_rows.empty:
+
+        return normalize_dict(raw)
+
+    # ------------------------------------------------------------
+    # Buscar resultados recientes de otras loterías (vectorizado).
+    #
+    # En lugar de filtrar el DataFrame por cada aparición, se
+    # trabaja con arrays numpy y búsqueda binaria sobre tiempos
+    # ya ordenados. Resultado idéntico, mucho más rápido.
+    # ------------------------------------------------------------
+
+    target_times = target_rows["datetime"].to_numpy(
+        dtype="datetime64[ns]"
     )
 
-    # ------------------------------------------------------------
-    # Buscar resultados recientes de otras loterías
-    # ------------------------------------------------------------
+    target_animals = target_rows["animal"].to_numpy()
+
+    twelve_hours = np.timedelta64(12, "h")
 
     for lottery in lotteries:
-
-        if lottery == target_lottery:
-            continue
 
         source = previous[
             previous["lottery"] == lottery
@@ -797,12 +818,7 @@ def cross_lottery_scores(
         if source.empty:
             continue
 
-        last_source = source.iloc[-1]
-
-        source_animal = last_source["animal"]
-
-        # Historial donde el animal de otra lotería
-        # fue seguido por cada animal objetivo.
+        source_animal = source.iloc[-1]["animal"]
 
         source_rows = source[
             source["animal"] == source_animal
@@ -811,34 +827,40 @@ def cross_lottery_scores(
         if source_rows.empty:
             continue
 
-        for _, src in source_rows.tail(200).iterrows():
+        # Últimas 200 apariciones del animal fuente.
+        src_times = source_rows["datetime"].to_numpy(
+            dtype="datetime64[ns]"
+        )[-200:]
 
-            next_rows = previous[
-                (
-                    previous["datetime"]
-                    > src["datetime"]
-                )
-                &
-                (
-                    previous["datetime"]
-                    <=
-                    src["datetime"]
-                    + timedelta(hours=12)
-                )
-                &
-                (
-                    previous["lottery"]
-                    == target_lottery
-                )
-            ]
+        for src_time in src_times:
 
-            for _, nxt in next_rows.iterrows():
+            start = np.searchsorted(
+                target_times,
+                src_time,
+                side="right"
+            )
 
-                animal = nxt["animal"]
+            end = np.searchsorted(
+                target_times,
+                src_time + twelve_hours,
+                side="right"
+            )
+
+            if end <= start:
+                continue
+
+            segment = target_animals[start:end]
+
+            unique, counts = np.unique(
+                segment,
+                return_counts=True
+            )
+
+            for animal, count in zip(unique, counts):
 
                 if animal in raw:
 
-                    raw[animal] += 1.0
+                    raw[animal] += float(count)
 
     return normalize_dict(raw)
 
@@ -1106,7 +1128,7 @@ def run_backtest(df):
 
     print("")
     print("=" * 70)
-    print("BACKTEST - ÚLTIMOS 30 DÍAS")
+    print("BACKTEST - ÚLTIMOS 90 DÍAS (3 MESES)")
     print("=" * 70)
 
     max_date = df["datetime"].max()
@@ -2794,42 +2816,32 @@ def generate_html(
             """
 
     # ------------------------------------------------------------
-    # JSON para JS
+    # JSON para JS (histórico completo del backtest: 3 meses)
     # ------------------------------------------------------------
 
-    chart_labels = []
-
-    chart_values = []
+    chart_data = []
 
     if not backtest.empty:
 
-        ordered = (
-            backtest
-            .sort_values(
-                "datetime"
-            )
-            .tail(30)
-        )
+        ordered = backtest.sort_values("datetime")
 
         for _, row in ordered.iterrows():
 
-            chart_labels.append(
-                row["datetime"].strftime(
-                    "%m-%d %H:%M"
-                )
-            )
+            chart_data.append({
+                "datetime": row["datetime"].strftime("%Y-%m-%d %H:%M"),
+                "date": str(row["date"]),
+                "time": str(row["time"]),
+                "hit": bool(row["hit"]),
+                "top1": str(row["top1"]),
+                "top1_probability": float(row["top1_probability"]),
+                "top10": str(row["top10"]),
+                "real_animals": str(row["real_animals"]),
+                "hit_animals": str(row["hit_animals"]),
+                "top10_max_probability": float(row["top10_max_probability"]),
+                "top10_min_probability": float(row["top10_min_probability"]),
+            })
 
-            chart_values.append(
-                1 if row["hit"] else 0
-            )
-
-    chart_labels_json = json.dumps(
-        chart_labels
-    )
-
-    chart_values_json = json.dumps(
-        chart_values
-    )
+    chart_data_json = json.dumps(chart_data)
 
     # ------------------------------------------------------------
     # HTML
@@ -3138,6 +3150,216 @@ canvas {{
     
     border: 1px solid #dbe2e8;
     border-radius: 6px;
+}}
+
+.chart-scroll {{
+    overflow-x: auto;
+    overflow-y: hidden;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 18px 14px 10px 14px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.04);
+}}
+
+.chart-canvas {{
+    position: relative;
+    min-width: 100%;
+}}
+
+.bar-col {{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}}
+
+.bar-rect {{
+    border-radius: 3px 3px 0 0;
+    transition: transform .12s ease, filter .12s ease;
+}}
+
+.bar-hit {{
+    background: linear-gradient(180deg, #34d399 0%, #059669 100%);
+    box-shadow: 0 0 6px rgba(5,150,105,.35);
+}}
+
+.bar-miss {{
+    background: linear-gradient(180deg, #fca5a5 0%, #dc2626 100%);
+    box-shadow: 0 0 6px rgba(220,38,38,.22);
+}}
+
+.bar-col:hover .bar-rect {{
+    transform: scaleY(1.05);
+    filter: brightness(1.12);
+}}
+
+.bar-col.selected .bar-rect {{
+    outline: 2px solid #111827;
+    outline-offset: 1px;
+}}
+
+.day-line {{
+    position: absolute;
+    width: 1px;
+    background: rgba(17,24,39,.14);
+    z-index: 0;
+}}
+
+.day-label {{
+    position: absolute;
+    bottom: 2px;
+    font-size: 9px;
+    color: #6b7280;
+    white-space: nowrap;
+    z-index: 0;
+}}
+
+.trend-svg {{
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    pointer-events: none;
+}}
+
+.trend-line {{
+    fill: none;
+    stroke: #2563eb;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    opacity: .8;
+}}
+
+.chart-head {{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 14px;
+}}
+
+.legend {{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}}
+
+.legend-item {{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #374151;
+}}
+
+.dot {{
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    display: inline-block;
+}}
+
+.hit-dot {{
+    background: #059669;
+}}
+
+.miss-dot {{
+    background: #dc2626;
+}}
+
+.line-swatch {{
+    width: 18px;
+    height: 3px;
+    background: #2563eb;
+    border-radius: 2px;
+    display: inline-block;
+}}
+
+.chart-summary {{
+    margin-left: auto;
+    font-size: 13px;
+    color: #6b7280;
+    background: #f3f4f6;
+    padding: 6px 12px;
+    border-radius: 999px;
+}}
+
+.chart-tooltip {{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    max-width: 380px;
+    background: #111827;
+    color: #f9fafb;
+    border-radius: 12px;
+    padding: 12px 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    pointer-events: none;
+    font-size: 12px;
+}}
+
+.chart-tooltip .tt-title {{
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #ffffff;
+}}
+
+.tt-table {{
+    border-collapse: collapse;
+    width: 100%;
+}}
+
+.tt-table td {{
+    padding: 3px 6px 3px 0;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    vertical-align: top;
+}}
+
+.tt-table .tt-key {{
+    color: #9ca3af;
+    padding-right: 12px;
+    white-space: nowrap;
+}}
+
+.chart-detail {{
+    margin-top: 14px;
+    min-height: 40px;
+}}
+
+.chart-detail-card {{
+    border-radius: 12px;
+    padding: 16px 18px;
+    max-width: 640px;
+}}
+
+.detail-hit {{
+    background: #ecfdf5;
+    border: 1px solid #a7f3d0;
+}}
+
+.detail-miss {{
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+}}
+
+.chart-detail-head {{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}}
+
+.chart-detail-card .tt-table td {{
+    border-bottom: 1px solid rgba(17,24,39,.08);
+    color: #1f2937;
+}}
+
+.chart-detail-card .tt-key {{
+    color: #6b7280;
 }}
 
 @media(max-width:900px) {{
@@ -3824,12 +4046,54 @@ Resultado
 <div class="section">
 
 <h2>
-📈 Evolución de HIT / MISS
+📈 Evolución de HIT / MISS — últimos 3 meses
 </h2>
 
-<canvas
-    id="hitChart">
-</canvas>
+<p>
+Cada barra representa un turno del backtest.
+Desplázate horizontalmente para recorrer todo el histórico,
+pasa el cursor sobre una barra para ver todos los datos del turno
+y haz clic para fijarlos en el panel de detalle.
+</p>
+
+<div class="chart-head">
+
+<div class="legend">
+
+<span class="legend-item">
+<span class="dot hit-dot"></span>
+HIT
+</span>
+
+<span class="legend-item">
+<span class="dot miss-dot"></span>
+MISS
+</span>
+
+<span class="legend-item">
+<span class="line-swatch"></span>
+Tendencia (media móvil)
+</span>
+
+</div>
+
+<div class="chart-summary" id="chartSummary">
+</div>
+
+</div>
+
+<div class="chart-scroll" id="chartScroll">
+
+<div class="chart-canvas" id="chartCanvas">
+</div>
+
+</div>
+
+<div class="chart-detail" id="chartDetail">
+<em>
+Haz clic en una barra para ver el detalle completo del turno.
+</em>
+</div>
 
 </div>
 
@@ -3947,111 +4211,608 @@ resultados anteriores a ese turno.
 
 <script>
 
-const labels =
-    {chart_labels_json};
+const chartData =
+    {chart_data_json};
 
-const values =
-    {chart_values_json};
+(function () {{
 
+    var scroll =
+        document.getElementById(
+            "chartScroll"
+        );
 
-const canvas =
-    document.getElementById(
-        "hitChart"
-    );
+    var canvas =
+        document.getElementById(
+            "chartCanvas"
+        );
 
-const ctx =
-    canvas.getContext(
-        "2d"
-    );
+    var detail =
+        document.getElementById(
+            "chartDetail"
+        );
 
+    var summary =
+        document.getElementById(
+            "chartSummary"
+        );
 
-function resizeCanvas() {{
+    if (
+        !scroll
+        || !canvas
+        || !detail
+        || !summary
+    ) {{
+        return;
+    }}
 
-    const rect =
-        canvas.getBoundingClientRect();
+    var total =
+        chartData.length;
 
-    canvas.width =
-        rect.width * window.devicePixelRatio;
+    if (total === 0) {{
+        canvas.innerHTML =
+            "<em>Sin datos de backtest.</em>";
+        return;
+    }}
 
-    canvas.height =
-        380 * window.devicePixelRatio;
+    // ------------------------------------------------------------
+    // Resumen global
+    // ------------------------------------------------------------
 
-    ctx.scale(
-        window.devicePixelRatio,
-        window.devicePixelRatio
-    );
+    var hits = 0;
 
-    drawChart(
-        rect.width,
-        380
-    );
-}}
-
-
-function drawChart(width, height) {{
-    ctx.clearRect(0, 0, width, height);
-    if (!values.length) return;
-
-    const padding = 60;
-    const chartWidth = width - padding * 2;
-    const chartHeight = height - padding * 2;
-    const barWidth = Math.max(chartWidth / values.length - 2, 2);
-    const barMaxHeight = chartHeight - 40;
-
-    // Ejes
-    ctx.strokeStyle = '#dbe2e8';
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.moveTo(padding, padding);
-    ctx.lineTo(padding, height - padding);
-    ctx.lineTo(width - padding, height - padding);
-    ctx.stroke();
-
-    // Etiquetas eje Y
-    ctx.fillStyle = '#6b7280';
-    ctx.font = '11px Arial';
-    ctx.textAlign = 'right';
-    ctx.fillText('100%', padding - 10, padding + 5);
-    ctx.fillText('50%', padding - 10, padding + (chartHeight / 2) + 5);
-    ctx.fillText('0%', padding - 10, height - padding + 5);
-
-    // Línea referencia
-    ctx.strokeStyle = '#f0f0f0';
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.moveTo(padding, padding + (chartHeight / 2));
-    ctx.lineTo(width - padding, padding + (chartHeight / 2));
-    ctx.stroke();
-
-    // Barras
-    values.forEach((value, index) => {{
-        const x = padding + (index * barWidth) + (barWidth / 2);
-        const barHeight = value === 1 ? barMaxHeight : barMaxHeight / 2;
-        const y = height - padding - barHeight;
-
-        ctx.fillStyle = value ? '#18794e' : '#b42318';
-        ctx.fillRect(x - (barWidth / 2) + 1, y, barWidth - 2, barHeight);
-
-        if (index % Math.max(1, Math.floor(values.length / 8)) === 0) {{
-            ctx.save();
-            ctx.translate(x, height - padding + 8);
-            ctx.rotate(-Math.PI / 4);
-            ctx.textAlign = 'right';
-            ctx.fillStyle = '#6b7280';
-            ctx.font = '10px Arial';
-            ctx.fillText(labels[index], 0, 0);
-            ctx.restore();
+    chartData.forEach(
+        function (d) {{
+            if (d.hit) {{
+                hits += 1;
+            }}
         }}
-    }});
-}}
+    );
 
+    var misses =
+        total - hits;
 
-window.addEventListener(
-    "resize",
-    resizeCanvas
-);
+    var rate =
+        hits / total * 100;
 
-resizeCanvas();
+    summary.textContent =
+        total + " turnos · "
+        + hits + " HIT · "
+        + misses + " MISS · "
+        + "tasa " + rate.toFixed(2) + "%";
+
+    // ------------------------------------------------------------
+    // Dimensiones
+    // ------------------------------------------------------------
+
+    var SLOT = 16;
+    var BAR_W = 12;
+    var BAR_AREA_H = 190;
+    var LABEL_H = 40;
+    var HIT_H = 160;
+    var MISS_H = 58;
+    var WIN = 25;
+
+    canvas.style.width =
+        (total * SLOT + 10) + "px";
+
+    canvas.style.height =
+        (BAR_AREA_H + LABEL_H) + "px";
+
+    // ------------------------------------------------------------
+    // Tooltip global
+    // ------------------------------------------------------------
+
+    var tooltip =
+        document.createElement(
+            "div"
+        );
+
+    tooltip.className =
+        "chart-tooltip";
+
+    document.body.appendChild(
+        tooltip
+    );
+
+    function addRow(
+        table,
+        key,
+        value
+    ) {{
+
+        var tr =
+            document.createElement(
+                "tr"
+            );
+
+        var td1 =
+            document.createElement(
+                "td"
+            );
+
+        td1.className =
+            "tt-key";
+
+        td1.textContent =
+            key;
+
+        var td2 =
+            document.createElement(
+                "td"
+            );
+
+        td2.textContent =
+            value;
+
+        tr.appendChild(
+            td1
+        );
+
+        tr.appendChild(
+            td2
+        );
+
+        table.appendChild(
+            tr
+        );
+    }}
+
+    function tooltipContent(
+        d
+    ) {{
+
+        var table =
+            document.createElement(
+                "table"
+            );
+
+        table.className =
+            "tt-table";
+
+        addRow(
+            table,
+            "Turno",
+            d.datetime
+        );
+
+        addRow(
+            table,
+            "Resultado",
+            d.hit ? "HIT ✓" : "MISS ✗"
+        );
+
+        addRow(
+            table,
+            "Top 1",
+            d.top1 + "  ("
+            + (d.top1_probability * 100).toFixed(2)
+            + "%)"
+        );
+
+        addRow(
+            table,
+            "Top 10",
+            d.top10
+        );
+
+        addRow(
+            table,
+            "Real",
+            d.real_animals
+        );
+
+        addRow(
+            table,
+            "Aciertos",
+            d.hit_animals || "—"
+        );
+
+        addRow(
+            table,
+            "Prob máx top10",
+            (d.top10_max_probability * 100).toFixed(2)
+            + "%"
+        );
+
+        addRow(
+            table,
+            "Prob mín top10",
+            (d.top10_min_probability * 100).toFixed(2)
+            + "%"
+        );
+
+        return table;
+    }}
+
+    function detailContent(
+        d
+    ) {{
+
+        var wrap =
+            document.createElement(
+                "div"
+            );
+
+        wrap.className =
+            "chart-detail-card "
+            + (d.hit ? "detail-hit" : "detail-miss");
+
+        var head =
+            document.createElement(
+                "div"
+            );
+
+        head.className =
+            "chart-detail-head";
+
+        var title =
+            document.createElement(
+                "strong"
+            );
+
+        title.textContent =
+            d.datetime;
+
+        var badge =
+            document.createElement(
+                "span"
+            );
+
+        badge.className =
+            "status "
+            + (d.hit ? "hit" : "miss");
+
+        badge.textContent =
+            d.hit ? "✓ HIT" : "✗ MISS";
+
+        head.appendChild(
+            title
+        );
+
+        head.appendChild(
+            badge
+        );
+
+        wrap.appendChild(
+            head
+        );
+
+        wrap.appendChild(
+            tooltipContent(d)
+        );
+
+        return wrap;
+    }}
+
+    // ------------------------------------------------------------
+    // Barras
+    // ------------------------------------------------------------
+
+    chartData.forEach(
+        function (d, i) {{
+
+            var col =
+                document.createElement(
+                    "div"
+                );
+
+            col.className =
+                "bar-col";
+
+            col.dataset.index =
+                i;
+
+            col.style.left =
+                (i * SLOT) + "px";
+
+            col.style.width =
+                SLOT + "px";
+
+            col.style.bottom =
+                LABEL_H + "px";
+
+            col.style.height =
+                BAR_AREA_H + "px";
+
+            var bar =
+                document.createElement(
+                    "div"
+                );
+
+            bar.className =
+                "bar-rect "
+                + (d.hit ? "bar-hit" : "bar-miss");
+
+            bar.style.width =
+                BAR_W + "px";
+
+            bar.style.height =
+                (d.hit ? HIT_H : MISS_H) + "px";
+
+            col.appendChild(
+                bar
+            );
+
+            canvas.appendChild(
+                col
+            );
+
+            col.addEventListener(
+                "click",
+                function () {{
+
+                    var el =
+                        this;
+
+                    var idx =
+                        +el.dataset.index;
+
+                    var data =
+                        chartData[idx];
+
+                    var prev =
+                        canvas.querySelectorAll(
+                            ".bar-col.selected"
+                        );
+
+                    prev.forEach(
+                        function (p) {{
+                            p.classList.remove(
+                                "selected"
+                            );
+                        }}
+                    );
+
+                    el.classList.add(
+                        "selected"
+                    );
+
+                    detail.innerHTML =
+                        "";
+
+                    detail.appendChild(
+                        detailContent(data)
+                    );
+                }}
+            );
+        }}
+    );
+
+    // ------------------------------------------------------------
+    // Separadores + etiquetas por día
+    // ------------------------------------------------------------
+
+    var prevDate = null;
+
+    chartData.forEach(
+        function (d, i) {{
+
+            if (d.date === prevDate) {{
+                return;
+            }}
+
+            prevDate =
+                d.date;
+
+            var line =
+                document.createElement(
+                    "div"
+                );
+
+            line.className =
+                "day-line";
+
+            line.style.left =
+                (i * SLOT - 2) + "px";
+
+            line.style.bottom =
+                LABEL_H + "px";
+
+            line.style.height =
+                BAR_AREA_H + "px";
+
+            canvas.appendChild(
+                line
+            );
+
+            var lbl =
+                document.createElement(
+                    "div"
+                );
+
+            lbl.className =
+                "day-label";
+
+            lbl.textContent =
+                d.date.slice(5);
+
+            lbl.style.left =
+                (i * SLOT) + "px";
+
+            canvas.appendChild(
+                lbl
+            );
+        }}
+    );
+
+    // ------------------------------------------------------------
+    // Media móvil (tendencia)
+    // ------------------------------------------------------------
+
+    var svgNS =
+        "http://www.w3.org/2000/svg";
+
+    var svg =
+        document.createElementNS(
+            svgNS,
+            "svg"
+        );
+
+    svg.setAttribute(
+        "class",
+        "trend-svg"
+    );
+
+    svg.setAttribute(
+        "width",
+        (total * SLOT) + "px"
+    );
+
+    svg.setAttribute(
+        "height",
+        BAR_AREA_H + "px"
+    );
+
+    svg.style.bottom =
+        LABEL_H + "px";
+
+    canvas.appendChild(
+        svg
+    );
+
+    var points = [];
+
+    var windowArr = [];
+
+    for (
+        var i = 0;
+        i < total;
+        i++
+    ) {{
+
+        windowArr.push(
+            chartData[i].hit ? 1 : 0
+        );
+
+        if (
+            windowArr.length > WIN
+        ) {{
+            windowArr.shift();
+        }}
+
+        var winHits = 0;
+
+        windowArr.forEach(
+            function (v) {{
+                winHits += v;
+            }}
+        );
+
+        var r =
+            winHits / windowArr.length;
+
+        var x =
+            i * SLOT + SLOT / 2;
+
+        var y =
+            BAR_AREA_H
+            - (r * (BAR_AREA_H - 10))
+            - 5;
+
+        points.push(
+            x + "," + y
+        );
+    }}
+
+    var poly =
+        document.createElementNS(
+            svgNS,
+            "polyline"
+        );
+
+    poly.setAttribute(
+        "points",
+        points.join(" ")
+    );
+
+    poly.setAttribute(
+        "class",
+        "trend-line"
+    );
+
+    svg.appendChild(
+        poly
+    );
+
+    // ------------------------------------------------------------
+    // Interacción (tooltip)
+    // ------------------------------------------------------------
+
+    canvas.addEventListener(
+        "mousemove",
+        function (ev) {{
+
+            var col =
+                ev.target
+                && ev.target.closest
+                    ? ev.target.closest(
+                        ".bar-col"
+                    )
+                    : null;
+
+            if (!col) {{
+                tooltip.style.display =
+                    "none";
+                return;
+            }}
+
+            var data =
+                chartData[+col.dataset.index];
+
+            tooltip.innerHTML =
+                "";
+
+            var title =
+                document.createElement(
+                    "div"
+                );
+
+            title.className =
+                "tt-title";
+
+            title.textContent =
+                data.datetime;
+
+            tooltip.appendChild(
+                title
+            );
+
+            tooltip.appendChild(
+                tooltipContent(data)
+            );
+
+            tooltip.style.display =
+                "block";
+
+            tooltip.style.left =
+                (ev.clientX + 16) + "px";
+
+            tooltip.style.top =
+                (ev.clientY + 16) + "px";
+        }}
+    );
+
+    canvas.addEventListener(
+        "mouseleave",
+        function () {{
+            tooltip.style.display =
+                "none";
+        }}
+    );
+
+    // ------------------------------------------------------------
+    // Scroll inicial al final (turnos más recientes)
+    // ------------------------------------------------------------
+
+    if (
+        scroll.scrollWidth
+        > scroll.clientWidth
+    ) {{
+        scroll.scrollLeft =
+            scroll.scrollWidth;
+    }}
+
+}})();
 
 </script>
 
