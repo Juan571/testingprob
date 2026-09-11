@@ -1,6 +1,4 @@
 ﻿datetime,date,time,top10,real_animals,hit,hit_animals,top1,top1_probability,top10_max_probability,top10_min_probability
-2026-08-12 13:00:00,2026-08-12,13:00,"alacran,jirafa,ciempies,caballo,pescado,gallo,mono,zorro,pavo,gato","ardilla,gato",True,gato,alacran,0.028488095291835918,0.028488095291835918,0.02736643876628705
-2026-08-12 14:00:00,2026-08-12,14:00,"alacran,jirafa,gallo,delfin,ciempies,zorro,mono,toro,leon,burro","chivo,ciempies",True,ciempies,alacran,0.028874786971042992,0.028874786971042992,0.02741014169340201
 2026-08-12 15:00:00,2026-08-12,15:00,"jirafa,caballo,gallo,mono,gallina,leon,delfin,pescado,zorro,pavo","leon,perico",True,leon,jirafa,0.027968755922518466,0.027968755922518466,0.027412409057487947
 2026-08-12 16:00:00,2026-08-12,16:00,"jirafa,caballo,delfin,toro,pescado,gallo,gallina,mono,burro,zorro","culebra,delfin",True,delfin,jirafa,0.028095870915930965,0.028095870915930965,0.027575993617911142
 2026-08-12 17:00:00,2026-08-12,17:00,"alacran,gallina,raton,pavo,pescado,burro,gallo,zorro,toro,caballo","carnero,perro",False,,alacran,0.028982790790848076,0.028982790790848076,0.027534209536813306
@@ -353,10 +351,12 @@
 2026-09-10 16:00:00,2026-09-10,16:00,"lapa,elefante,delfin,pavo,camello,rana,toro,leon,culebra,alacran","gallina,zamuro",False,,lapa,0.028805335641497544,0.028805335641497544,0.027508525970264992
 2026-09-10 17:00:00,2026-09-10,17:00,"lapa,camello,pavo,alacran,rana,culebra,ciempies,ardilla,delfin,raton","ciempies,delfin",True,"ciempies,delfin",lapa,0.029046227651998838,0.029046227651998838,0.02761319746117046
 2026-09-10 18:00:00,2026-09-10,18:00,"lapa,elefante,camello,culebra,pavo,leon,rana,iguana,tigre,venado",cebra,False,,lapa,0.028741500315994623,0.028741500315994623,0.027531466402978568
-2026-09-10 19:00:00,2026-09-10,19:00,"lapa,elefante,culebra,leon,rana,caiman,chivo,venado,carnero,raton","delfin,vaca",False,,lapa,0.02841689520334056,0.02841689520334056,0.027348791002218795
+2026-09-10 19:00:00,2026-09-10,19:00,"lapa,elefante,leon,culebra,rana,caiman,pavo,chivo,venado,carnero","delfin,vaca",False,,lapa,0.028402261619422515,0.028402261619422515,0.02736090406906465
 2026-09-11 08:00:00,2026-09-11,08:00,"elefante,iguana,lapa,culebra,caiman,chivo,rana,camello,leon,alacran","alacran,caballo",True,alacran,elefante,0.028374729655030292,0.028374729655030292,0.027800709812080045
-2026-09-11 09:00:00,2026-09-11,09:00,"caiman,lapa,iguana,culebra,chivo,elefante,camello,rana,toro,venado",lapa,True,lapa,caiman,0.028479231018650235,0.028479231018650235,0.027441882314578406
-2026-09-11 10:00:00,2026-09-11,10:00,"culebra,iguana,leon,elefante,camello,chivo,rana,carnero,pavo,zorro","caiman,carnero",True,carnero,culebra,0.02824616384562802,0.02824616384562802,0.027314562723671176
-2026-09-11 11:00:00,2026-09-11,11:00,"iguana,culebra,chivo,rana,leon,camello,gallo,venado,zorro,pavo","elefante,zamuro",False,,iguana,0.028597627858672946,0.028597627858672946,0.027467347095535652
+2026-09-11 09:00:00,2026-09-11,09:00,"iguana,caiman,lapa,elefante,culebra,camello,rana,chivo,toro,venado",lapa,True,lapa,iguana,0.028512822322420223,0.028512822322420223,0.02744155307314036
+2026-09-11 10:00:00,2026-09-11,10:00,"culebra,iguana,leon,elefante,camello,chivo,rana,carnero,toro,pavo","caiman,carnero",True,carnero,culebra,0.028259417782988815,0.028259417782988815,0.027317702086550755
+2026-09-11 11:00:00,2026-09-11,11:00,"iguana,culebra,chivo,rana,leon,camello,gallo,venado,zorro,pavo","elefante,zamuro",False,,iguana,0.02859792499525624,0.02859792499525624,0.027467632488216067
 2026-09-11 12:00:00,2026-09-11,12:00,"iguana,culebra,chivo,leon,rana,venado,gallo,zorro,paloma,pavo","burro,venado",True,venado,iguana,0.028630246742617525,0.028630246742617525,0.027579761585125488
 2026-09-11 13:00:00,2026-09-11,13:00,"iguana,culebra,rana,leon,zorro,toro,paloma,gallo,ardilla,tigre","iguana,leon",True,"iguana,leon",iguana,0.0287739524384163,0.0287739524384163,0.027408840052015635
+2026-09-11 14:00:00,2026-09-11,14:00,"culebra,zorro,gallo,paloma,jirafa,chivo,oso,pavo,toro,perico","gallo,toro",True,"gallo,toro",culebra,0.028980667096657163,0.028980667096657163,0.027430221732611768
+2026-09-11 15:00:00,2026-09-11,15:00,"culebra,paloma,chivo,rana,zorro,jirafa,tigre,oso,pavo,raton","oso,zamuro",True,oso,culebra,0.028717512372025147,0.028717512372025147,0.02732957395028771
