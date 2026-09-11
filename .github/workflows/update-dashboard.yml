@@ -3,7 +3,7 @@ name: Update dashboard and deploy
 on:
   schedule:
     # Cada 1 hora (minuto 0)
-    - cron: "0 * * * *"
+    - cron: "15 * * * *"
   workflow_dispatch:
   push:
     branches:
