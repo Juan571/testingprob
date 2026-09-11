@@ -70,6 +70,8 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: update results and dashboard ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git fetch origin main
+            git rebase origin/main
             git push
           fi
 
