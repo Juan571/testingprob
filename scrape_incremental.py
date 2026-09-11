@@ -19,8 +19,33 @@ from typing import Dict, List
 import requests
 from bs4 import BeautifulSoup
 
+try:
+    from curl_cffi import requests as curl_requests
+    HAS_CURL_CFFI = True
+except Exception:  # pragma: no cover
+    HAS_CURL_CFFI = False
 
-DEFAULT_HEADERS = {"User-Agent": "Mozilla/5.0"}
+
+DEFAULT_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,"
+        "image/avif,image/webp,image/apng,*/*;q=0.8"
+    ),
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+    "Referer": "https://loteriadehoy.com/",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Cache-Control": "max-age=0",
+}
+
+BASE_URL = "https://loteriadehoy.com"
 
 
 # Número oficial (0-37) de cada animal en la tabla estándar de animalitos
@@ -50,10 +75,35 @@ def normalize_animal(name: str) -> str:
 
 
 def fetch_date_html(date_str: str, cookies: Dict[str, str] | None = None) -> str:
-    url = f"https://loteriadehoy.com/animalitos/resultados/{date_str}/"
-    r = requests.get(url, headers=DEFAULT_HEADERS, cookies=cookies, timeout=15)
-    r.raise_for_status()
-    return r.text
+    url = f"{BASE_URL}/animalitos/resultados/{date_str}/"
+    last_error: Exception | None = None
+
+    # 1) curl_cffi con impersonación de Chrome. Esto evade el filtro por
+    #    huella TLS de Cloudflare, que bloquea con 403 las IPs de datacenter
+    #    de los runners de GitHub Actions.
+    if HAS_CURL_CFFI:
+        try:
+            session = curl_requests.Session(impersonate="chrome")
+            # Visita previa a la home para recoger las cookies de Cloudflare.
+            session.get(BASE_URL + "/", headers=DEFAULT_HEADERS, timeout=20)
+            resp = session.get(url, headers=DEFAULT_HEADERS, cookies=cookies, timeout=20)
+            resp.raise_for_status()
+            return resp.text
+        except Exception as exc:  # pragma: no cover
+            last_error = exc
+
+    # 2) Fallback: requests normal.
+    try:
+        session = requests.Session()
+        session.headers.update(DEFAULT_HEADERS)
+        session.get(BASE_URL + "/", timeout=20)
+        resp = session.get(url, cookies=cookies, timeout=20)
+        resp.raise_for_status()
+        return resp.text
+    except Exception as exc:  # pragma: no cover
+        last_error = exc
+
+    raise RuntimeError(f"No se pudo descargar {url}: {last_error}")
 
 
 def extract_for_lottery(soup: BeautifulSoup, lottery_class: str) -> List[Dict]:
