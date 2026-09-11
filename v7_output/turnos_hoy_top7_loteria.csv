@@ -1,6 +1,6 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-09-11 08:00:00,2026-09-11,08:00,HIT,"lapa,iguana,elefante,culebra,chivo,rana,caiman,camello,venado,leon,pavo,ardilla,tigre,alacran","alacran,caballo",alacran
-2026-09-11 09:00:00,2026-09-11,09:00,HIT,"iguana,caiman,lapa,elefante,culebra,rana,chivo,camello,pavo,toro,zorro,carnero,tigre,venado",lapa,lapa
+2026-09-11 08:00:00,2026-09-11,08:00,HIT,"iguana,elefante,lapa,culebra,chivo,rana,caiman,camello,venado,leon,alacran,pavo,ardilla,tigre","alacran,caballo",alacran
+2026-09-11 09:00:00,2026-09-11,09:00,HIT,"iguana,caiman,lapa,chivo,culebra,rana,elefante,camello,pavo,toro,zorro,carnero,tigre,venado",lapa,lapa
 2026-09-11 10:00:00,2026-09-11,10:00,HIT,"iguana,culebra,elefante,leon,camello,pavo,chivo,carnero,rana,gallo,venado,toro,zorro,perico","caiman,carnero",carnero
 2026-09-11 11:00:00,2026-09-11,11:00,MISS,"iguana,culebra,leon,chivo,gallo,venado,rana,camello,zorro,ardilla,pavo,tigre,perico,aguila","elefante,zamuro",
 2026-09-11 12:00:00,2026-09-11,12:00,HIT,"iguana,culebra,chivo,rana,zorro,venado,leon,toro,paloma,pavo,gallo,camello,ardilla,oso","burro,venado",venado
@@ -8,3 +8,4 @@
 2026-09-11 14:00:00,2026-09-11,14:00,HIT,"culebra,gallo,paloma,zorro,oso,pavo,chivo,jirafa,perro,toro,ardilla,gato,raton,camello","gallo,toro","gallo,toro"
 2026-09-11 15:00:00,2026-09-11,15:00,HIT,"culebra,paloma,rana,chivo,jirafa,pavo,oso,zorro,tigre,ardilla,cebra,raton,gato,mono","oso,zamuro",oso
 2026-09-11 16:00:00,2026-09-11,16:00,HIT,"culebra,paloma,caiman,jirafa,chivo,tigre,cebra,aguila,cochino,ardilla,rana,perico,gallina,camello","aguila,paloma","aguila,paloma"
+2026-09-11 17:00:00,2026-09-11,17:00,HIT,"jirafa,culebra,caiman,chivo,cebra,pavo,camello,ardilla,ciempies,cochino,gallina,rana,perico,gato","cochino,leon",cochino
