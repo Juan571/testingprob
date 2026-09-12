@@ -1,8 +1,9 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-09-12 08:00:00,2026-09-12,08:00,HIT,"jirafa,caiman,cebra,chivo,culebra,zorro,pavo,tigre,camello,ciempies","camello,gallina",camello,jirafa,0.02841083282156322
-2026-09-12 09:00:00,2026-09-12,09:00,MISS,"jirafa,caiman,chivo,culebra,ciempies,pavo,ardilla,alacran,tigre,rana","cochino,raton",,jirafa,0.02844124217816415
-2026-09-12 10:00:00,2026-09-12,10:00,HIT,"jirafa,caiman,ciempies,cebra,culebra,pavo,ardilla,alacran,pescado,iguana","cebra,mono",cebra,jirafa,0.02837020768797419
-2026-09-12 11:00:00,2026-09-12,11:00,HIT,"jirafa,caiman,chivo,ciempies,culebra,lapa,pavo,perro,pescado,carnero","culebra,lapa","culebra,lapa",jirafa,0.028434934196350993
-2026-09-12 12:00:00,2026-09-12,12:00,HIT,"chivo,ciempies,iguana,pavo,perro,carnero,jirafa,elefante,zorro,pescado","oso,pescado",pescado,chivo,0.028005077125566262
+2026-09-12 09:00:00,2026-09-12,09:00,MISS,"caiman,jirafa,chivo,culebra,ciempies,pavo,ardilla,alacran,tigre,rana","cochino,raton",,caiman,0.028646865814785587
+2026-09-12 10:00:00,2026-09-12,10:00,HIT,"jirafa,caiman,ciempies,cebra,culebra,pavo,ardilla,alacran,pescado,iguana","cebra,mono",cebra,jirafa,0.02837039928958272
+2026-09-12 11:00:00,2026-09-12,11:00,HIT,"jirafa,caiman,chivo,ciempies,culebra,lapa,pavo,perro,pescado,carnero","culebra,lapa","culebra,lapa",jirafa,0.02843525757227092
+2026-09-12 12:00:00,2026-09-12,12:00,HIT,"chivo,ciempies,iguana,pavo,perro,carnero,jirafa,elefante,zorro,pescado","oso,pescado",pescado,chivo,0.02800512426315962
 2026-09-12 13:00:00,2026-09-12,13:00,HIT,"jirafa,caiman,chivo,ciempies,iguana,elefante,perro,caballo,rana,alacran","alacran,toro",alacran,jirafa,0.028666408878262314
-2026-09-12 14:00:00,2026-09-12,14:00,HIT,"jirafa,caiman,iguana,elefante,chivo,perro,zamuro,pavo,gallo,caballo","caiman,cebra",caiman,jirafa,0.028405292622182762
+2026-09-12 14:00:00,2026-09-12,14:00,HIT,"jirafa,caiman,iguana,elefante,chivo,perro,zamuro,pavo,gallo,caballo","caiman,cebra",caiman,jirafa,0.028404936379769586
+2026-09-12 15:00:00,2026-09-12,15:00,HIT,"zamuro,jirafa,ciempies,chivo,caballo,perro,carnero,gallo,delfin,pavo","mono,zamuro",zamuro,zamuro,0.027919500023947153
