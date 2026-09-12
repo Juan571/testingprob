@@ -1,3 +1,4 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-09-12 08:00:00,2026-09-12,08:00,HIT,"jirafa,caiman,cebra,chivo,culebra,zorro,pavo,tigre,camello,ciempies","camello,gallina",camello,jirafa,0.02841083282156322
 2026-09-12 09:00:00,2026-09-12,09:00,MISS,"caiman,jirafa,chivo,culebra,ciempies,pavo,ardilla,alacran,tigre,rana","cochino,raton",,caiman,0.028646865814785587
+2026-09-12 10:00:00,2026-09-12,10:00,HIT,"jirafa,caiman,cebra,ciempies,culebra,alacran,iguana,pavo,ardilla,pescado","cebra,mono",cebra,jirafa,0.02841723324400746
