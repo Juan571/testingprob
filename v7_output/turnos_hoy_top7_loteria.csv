@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-09-12 08:00:00,2026-09-12,08:00,HIT,"jirafa,caiman,cebra,pavo,chivo,zorro,culebra,ciempies,tigre,camello,ardilla,alacran,gallina,rana","camello,gallina","camello,gallina"
+2026-09-12 09:00:00,2026-09-12,09:00,MISS,"caiman,jirafa,chivo,pavo,rana,lapa,culebra,ciempies,ardilla,pescado,mono,tigre,alacran,perico","cochino,raton",
