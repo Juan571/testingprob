@@ -1,7 +1,8 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-09-12 08:00:00,2026-09-12,08:00,HIT,"jirafa,caiman,cebra,pavo,chivo,zorro,culebra,ciempies,camello,ardilla,alacran,tigre,gallina,rana","camello,gallina","camello,gallina"
+2026-09-12 08:00:00,2026-09-12,08:00,HIT,"jirafa,caiman,cebra,pavo,chivo,zorro,culebra,ciempies,tigre,camello,ardilla,alacran,gallina,rana","camello,gallina","camello,gallina"
 2026-09-12 09:00:00,2026-09-12,09:00,MISS,"jirafa,caiman,chivo,pavo,rana,lapa,culebra,ciempies,ardilla,pescado,mono,tigre,alacran,perico","cochino,raton",
-2026-09-12 10:00:00,2026-09-12,10:00,HIT,"cebra,jirafa,caiman,ardilla,iguana,pescado,culebra,alacran,ciempies,pavo,zorro,lapa,perro,carnero","cebra,mono",cebra
-2026-09-12 11:00:00,2026-09-12,11:00,HIT,"caiman,jirafa,chivo,ciempies,alacran,pavo,carnero,culebra,rana,lapa,ardilla,perro,elefante,tigre","culebra,lapa","culebra,lapa"
+2026-09-12 10:00:00,2026-09-12,10:00,HIT,"jirafa,caiman,cebra,ardilla,culebra,pescado,iguana,alacran,pavo,ciempies,zorro,perro,carnero,lapa","cebra,mono",cebra
+2026-09-12 11:00:00,2026-09-12,11:00,HIT,"caiman,jirafa,chivo,ciempies,lapa,pavo,carnero,culebra,rana,ardilla,perro,elefante,tigre,zorro","culebra,lapa","culebra,lapa"
 2026-09-12 12:00:00,2026-09-12,12:00,HIT,"chivo,ciempies,zorro,jirafa,iguana,perro,pescado,carnero,pavo,rana,venado,perico,elefante,caiman","oso,pescado",pescado
-2026-09-12 13:00:00,2026-09-12,13:00,HIT,"jirafa,caiman,chivo,iguana,ciempies,elefante,perro,rana,toro,gallo,vaca,caballo,tigre,alacran","alacran,toro","alacran,toro"
+2026-09-12 13:00:00,2026-09-12,13:00,HIT,"jirafa,chivo,caiman,iguana,ciempies,elefante,perro,rana,vaca,tigre,toro,caballo,gallo,alacran","alacran,toro","alacran,toro"
+2026-09-12 14:00:00,2026-09-12,14:00,HIT,"jirafa,caiman,iguana,perro,chivo,elefante,zorro,zamuro,gallo,pavo,caballo,delfin,venado,rana","caiman,cebra",caiman
