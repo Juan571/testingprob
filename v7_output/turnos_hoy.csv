@@ -1,6 +1,7 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-09-13 08:00:00,2026-09-13,08:00,HIT,"iguana,delfin,elefante,leon,jirafa,chivo,carnero,lapa,caballo,burro","leon,perro",leon,iguana,0.028161672762788956
+2026-09-13 08:00:00,2026-09-13,08:00,HIT,"iguana,delfin,elefante,leon,jirafa,chivo,carnero,lapa,caballo,burro","leon,perro",leon,iguana,0.02816163039273645
 2026-09-13 09:00:00,2026-09-13,09:00,HIT,"iguana,delfin,elefante,jirafa,chivo,cochino,lapa,caballo,carnero,burro","caiman,carnero",carnero,iguana,0.02824437049610631
-2026-09-13 10:00:00,2026-09-13,10:00,MISS,"iguana,cochino,zamuro,chivo,jirafa,burro,gallo,gallina,caballo,zorro","oso,rana",,iguana,0.028128924872281295
+2026-09-13 10:00:00,2026-09-13,10:00,MISS,"iguana,cochino,zamuro,jirafa,burro,gallo,gallina,chivo,caballo,zorro","oso,rana",,iguana,0.028129127008196628
 2026-09-13 11:00:00,2026-09-13,11:00,MISS,"iguana,delfin,cochino,zamuro,gallo,jirafa,elefante,burro,gallina,culebra","oso,raton",,iguana,0.028406004672858812
-2026-09-13 12:00:00,2026-09-13,12:00,MISS,"zamuro,iguana,delfin,cochino,gallo,burro,jirafa,cebra,culebra,chivo","carnero,ciempies",,zamuro,0.028573984475420783
+2026-09-13 12:00:00,2026-09-13,12:00,MISS,"zamuro,iguana,delfin,cochino,jirafa,gallo,burro,cebra,culebra,chivo","carnero,ciempies",,zamuro,0.02857351038156735
+2026-09-13 13:00:00,2026-09-13,13:00,HIT,"cochino,iguana,zamuro,gallina,cebra,gallo,chivo,burro,culebra,elefante","toro,zamuro",zamuro,cochino,0.028435102480628246
