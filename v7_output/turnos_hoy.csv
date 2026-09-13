@@ -1,12 +1,13 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-09-12 08:00:00,2026-09-12,08:00,HIT,"jirafa,caiman,cebra,chivo,culebra,zorro,pavo,tigre,camello,ciempies","camello,gallina",camello,jirafa,0.02841083282156322
+2026-09-12 08:00:00,2026-09-12,08:00,HIT,"jirafa,caiman,cebra,chivo,culebra,zorro,pavo,camello,ciempies,ardilla","camello,gallina",camello,jirafa,0.028411282996709343
 2026-09-12 09:00:00,2026-09-12,09:00,MISS,"caiman,jirafa,chivo,culebra,ciempies,pavo,ardilla,alacran,tigre,rana","cochino,raton",,caiman,0.028646865814785587
-2026-09-12 10:00:00,2026-09-12,10:00,HIT,"jirafa,caiman,ciempies,cebra,culebra,pavo,ardilla,alacran,pescado,iguana","cebra,mono",cebra,jirafa,0.02837020768797419
+2026-09-12 10:00:00,2026-09-12,10:00,HIT,"jirafa,caiman,cebra,ciempies,culebra,alacran,iguana,pavo,ardilla,pescado","cebra,mono",cebra,jirafa,0.02841723324400746
 2026-09-12 11:00:00,2026-09-12,11:00,HIT,"jirafa,caiman,chivo,ciempies,culebra,lapa,pavo,perro,pescado,carnero","culebra,lapa","culebra,lapa",jirafa,0.02843525757227092
-2026-09-12 12:00:00,2026-09-12,12:00,HIT,"chivo,ciempies,iguana,pavo,perro,carnero,jirafa,elefante,zorro,pescado","oso,pescado",pescado,chivo,0.02800512426315962
-2026-09-12 13:00:00,2026-09-12,13:00,HIT,"jirafa,caiman,ciempies,chivo,iguana,elefante,perro,caballo,rana,alacran","alacran,toro",alacran,jirafa,0.0286659636056981
-2026-09-12 14:00:00,2026-09-12,14:00,HIT,"jirafa,caiman,iguana,elefante,chivo,perro,zamuro,pavo,gallo,caballo","caiman,cebra",caiman,jirafa,0.028405292622182762
-2026-09-12 15:00:00,2026-09-12,15:00,HIT,"zamuro,jirafa,ciempies,chivo,caballo,perro,carnero,gallo,delfin,pavo","mono,zamuro",zamuro,zamuro,0.027919500023947153
-2026-09-12 16:00:00,2026-09-12,16:00,MISS,"iguana,ciempies,jirafa,chivo,delfin,carnero,gallo,venado,rana,ardilla","perro,tigre",,iguana,0.027889863124632118
+2026-09-12 12:00:00,2026-09-12,12:00,HIT,"chivo,ciempies,iguana,pavo,perro,carnero,jirafa,elefante,zorro,pescado","oso,pescado",pescado,chivo,0.028004360098712506
+2026-09-12 13:00:00,2026-09-12,13:00,HIT,"jirafa,caiman,chivo,iguana,ciempies,elefante,perro,caballo,rana,toro","alacran,toro",toro,jirafa,0.028722943889266547
+2026-09-12 14:00:00,2026-09-12,14:00,HIT,"jirafa,caiman,iguana,elefante,chivo,perro,zamuro,pavo,gallo,caballo","caiman,cebra",caiman,jirafa,0.028404936379769586
+2026-09-12 15:00:00,2026-09-12,15:00,HIT,"zamuro,jirafa,ciempies,chivo,caballo,perro,carnero,gallo,delfin,pavo","mono,zamuro",zamuro,zamuro,0.027920467431821368
+2026-09-12 16:00:00,2026-09-12,16:00,MISS,"iguana,ciempies,jirafa,chivo,delfin,carnero,gallo,rana,ardilla,vaca","perro,tigre",,iguana,0.027889915667720904
 2026-09-12 17:00:00,2026-09-12,17:00,HIT,"ciempies,jirafa,iguana,elefante,delfin,chivo,carnero,caballo,pavo,ardilla","ciempies,pescado",ciempies,ciempies,0.028124663011001794
-2026-09-12 18:00:00,2026-09-12,18:00,MISS,"jirafa,delfin,iguana,chivo,elefante,caballo,carnero,gallo,leon,zorro","paloma,venado",,jirafa,0.02823965188934661
+2026-09-12 18:00:00,2026-09-12,18:00,MISS,"delfin,iguana,jirafa,chivo,elefante,caballo,carnero,pavo,gallo,leon","paloma,venado",,delfin,0.028109127234791958
+2026-09-12 19:00:00,2026-09-12,19:00,MISS,"delfin,iguana,elefante,leon,chivo,caballo,carnero,gallo,vaca,burro","paloma,perro",,delfin,0.02838829547109177
