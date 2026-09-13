@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-09-13 08:00:00,2026-09-13,08:00,HIT,"delfin,iguana,elefante,jirafa,leon,carnero,chivo,lapa,caballo,cochino,burro,gallina,rana,gallo","leon,perro",leon
+2026-09-13 09:00:00,2026-09-13,09:00,HIT,"iguana,delfin,jirafa,elefante,cochino,chivo,lapa,zorro,carnero,burro,caballo,caiman,gallo,gallina","caiman,carnero","caiman,carnero"
