@@ -1,3 +1,4 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
 2026-09-14 08:00:00,2026-09-14,08:00,MISS,"cebra,cochino,lapa,jirafa,gallina,pescado,alacran,delfin,iguana,caiman,zorro,culebra,gallo,mono","ciempies,venado",
 2026-09-14 09:00:00,2026-09-14,09:00,HIT,"cebra,caiman,cochino,delfin,lapa,gallo,mono,gallina,culebra,caballo,burro,zorro,paloma,chivo","cochino,iguana",cochino
+2026-09-14 10:00:00,2026-09-14,10:00,HIT,"lapa,pescado,mono,caiman,delfin,alacran,burro,jirafa,zamuro,ardilla,elefante,zorro,paloma,perro","alacran,caballo",alacran
