@@ -1,10 +1,13 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-09-14 08:00:00,2026-09-14,08:00,MISS,"cebra,cochino,lapa,delfin,iguana,mono,gallina,caiman,jirafa,alacran","ciempies,venado",,cebra,0.028351971059880837
-2026-09-14 09:00:00,2026-09-14,09:00,HIT,"cebra,lapa,delfin,cochino,mono,caiman,gallina,culebra,iguana,burro","cochino,iguana","cochino,iguana",cebra,0.02820384760424061
+2026-09-14 09:00:00,2026-09-14,09:00,HIT,"cebra,caiman,lapa,delfin,cochino,mono,gallina,culebra,iguana,burro","cochino,iguana","cochino,iguana",cebra,0.0282036774090737
 2026-09-14 10:00:00,2026-09-14,10:00,HIT,"lapa,pescado,caiman,mono,delfin,zamuro,alacran,jirafa,culebra,paloma","alacran,caballo",alacran,lapa,0.02789054806943647
-2026-09-14 11:00:00,2026-09-14,11:00,HIT,"cebra,lapa,delfin,zamuro,pescado,caiman,perro,gallina,jirafa,oso","perro,raton",perro,cebra,0.028522472927979308
+2026-09-14 11:00:00,2026-09-14,11:00,HIT,"cebra,lapa,caiman,delfin,zamuro,pescado,perro,gallina,jirafa,oso","perro,raton",perro,cebra,0.028522334775473727
 2026-09-14 12:00:00,2026-09-14,12:00,HIT,"cebra,mono,lapa,caiman,oso,delfin,pescado,paloma,jirafa,gallina","cebra,delfin","cebra,delfin",cebra,0.028730454107196494
 2026-09-14 13:00:00,2026-09-14,13:00,MISS,"caiman,lapa,oso,zamuro,pescado,mono,paloma,jirafa,gallina,leon","cochino,vaca",,caiman,0.02807770658766619
 2026-09-14 14:00:00,2026-09-14,14:00,MISS,"zamuro,oso,paloma,pescado,mono,lapa,leon,jirafa,caiman,burro","rana,zorro",,zamuro,0.028259083598347626
 2026-09-14 15:00:00,2026-09-14,15:00,HIT,"zamuro,mono,lapa,pescado,caiman,toro,carnero,jirafa,chivo,elefante","carnero,elefante","carnero,elefante",zamuro,0.02843857907489346
 2026-09-14 16:00:00,2026-09-14,16:00,HIT,"oso,pescado,mono,paloma,lapa,leon,gallo,gallina,jirafa,zamuro","pavo,pescado",pescado,oso,0.02815134961279742
+2026-09-14 17:00:00,2026-09-14,17:00,MISS,"zamuro,mono,lapa,paloma,caiman,leon,gallina,toro,gallo,chivo","burro,perico",,zamuro,0.028551995487732323
+2026-09-14 18:00:00,2026-09-14,18:00,MISS,"zamuro,oso,paloma,lapa,caiman,toro,leon,mono,venado,perro","carnero,jirafa",,zamuro,0.028272743119050227
+2026-09-14 19:00:00,2026-09-14,19:00,HIT,"zamuro,oso,paloma,leon,perro,caiman,lapa,mono,ciempies,gallina","chivo,lapa",lapa,zamuro,0.028657937575398036

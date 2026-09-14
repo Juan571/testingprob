@@ -1,10 +1,13 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
 2026-09-14 08:00:00,2026-09-14,08:00,MISS,"cebra,cochino,lapa,jirafa,gallina,pescado,alacran,delfin,iguana,caiman,zorro,culebra,gallo,mono","ciempies,venado",
-2026-09-14 09:00:00,2026-09-14,09:00,HIT,"cebra,caiman,cochino,delfin,lapa,gallo,mono,gallina,culebra,caballo,burro,zorro,paloma,chivo","cochino,iguana",cochino
+2026-09-14 09:00:00,2026-09-14,09:00,HIT,"cebra,caiman,cochino,delfin,lapa,mono,iguana,gallina,culebra,caballo,burro,zorro,paloma,chivo","cochino,iguana","cochino,iguana"
 2026-09-14 10:00:00,2026-09-14,10:00,HIT,"lapa,pescado,mono,caiman,delfin,alacran,burro,jirafa,zamuro,ardilla,elefante,zorro,paloma,perro","alacran,caballo",alacran
-2026-09-14 11:00:00,2026-09-14,11:00,HIT,"cebra,lapa,delfin,caiman,pescado,jirafa,perro,zamuro,gallina,zorro,oso,culebra,gallo,burro","perro,raton",perro
+2026-09-14 11:00:00,2026-09-14,11:00,HIT,"cebra,caiman,lapa,delfin,pescado,jirafa,perro,zamuro,gallina,oso,culebra,gallo,zorro,burro","perro,raton",perro
 2026-09-14 12:00:00,2026-09-14,12:00,HIT,"cebra,pescado,mono,lapa,oso,jirafa,caiman,delfin,gallina,chivo,paloma,burro,gallo,leon","cebra,delfin","cebra,delfin"
 2026-09-14 13:00:00,2026-09-14,13:00,MISS,"caiman,lapa,zamuro,paloma,pescado,chivo,gallina,oso,mono,leon,toro,elefante,jirafa,gallo","cochino,vaca",
 2026-09-14 14:00:00,2026-09-14,14:00,HIT,"pescado,zamuro,oso,paloma,leon,mono,lapa,jirafa,caiman,carnero,burro,elefante,ardilla,rana","rana,zorro",rana
 2026-09-14 15:00:00,2026-09-14,15:00,HIT,"zamuro,mono,pescado,lapa,elefante,gato,toro,caiman,carnero,chivo,gallo,jirafa,venado,burro","carnero,elefante","carnero,elefante"
 2026-09-14 16:00:00,2026-09-14,16:00,HIT,"oso,mono,pescado,paloma,gallo,leon,lapa,gallina,ardilla,zamuro,gato,burro,culebra,jirafa","pavo,pescado",pescado
+2026-09-14 17:00:00,2026-09-14,17:00,MISS,"zamuro,mono,paloma,lapa,caiman,gallo,toro,gallina,leon,gato,chivo,ciempies,aguila,jirafa","burro,perico",
+2026-09-14 18:00:00,2026-09-14,18:00,HIT,"oso,zamuro,lapa,paloma,caiman,toro,leon,gallo,gallina,mono,venado,perro,jirafa,ciempies","carnero,jirafa",jirafa
+2026-09-14 19:00:00,2026-09-14,19:00,HIT,"zamuro,oso,leon,caiman,paloma,mono,perro,lapa,gallina,ciempies,gallo,ardilla,aguila,camello","chivo,lapa",lapa
