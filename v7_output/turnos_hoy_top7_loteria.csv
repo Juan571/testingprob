@@ -1,4 +1,8 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-09-15 08:00:00,2026-09-15,08:00,HIT,"oso,venado,zamuro,paloma,leon,perro,toro,camello,aguila,ciempies,mono,gallo,raton,gallina","mono,perro","mono,perro"
+2026-09-15 08:00:00,2026-09-15,08:00,HIT,"oso,venado,zamuro,paloma,leon,perro,toro,camello,aguila,ciempies,mono,gallina,gallo,raton","mono,perro","mono,perro"
 2026-09-15 09:00:00,2026-09-15,09:00,HIT,"oso,caiman,venado,leon,ciempies,toro,camello,gallina,ardilla,tigre,gallo,aguila,raton,ballena","gallo,rana",gallo
 2026-09-15 10:00:00,2026-09-15,10:00,HIT,"oso,zamuro,venado,caiman,raton,toro,ciempies,aguila,paloma,alacran,gallina,tigre,ardilla,iguana","alacran,gallina","alacran,gallina"
+2026-09-15 11:00:00,2026-09-15,11:00,HIT,"oso,zamuro,venado,raton,camello,toro,caiman,paloma,aguila,cebra,delfin,tigre,caballo,cochino","burro,cochino",cochino
+2026-09-15 12:00:00,2026-09-15,12:00,MISS,"venado,oso,zamuro,camello,raton,aguila,toro,ciempies,caiman,leon,paloma,ardilla,iguana,tigre","cochino,elefante",
+2026-09-15 13:00:00,2026-09-15,13:00,MISS,"oso,venado,toro,camello,ciempies,paloma,leon,aguila,iguana,cebra,ardilla,tigre,delfin,caballo","mono,pescado",
+2026-09-15 14:00:00,2026-09-15,14:00,HIT,"zamuro,raton,toro,ciempies,camello,aguila,tigre,leon,delfin,perro,cebra,caiman,perico,iguana","gallo,toro",toro
