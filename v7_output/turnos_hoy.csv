@@ -1,5 +1,5 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-09-15 08:00:00,2026-09-15,08:00,HIT,"zamuro,oso,venado,perro,paloma,leon,ciempies,camello,toro,aguila","mono,perro",perro,zamuro,0.028635517435338178
+2026-09-15 08:00:00,2026-09-15,08:00,HIT,"oso,venado,zamuro,perro,paloma,leon,ciempies,camello,toro,aguila","mono,perro",perro,oso,0.028449311215103513
 2026-09-15 09:00:00,2026-09-15,09:00,MISS,"oso,caiman,leon,venado,toro,camello,ciempies,aguila,tigre,gallina","gallo,rana",,oso,0.02846897447381908
 2026-09-15 10:00:00,2026-09-15,10:00,HIT,"zamuro,oso,caiman,venado,toro,ciempies,raton,paloma,aguila,gallina","alacran,gallina",gallina,zamuro,0.02847300634024708
 2026-09-15 11:00:00,2026-09-15,11:00,MISS,"oso,zamuro,venado,caiman,raton,toro,camello,paloma,aguila,tigre","burro,cochino",,oso,0.028616632779797604
@@ -9,3 +9,4 @@
 2026-09-15 15:00:00,2026-09-15,15:00,MISS,"venado,zamuro,raton,oso,paloma,leon,perro,iguana,tigre,aguila","camello,carnero",,venado,0.028447448783724745
 2026-09-15 16:00:00,2026-09-15,16:00,MISS,"raton,venado,perro,zamuro,oso,aguila,ciempies,iguana,caiman,tigre","gallina,lapa",,raton,0.02827291885737748
 2026-09-15 17:00:00,2026-09-15,17:00,HIT,"raton,oso,ciempies,perro,perico,venado,zamuro,aguila,cebra,paloma","elefante,perico",perico,raton,0.028556944220451144
+2026-09-15 18:00:00,2026-09-15,18:00,HIT,"oso,venado,ciempies,aguila,tigre,cebra,perro,paloma,delfin,iguana","toro,venado",venado,oso,0.02809032754498843
