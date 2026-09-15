@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-09-15 08:00:00,2026-09-15,08:00,HIT,"oso,venado,zamuro,paloma,leon,perro,toro,camello,aguila,ciempies,mono,gallo,raton,gallina","mono,perro","mono,perro"
+2026-09-15 09:00:00,2026-09-15,09:00,HIT,"oso,caiman,venado,leon,ciempies,toro,camello,gallina,ardilla,tigre,gallo,aguila,raton,ballena","gallo,rana",gallo
+2026-09-15 10:00:00,2026-09-15,10:00,HIT,"oso,zamuro,venado,caiman,raton,toro,ciempies,aguila,paloma,alacran,gallina,tigre,ardilla,iguana","alacran,gallina","alacran,gallina"

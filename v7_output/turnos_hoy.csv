@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-09-15 08:00:00,2026-09-15,08:00,HIT,"zamuro,oso,venado,perro,paloma,leon,ciempies,camello,toro,aguila","mono,perro",perro,zamuro,0.028635517435338178
+2026-09-15 09:00:00,2026-09-15,09:00,MISS,"oso,caiman,leon,venado,toro,ciempies,camello,aguila,tigre,gallina","gallo,rana",,oso,0.028468848697400708
+2026-09-15 10:00:00,2026-09-15,10:00,HIT,"zamuro,oso,caiman,venado,toro,ciempies,raton,paloma,aguila,gallina","alacran,gallina",gallina,zamuro,0.02847300634024708
