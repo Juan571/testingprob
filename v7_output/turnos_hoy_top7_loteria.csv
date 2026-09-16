@@ -8,3 +8,5 @@
 2026-09-16 14:00:00,2026-09-16,14:00,MISS,"perro,rana,carnero,oso,cochino,pescado,zamuro,raton,ciempies,tigre,chivo,gallo,alacran,vaca","caiman,gato",
 2026-09-16 15:00:00,2026-09-16,15:00,MISS,"perro,carnero,rana,pescado,oso,raton,pavo,ciempies,alacran,paloma,zamuro,burro,cochino,cebra","aguila,ardilla",
 2026-09-16 16:00:00,2026-09-16,16:00,HIT,"perro,carnero,rana,gallo,cochino,oso,ciempies,zamuro,alacran,cebra,burro,pavo,paloma,perico","perico,tigre",perico
+2026-09-16 17:00:00,2026-09-16,17:00,MISS,"carnero,perro,cochino,pescado,oso,ciempies,gallo,cebra,burro,pavo,chivo,camello,jirafa,zamuro","alacran,lapa",
+2026-09-16 18:00:00,2026-09-16,18:00,MISS,"carnero,cochino,perro,gallo,rana,elefante,oso,camello,burro,paloma,jirafa,raton,chivo,pescado","aguila,lapa",
