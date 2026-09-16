@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-09-16 08:00:00,2026-09-16,08:00,MISS,"cebra,perro,ciempies,oso,zorro,delfin,vaca,rana,iguana,leon","caiman,culebra",,cebra,0.028132256705249197
+2026-09-16 09:00:00,2026-09-16,09:00,MISS,"perro,raton,ciempies,cebra,oso,delfin,zamuro,iguana,rana,zorro","caballo,elefante",,perro,0.028270039778896285
+2026-09-16 10:00:00,2026-09-16,10:00,HIT,"perro,cebra,ciempies,delfin,oso,rana,iguana,alacran,zorro,pescado","delfin,leon",delfin,perro,0.02837603843452172
