@@ -1,3 +1,5 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
 2026-09-17 08:00:00,2026-09-17,08:00,MISS,"carnero,perro,cochino,elefante,rana,camello,ciempies,cebra,raton,gallina,burro,gallo,vaca,chivo","gato,perico",
 2026-09-17 09:00:00,2026-09-17,09:00,HIT,"elefante,perro,cochino,carnero,gallo,toro,oso,camello,burro,gallina,ciempies,paloma,mono,zamuro","ciempies,vaca",ciempies
+2026-09-17 10:00:00,2026-09-17,10:00,MISS,"elefante,carnero,cochino,rana,camello,gallo,raton,oso,burro,delfin,chivo,jirafa,cebra,caiman","perico,pescado",
+2026-09-17 11:00:00,2026-09-17,11:00,MISS,"elefante,carnero,cochino,gallo,perro,toro,gallina,camello,cebra,burro,iguana,pavo,delfin,zamuro","caiman,oso",
