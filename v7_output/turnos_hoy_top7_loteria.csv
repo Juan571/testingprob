@@ -6,3 +6,5 @@
 2026-09-17 12:00:00,2026-09-17,12:00,MISS,"cochino,carnero,toro,camello,venado,gallo,elefante,rana,raton,perro,burro,mono,delfin,gallina","caballo,perico",
 2026-09-17 13:00:00,2026-09-17,13:00,MISS,"elefante,toro,cochino,carnero,perro,venado,chivo,camello,gallo,gallina,zorro,jirafa,pavo,zamuro","cebra,pescado",
 2026-09-17 14:00:00,2026-09-17,14:00,HIT,"elefante,carnero,gallo,toro,cochino,perro,rana,gallina,raton,delfin,zorro,mono,burro,zamuro","iguana,zorro",zorro
+2026-09-17 15:00:00,2026-09-17,15:00,HIT,"elefante,carnero,toro,venado,cochino,perro,camello,gallo,rana,zamuro,delfin,chivo,raton,mono","cebra,chivo",chivo
+2026-09-17 16:00:00,2026-09-17,16:00,HIT,"elefante,carnero,venado,perro,rana,delfin,toro,gallo,gallina,raton,leon,culebra,zamuro,ardilla","jirafa,raton",raton
