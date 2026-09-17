@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-09-17 08:00:00,2026-09-17,08:00,MISS,"perro,carnero,elefante,cochino,rana,camello,ciempies,raton,gallo,chivo","gato,perico",,perro,0.028430827567134224
+2026-09-17 09:00:00,2026-09-17,09:00,MISS,"elefante,perro,cochino,carnero,camello,gallo,gallina,burro,toro,oso","ciempies,vaca",,elefante,0.02850619907921927
