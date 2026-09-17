@@ -1,5 +1,5 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-09-16 08:00:00,2026-09-16,08:00,MISS,"cebra,perro,ciempies,oso,zorro,delfin,vaca,rana,iguana,leon","caiman,culebra",,cebra,0.028132722175148756
+2026-09-16 08:00:00,2026-09-16,08:00,MISS,"cebra,perro,ciempies,oso,zorro,delfin,vaca,rana,iguana,leon","caiman,culebra",,cebra,0.028132256705249197
 2026-09-16 09:00:00,2026-09-16,09:00,MISS,"perro,raton,ciempies,cebra,oso,delfin,zamuro,iguana,rana,zorro","caballo,elefante",,perro,0.028270039778896285
 2026-09-16 10:00:00,2026-09-16,10:00,HIT,"perro,cebra,ciempies,delfin,oso,rana,iguana,alacran,zorro,pescado","delfin,leon",delfin,perro,0.02837603843452172
 2026-09-16 11:00:00,2026-09-16,11:00,HIT,"perro,raton,cebra,oso,ciempies,zorro,zamuro,pescado,cochino,iguana","lapa,zorro",zorro,perro,0.028674033070639288
@@ -10,3 +10,4 @@
 2026-09-16 16:00:00,2026-09-16,16:00,MISS,"perro,carnero,rana,cochino,gallo,ciempies,cebra,zamuro,burro,alacran","perico,tigre",,perro,0.02864248742674935
 2026-09-16 17:00:00,2026-09-16,17:00,HIT,"perro,carnero,cochino,pescado,ciempies,gallo,burro,oso,alacran,chivo","alacran,lapa",alacran,perro,0.028541981078806594
 2026-09-16 18:00:00,2026-09-16,18:00,MISS,"perro,carnero,cochino,gallo,rana,burro,jirafa,camello,elefante,raton","aguila,lapa",,perro,0.028476929910826235
+2026-09-16 19:00:00,2026-09-16,19:00,HIT,"perro,carnero,cochino,rana,gallo,pescado,elefante,ciempies,oso,camello","caballo,pescado",pescado,perro,0.028641729279396958
