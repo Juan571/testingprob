@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-09-18 08:00:00,2026-09-18,08:00,HIT,"elefante,venado,lapa,aguila,cochino,mono,alacran,camello,delfin,rana","mono,tigre",mono,elefante,0.029059574303868307
+2026-09-18 09:00:00,2026-09-18,09:00,HIT,"lapa,elefante,venado,cochino,delfin,perico,alacran,caiman,rana,burro","caiman,rana","caiman,rana",lapa,0.028778159204025683
