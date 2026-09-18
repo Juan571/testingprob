@@ -1,6 +1,6 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-09-18 08:00:00,2026-09-18,08:00,HIT,"elefante,venado,lapa,aguila,cochino,mono,alacran,camello,delfin,rana","mono,tigre",mono,elefante,0.029059574303868307
-2026-09-18 09:00:00,2026-09-18,09:00,HIT,"lapa,elefante,venado,cochino,delfin,perico,alacran,caiman,rana,burro","caiman,rana","caiman,rana",lapa,0.02867928577317828
+2026-09-18 09:00:00,2026-09-18,09:00,HIT,"lapa,elefante,venado,cochino,delfin,perico,alacran,caiman,rana,burro","caiman,rana","caiman,rana",lapa,0.028778159204025683
 2026-09-18 10:00:00,2026-09-18,10:00,HIT,"venado,caballo,cochino,delfin,alacran,aguila,ardilla,gato,elefante,gallo","alacran,venado","alacran,venado",venado,0.028403960051356956
 2026-09-18 11:00:00,2026-09-18,11:00,HIT,"lapa,perico,elefante,cochino,delfin,caballo,aguila,gallo,gato,burro","cebra,gallo",gallo,lapa,0.028884371545222047
 2026-09-18 12:00:00,2026-09-18,12:00,HIT,"lapa,perico,elefante,aguila,caballo,pescado,gato,ardilla,delfin,burro",delfin,delfin,lapa,0.028882990526120863
@@ -8,3 +8,4 @@
 2026-09-18 14:00:00,2026-09-18,14:00,MISS,"perico,lapa,elefante,pescado,caballo,aguila,gato,cochino,vaca,ardilla","ballena,leon",,perico,0.02912992210745652
 2026-09-18 15:00:00,2026-09-18,15:00,HIT,"perico,lapa,elefante,pescado,caballo,aguila,gato,cochino,vaca,ardilla","caballo,perico","caballo,perico",perico,0.029121967569343418
 2026-09-18 16:00:00,2026-09-18,16:00,MISS,"lapa,pescado,elefante,aguila,cochino,ardilla,burro,carnero,camello,vaca","caballo,perro",,lapa,0.028582165200641527
+2026-09-18 17:00:00,2026-09-18,17:00,MISS,"lapa,elefante,pescado,aguila,carnero,cochino,burro,ardilla,chivo,camello",oso,,lapa,0.028721483291419256
