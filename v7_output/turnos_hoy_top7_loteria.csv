@@ -9,3 +9,5 @@
 2026-09-18 15:00:00,2026-09-18,15:00,HIT,"perico,lapa,pescado,elefante,caballo,aguila,gato,cochino,ardilla,vaca,burro,chivo,zamuro,camello","caballo,perico","caballo,perico"
 2026-09-18 16:00:00,2026-09-18,16:00,MISS,"pescado,lapa,elefante,aguila,ardilla,chivo,toro,cochino,carnero,burro,zamuro,pavo,vaca,camello","caballo,perro",
 2026-09-18 17:00:00,2026-09-18,17:00,MISS,"lapa,pescado,elefante,aguila,carnero,cochino,camello,ardilla,pavo,burro,chivo,jirafa,toro,iguana",oso,
+2026-09-18 18:00:00,2026-09-18,18:00,HIT,"lapa,elefante,aguila,toro,vaca,cochino,jirafa,ardilla,camello,gato,caiman,iguana,chivo,burro","caiman,perro",caiman
+2026-09-18 19:00:00,2026-09-18,19:00,HIT,"pescado,gato,zorro,aguila,cochino,carnero,toro,gallina,ardilla,chivo,burro,iguana,raton,venado","burro,zorro","burro,zorro"
