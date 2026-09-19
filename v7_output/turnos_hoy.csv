@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-09-19 08:00:00,2026-09-19,08:00,HIT,"pescado,elefante,lapa,aguila,carnero,vaca,jirafa,venado,mono,camello","cebra,mono",mono,pescado,0.028614780946214623
+2026-09-19 09:00:00,2026-09-19,09:00,MISS,"lapa,pescado,elefante,aguila,chivo,toro,perico,gato,cochino,venado","raton,tigre",,lapa,0.02844579225387589
+2026-09-19 10:00:00,2026-09-19,10:00,HIT,"pescado,lapa,gallina,toro,carnero,venado,cochino,ardilla,camello,iguana",carnero,carnero,pescado,0.02861490813163264

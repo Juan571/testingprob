@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-09-19 08:00:00,2026-09-19,08:00,HIT,"pescado,lapa,elefante,carnero,vaca,jirafa,venado,mono,aguila,camello,toro,gato,cochino,iguana","cebra,mono",mono
+2026-09-19 09:00:00,2026-09-19,09:00,HIT,"lapa,elefante,pescado,chivo,aguila,gato,gallina,toro,cochino,ardilla,venado,perico,vaca,tigre","raton,tigre",tigre
+2026-09-19 10:00:00,2026-09-19,10:00,HIT,"pescado,lapa,toro,gallina,venado,cochino,carnero,camello,chivo,ardilla,vaca,iguana,gallo,caballo",carnero,carnero
