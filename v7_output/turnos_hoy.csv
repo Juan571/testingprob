@@ -5,3 +5,6 @@
 2026-09-19 11:00:00,2026-09-19,11:00,HIT,"pescado,lapa,elefante,perico,venado,gallina,caballo,iguana,aguila,cochino","caballo,paloma",caballo,pescado,0.028260322331329298
 2026-09-19 12:00:00,2026-09-19,12:00,MISS,"pescado,lapa,elefante,venado,toro,aguila,perico,iguana,gallina,jirafa",rana,,pescado,0.02801851121823332
 2026-09-19 13:00:00,2026-09-19,13:00,MISS,"elefante,toro,pescado,lapa,venado,aguila,chivo,cochino,iguana,gallina","alacran,gallo",,elefante,0.02806297353124301
+2026-09-19 14:00:00,2026-09-19,14:00,MISS,"elefante,pescado,venado,lapa,perico,toro,aguila,culebra,jirafa,gallina","ballena,caiman",,elefante,0.02816589590707266
+2026-09-19 15:00:00,2026-09-19,15:00,HIT,"venado,toro,perico,pescado,gallina,iguana,chivo,aguila,gato,zorro","ballena,pescado",pescado,venado,0.02797875615809406
+2026-09-19 16:00:00,2026-09-19,16:00,MISS,"toro,perico,lapa,cebra,aguila,elefante,chivo,gallina,jirafa,gato","tigre,zamuro",,toro,0.027963900828532333
