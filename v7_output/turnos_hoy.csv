@@ -10,3 +10,4 @@
 2026-09-19 16:00:00,2026-09-19,16:00,MISS,"toro,perico,lapa,cebra,aguila,elefante,chivo,gallina,jirafa,gato","tigre,zamuro",,toro,0.027963900828532333
 2026-09-19 17:00:00,2026-09-19,17:00,HIT,"perico,venado,lapa,delfin,cebra,oso,zorro,gallina,toro,culebra","cebra,perico","cebra,perico",perico,0.028138616137670273
 2026-09-19 18:00:00,2026-09-19,18:00,MISS,"venado,lapa,toro,delfin,oso,zorro,elefante,aguila,gallina,ciempies","camello,perro",,venado,0.0280778438111454
+2026-09-19 19:00:00,2026-09-19,19:00,HIT,"venado,zorro,delfin,oso,caballo,elefante,lapa,gallina,aguila,ciempies","gallina,vaca",gallina,venado,0.028143130764349933
