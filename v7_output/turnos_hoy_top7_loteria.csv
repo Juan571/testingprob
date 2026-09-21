@@ -6,3 +6,5 @@
 2026-09-21 12:00:00,2026-09-21,12:00,HIT,"cebra,oso,rana,ballena,tigre,carnero,jirafa,perro,alacran,camello,toro,venado,iguana,gallina","ciempies,tigre",tigre
 2026-09-21 13:00:00,2026-09-21,13:00,MISS,"cebra,rana,ballena,oso,camello,carnero,gallina,perro,jirafa,zorro,perico,iguana,zamuro,gallo","burro,culebra",
 2026-09-21 14:00:00,2026-09-21,14:00,MISS,"cebra,zorro,carnero,perro,oso,gallo,zamuro,alacran,rana,perico,pescado,camello,gallina,toro","chivo,raton",
+2026-09-21 15:00:00,2026-09-21,15:00,HIT,"cebra,ballena,carnero,zorro,zamuro,oso,perro,gallina,alacran,iguana,pescado,camello,jirafa,rana","iguana,pescado","iguana,pescado"
+2026-09-21 16:00:00,2026-09-21,16:00,MISS,"zorro,carnero,zamuro,ballena,camello,perro,rana,cebra,perico,gallo,vaca,jirafa,caiman,toro","burro,caballo",
