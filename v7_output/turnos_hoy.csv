@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-09-20 08:00:00,2026-09-20,08:00,MISS,"venado,delfin,caballo,oso,lapa,aguila,elefante,ciempies,mono,leon","jirafa,zorro",,venado,0.028506821175670848
-2026-09-20 09:00:00,2026-09-20,09:00,HIT,"caballo,delfin,lapa,caiman,ciempies,leon,mono,elefante,aguila,iguana","camello,iguana",iguana,caballo,0.02833656465210495
-2026-09-20 10:00:00,2026-09-20,10:00,MISS,"caballo,delfin,oso,caiman,venado,lapa,ciempies,leon,ardilla,aguila","zamuro,zorro",,caballo,0.028546884513561716
-2026-09-20 11:00:00,2026-09-20,11:00,HIT,"caballo,delfin,venado,lapa,ciempies,cebra,mono,caiman,leon,ballena","caballo,pavo",caballo,caballo,0.028689312841560906
-2026-09-20 12:00:00,2026-09-20,12:00,HIT,"delfin,cebra,venado,caiman,lapa,ciempies,leon,aguila,carnero,ardilla","carnero,raton",carnero,delfin,0.028239351949936976
-2026-09-20 13:00:00,2026-09-20,13:00,HIT,"oso,caiman,cebra,lapa,ciempies,venado,mono,ballena,gato,ardilla","lapa,zamuro",lapa,oso,0.028323356028547877
-2026-09-20 14:00:00,2026-09-20,14:00,HIT,"oso,cebra,ballena,perico,venado,mono,ciempies,leon,delfin,aguila","leon,perico","leon,perico",oso,0.02833552996993154
-2026-09-20 15:00:00,2026-09-20,15:00,HIT,"oso,caiman,cebra,ballena,mono,gato,pescado,aguila,chivo,perro","mono,perico",mono,oso,0.028437141052649974
-2026-09-20 16:00:00,2026-09-20,16:00,HIT,"caiman,oso,cebra,pescado,aguila,ballena,tigre,delfin,perro,gallo","gallo,pescado","gallo,pescado",caiman,0.028426641151695534
-2026-09-20 17:00:00,2026-09-20,17:00,MISS,"cebra,caiman,ballena,rana,tigre,perro,alacran,ciempies,aguila,delfin","ardilla,leon",,cebra,0.02831049700605874
-2026-09-20 18:00:00,2026-09-20,18:00,HIT,"oso,cebra,caiman,ballena,burro,ciempies,perro,paloma,toro,delfin","burro,zorro",burro,oso,0.028708316916169985
-2026-09-20 19:00:00,2026-09-20,19:00,MISS,"cebra,caiman,rana,ballena,tigre,alacran,perro,delfin,caballo,ciempies","chivo,mono",,cebra,0.028929168706819865
+﻿

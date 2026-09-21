@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-09-20 08:00:00,2026-09-20,08:00,HIT,"venado,caballo,elefante,oso,aguila,delfin,lapa,ciempies,chivo,ardilla,mono,jirafa,leon,gato","jirafa,zorro",jirafa
-2026-09-20 09:00:00,2026-09-20,09:00,HIT,"caballo,delfin,caiman,leon,lapa,ardilla,mono,ciempies,elefante,aguila,iguana,chivo,gato,toro","camello,iguana",iguana
-2026-09-20 10:00:00,2026-09-20,10:00,MISS,"caballo,delfin,lapa,oso,venado,caiman,aguila,ciempies,gato,elefante,ardilla,leon,chivo,mono","zamuro,zorro",
-2026-09-20 11:00:00,2026-09-20,11:00,HIT,"caballo,delfin,venado,lapa,ciempies,cebra,mono,caiman,leon,ballena,chivo,aguila,carnero,gato","caballo,pavo",caballo
-2026-09-20 12:00:00,2026-09-20,12:00,HIT,"cebra,caiman,delfin,venado,ciempies,lapa,leon,aguila,ardilla,carnero,ballena,toro,perico,chivo","carnero,raton",carnero
-2026-09-20 13:00:00,2026-09-20,13:00,HIT,"oso,caiman,cebra,venado,lapa,ciempies,mono,gato,ballena,ardilla,pescado,rana,chivo,leon","lapa,zamuro",lapa
-2026-09-20 14:00:00,2026-09-20,14:00,HIT,"oso,cebra,venado,ballena,mono,perico,ciempies,delfin,rana,leon,burro,gallo,aguila,chivo","leon,perico","leon,perico"
-2026-09-20 15:00:00,2026-09-20,15:00,HIT,"oso,caiman,cebra,mono,ballena,pescado,chivo,aguila,gato,delfin,ciempies,gallo,elefante,ardilla","mono,perico",mono
-2026-09-20 16:00:00,2026-09-20,16:00,HIT,"caiman,oso,cebra,perro,gallo,tigre,pescado,aguila,delfin,chivo,gato,toro,burro,ballena","gallo,pescado","gallo,pescado"
-2026-09-20 17:00:00,2026-09-20,17:00,MISS,"cebra,caiman,perro,tigre,ballena,aguila,rana,alacran,ciempies,delfin,gato,burro,elefante,paloma","ardilla,leon",
-2026-09-20 18:00:00,2026-09-20,18:00,HIT,"oso,cebra,caiman,ballena,paloma,delfin,burro,toro,perro,ciempies,venado,chivo,caballo,aguila","burro,zorro",burro
-2026-09-20 19:00:00,2026-09-20,19:00,MISS,"cebra,caiman,rana,perro,ballena,delfin,tigre,alacran,venado,ciempies,caballo,toro,gato,carnero","chivo,mono",
+﻿
