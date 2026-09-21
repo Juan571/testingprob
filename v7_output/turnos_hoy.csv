@@ -4,3 +4,5 @@
 2026-09-21 10:00:00,2026-09-21,10:00,HIT,"cebra,ballena,carnero,rana,tigre,oso,alacran,ciempies,delfin,gallina","caballo,delfin",delfin,cebra,0.028498512144655225
 2026-09-21 11:00:00,2026-09-21,11:00,MISS,"cebra,rana,oso,tigre,alacran,perro,iguana,ciempies,jirafa,gallina","lapa,mono",,cebra,0.02867971198066591
 2026-09-21 12:00:00,2026-09-21,12:00,HIT,"cebra,rana,oso,ballena,tigre,carnero,jirafa,alacran,perro,venado","ciempies,tigre",tigre,cebra,0.028806363891032947
+2026-09-21 13:00:00,2026-09-21,13:00,MISS,"cebra,rana,ballena,oso,perro,camello,carnero,gallina,jirafa,iguana","burro,culebra",,cebra,0.028898009569728926
+2026-09-21 14:00:00,2026-09-21,14:00,MISS,"cebra,carnero,zorro,oso,perro,perico,zamuro,alacran,rana,camello","chivo,raton",,cebra,0.028679564170694376
