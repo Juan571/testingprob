@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-09-22 08:00:00,2026-09-22,08:00,MISS,"zorro,carnero,perico,rana,mono,ballena,jirafa,caiman,gallina,leon","alacran,burro",,zorro,0.028808594215141717
+2026-09-22 09:00:00,2026-09-22,09:00,MISS,"zorro,perico,zamuro,mono,caiman,carnero,camello,ballena,rana,gallo","ardilla,tigre",,zorro,0.02866821026313138
+2026-09-22 10:00:00,2026-09-22,10:00,MISS,"zorro,perico,zamuro,mono,carnero,camello,caiman,gallo,ballena,rana","elefante,oso",,zorro,0.028222694328847876
