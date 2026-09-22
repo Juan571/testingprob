@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-09-21 08:00:00,2026-09-21,08:00,HIT,"cebra,oso,rana,ballena,caiman,tigre,carnero,alacran,venado,delfin,ciempies,aguila,vaca,elefante","ardilla,caiman",caiman
-2026-09-21 09:00:00,2026-09-21,09:00,MISS,"cebra,caballo,ballena,rana,oso,tigre,carnero,alacran,paloma,camello,delfin,ciempies,gallina,perro","mono,raton",
-2026-09-21 10:00:00,2026-09-21,10:00,HIT,"carnero,rana,cebra,ballena,tigre,oso,alacran,gallina,delfin,jirafa,ciempies,camello,perro,iguana","caballo,delfin",delfin
-2026-09-21 11:00:00,2026-09-21,11:00,MISS,"cebra,rana,oso,tigre,vaca,zamuro,ciempies,alacran,perro,iguana,ballena,camello,jirafa,gallina","lapa,mono",
-2026-09-21 12:00:00,2026-09-21,12:00,HIT,"cebra,oso,rana,ballena,tigre,carnero,jirafa,perro,alacran,camello,toro,venado,iguana,gallina","ciempies,tigre",tigre
-2026-09-21 13:00:00,2026-09-21,13:00,MISS,"cebra,rana,ballena,oso,camello,carnero,gallina,perro,jirafa,zorro,perico,iguana,zamuro,gallo","burro,culebra",
-2026-09-21 14:00:00,2026-09-21,14:00,MISS,"cebra,zorro,carnero,perro,oso,gallo,zamuro,alacran,rana,perico,pescado,camello,gallina,toro","chivo,raton",
-2026-09-21 15:00:00,2026-09-21,15:00,HIT,"cebra,ballena,carnero,zorro,zamuro,oso,perro,gallina,alacran,iguana,pescado,camello,jirafa,rana","iguana,pescado","iguana,pescado"
-2026-09-21 16:00:00,2026-09-21,16:00,MISS,"zorro,carnero,zamuro,ballena,camello,perro,rana,cebra,perico,gallo,vaca,jirafa,caiman,toro","burro,caballo",
-2026-09-21 17:00:00,2026-09-21,17:00,HIT,"zorro,cebra,carnero,oso,perico,zamuro,perro,jirafa,camello,ballena,gallina,rana,gallo,alacran","oso,tigre",oso
-2026-09-21 18:00:00,2026-09-21,18:00,MISS,"cebra,perico,camello,carnero,jirafa,perro,zamuro,gallo,caiman,rana,gallina,ballena,toro,vaca","delfin,pescado",
-2026-09-21 19:00:00,2026-09-21,19:00,HIT,"zorro,cebra,zamuro,perico,gallina,perro,rana,camello,caiman,gallo,leon,vaca,pavo,mono","cebra,perro","cebra,perro"
+﻿
