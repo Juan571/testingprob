@@ -6,3 +6,5 @@
 2026-09-22 12:00:00,2026-09-22,12:00,MISS,"mono,perico,carnero,leon,gallo,zamuro,caiman,ballena,pavo,rana","jirafa,toro",,mono,0.028494485105652632
 2026-09-22 13:00:00,2026-09-22,13:00,HIT,"mono,perico,raton,leon,caiman,gallo,zamuro,rana,ballena,lapa","raton,zorro",raton,mono,0.02867412339682142
 2026-09-22 14:00:00,2026-09-22,14:00,HIT,"mono,leon,zamuro,carnero,gallo,caiman,ballena,caballo,rana,lapa","mono,venado",mono,mono,0.028911765785504806
+2026-09-22 15:00:00,2026-09-22,15:00,MISS,"perico,leon,carnero,gallo,zamuro,ballena,caiman,rana,chivo,camello","gallina,raton",,perico,0.028347126039532693
+2026-09-22 16:00:00,2026-09-22,16:00,MISS,"caballo,caiman,carnero,gallo,pescado,leon,zamuro,rana,ballena,chivo","iguana,jirafa",,caballo,0.0284477287638774
