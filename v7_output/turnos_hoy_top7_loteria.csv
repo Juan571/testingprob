@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-09-22 08:00:00,2026-09-22,08:00,HIT,"zorro,carnero,perico,rana,caiman,gallina,alacran,venado,ardilla,mono,ballena,gallo,jirafa,leon","alacran,burro",alacran
-2026-09-22 09:00:00,2026-09-22,09:00,HIT,"zorro,perico,zamuro,carnero,caiman,mono,rana,camello,gallo,ballena,ardilla,jirafa,paloma,gallina","ardilla,tigre",ardilla
-2026-09-22 10:00:00,2026-09-22,10:00,MISS,"zorro,zamuro,carnero,perico,caiman,camello,mono,gallo,ballena,rana,raton,gallina,pavo,paloma","elefante,oso",
-2026-09-22 11:00:00,2026-09-22,11:00,MISS,"perico,mono,gallo,carnero,leon,ballena,rana,venado,camello,gallina,ciempies,lapa,vaca,jirafa","aguila,zorro",
-2026-09-22 12:00:00,2026-09-22,12:00,HIT,"perico,mono,carnero,gallo,zamuro,caiman,leon,camello,venado,pavo,lapa,ballena,rana,toro","jirafa,toro",toro
-2026-09-22 13:00:00,2026-09-22,13:00,HIT,"mono,perico,raton,caiman,gallo,leon,rana,zamuro,caballo,ballena,lapa,camello,chivo,pavo","raton,zorro",raton
-2026-09-22 14:00:00,2026-09-22,14:00,HIT,"mono,carnero,leon,zamuro,ballena,gallo,caballo,caiman,perico,chivo,pescado,lapa,rana,pavo","mono,venado",mono
-2026-09-22 15:00:00,2026-09-22,15:00,HIT,"perico,carnero,leon,gallo,rana,zamuro,caiman,ballena,camello,vaca,chivo,ciempies,pavo,gallina","gallina,raton",gallina
-2026-09-22 16:00:00,2026-09-22,16:00,MISS,"caballo,caiman,pescado,rana,carnero,gallo,leon,zamuro,chivo,ballena,camello,lapa,burro,pavo","iguana,jirafa",
-2026-09-22 17:00:00,2026-09-22,17:00,HIT,"caballo,caiman,carnero,gallo,burro,pescado,ardilla,lapa,chivo,zamuro,perico,rana,camello,ballena",perico,perico
-2026-09-22 18:00:00,2026-09-22,18:00,HIT,"burro,caballo,chivo,caiman,pescado,carnero,gallo,lapa,camello,zamuro,leon,cebra,pavo,ardilla","alacran,caiman",caiman
-2026-09-22 19:00:00,2026-09-22,19:00,HIT,"burro,pescado,caballo,carnero,cebra,chivo,gallo,ardilla,zamuro,delfin,rana,camello,tigre,ballena","delfin,leon",delfin
+﻿
