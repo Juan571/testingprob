@@ -4,3 +4,6 @@
 2026-09-23 10:00:00,2026-09-23,10:00,MISS,"pescado,caballo,burro,tigre,zamuro,carnero,lapa,ardilla,cebra,mono,chivo,camello,gallo,rana","culebra,iguana",
 2026-09-23 11:00:00,2026-09-23,11:00,HIT,"pescado,burro,tigre,caballo,lapa,carnero,mono,zamuro,gallo,chivo,rana,camello,ardilla,perro","lapa,zamuro","lapa,zamuro"
 2026-09-23 12:00:00,2026-09-23,12:00,HIT,"pescado,burro,tigre,caballo,mono,carnero,zorro,cebra,chivo,gallo,rana,raton,camello,pavo","venado,zorro",zorro
+2026-09-23 13:00:00,2026-09-23,13:00,HIT,"burro,tigre,caballo,ardilla,chivo,gallo,cebra,mono,raton,camello,rana,toro,pescado,carnero","alacran,toro",toro
+2026-09-23 14:00:00,2026-09-23,14:00,HIT,"burro,pescado,tigre,caballo,raton,ardilla,rana,gallo,cebra,mono,chivo,elefante,camello,perro","elefante,toro",elefante
+2026-09-23 15:00:00,2026-09-23,15:00,MISS,"pescado,tigre,burro,caballo,chivo,mono,ardilla,cebra,gallo,camello,perro,ballena,pavo,gallina",jirafa,
