@@ -2261,6 +2261,20 @@ def save_csvs(
 # HTML
 # ================================================================
 
+def animal_label(animal):
+    """
+    Devuelve el nombre del animal con su número oficial:
+    'toro (2)'. Si no tiene número conocido, devuelve solo el nombre.
+    """
+
+    num = ANIMAL_NUM.get(animal)
+
+    if num is None:
+        return animal
+
+    return f"{animal} ({num})"
+
+
 def _next_turn_table_rows(prediction):
 
     """
@@ -2285,7 +2299,7 @@ def _next_turn_table_rows(prediction):
                     {int(row["rank"])}
                 </td>
                 <td class="animal">
-                    {html.escape(str(row["animal"]))}
+                    {html.escape(animal_label(row["animal"]))}
                 </td>
                 <td>
                     <div class="prob">
@@ -2543,7 +2557,7 @@ def generate_html(
 
                 <td class="animal">
                     {html.escape(
-                        str(row["animal"])
+                        animal_label(row["animal"])
                     )}
                 </td>
 
