@@ -1,12 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-09-23 08:00:00,2026-09-23,08:00,MISS,"burro,pescado,caballo,chivo,cebra,camello,lapa,ardilla,zamuro,mono","ciempies,oso",,burro,0.028333332294047685
-2026-09-23 09:00:00,2026-09-23,09:00,MISS,"burro,caballo,tigre,lapa,zamuro,carnero,ardilla,camello,chivo,mono","ciempies,culebra",,burro,0.028616207385733543
-2026-09-23 10:00:00,2026-09-23,10:00,MISS,"pescado,caballo,burro,tigre,carnero,mono,zamuro,lapa,cebra,camello","culebra,iguana",,pescado,0.028441777091486407
-2026-09-23 11:00:00,2026-09-23,11:00,HIT,"burro,tigre,caballo,pescado,carnero,lapa,mono,zamuro,chivo,gallo","lapa,zamuro","lapa,zamuro",burro,0.02852980854343253
-2026-09-23 12:00:00,2026-09-23,12:00,HIT,"burro,tigre,pescado,mono,carnero,caballo,zorro,cebra,chivo,gallo","venado,zorro",zorro,burro,0.028724602266041642
-2026-09-23 13:00:00,2026-09-23,13:00,MISS,"burro,tigre,caballo,ardilla,chivo,cebra,raton,rana,mono,camello","alacran,toro",,burro,0.028756199408606485
-2026-09-23 14:00:00,2026-09-23,14:00,MISS,"burro,pescado,tigre,raton,caballo,mono,ardilla,chivo,gallo,cebra","elefante,toro",,burro,0.028891644928000688
-2026-09-23 15:00:00,2026-09-23,15:00,MISS,"pescado,tigre,burro,caballo,mono,chivo,ardilla,cebra,perro,gallo",jirafa,,pescado,0.028692421333443158
-2026-09-23 16:00:00,2026-09-23,16:00,MISS,"pescado,tigre,burro,caballo,mono,ardilla,cebra,perro,gallo,camello","ballena,pavo",,pescado,0.028687758304819084
-2026-09-23 17:00:00,2026-09-23,17:00,MISS,"pescado,tigre,raton,mono,ardilla,caballo,cebra,perico,chivo,perro","leon,toro",,pescado,0.028457005532163276
-2026-09-23 18:00:00,2026-09-23,18:00,MISS,"raton,burro,mono,caballo,ardilla,pescado,perico,cebra,camello,oso","alacran,elefante",,raton,0.02816854468274905
+﻿
