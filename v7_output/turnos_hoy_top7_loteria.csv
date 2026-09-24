@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-09-24 08:00:00,2026-09-24,08:00,HIT,"raton,mono,pescado,zorro,ardilla,cebra,camello,tigre,perico,chivo,carnero,iguana,caballo,rana","pescado,zamuro",pescado
+2026-09-24 09:00:00,2026-09-24,09:00,HIT,"raton,mono,zorro,burro,caballo,iguana,tigre,caiman,perico,delfin,gallina,camello,chivo,cebra","burro,iguana","burro,iguana"
