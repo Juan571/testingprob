@@ -1,11 +1,12 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-09-24 08:00:00,2026-09-24,08:00,HIT,"raton,mono,zorro,ardilla,cebra,camello,iguana,tigre,perico,pescado,chivo,carnero,caballo,rana","pescado,zamuro",pescado
+2026-09-24 08:00:00,2026-09-24,08:00,HIT,"raton,mono,pescado,zorro,ardilla,cebra,camello,tigre,perico,chivo,carnero,iguana,caballo,rana","pescado,zamuro",pescado
 2026-09-24 09:00:00,2026-09-24,09:00,HIT,"raton,mono,zorro,burro,caballo,iguana,tigre,caiman,cebra,perico,delfin,gallina,chivo,carnero","burro,iguana","burro,iguana"
 2026-09-24 10:00:00,2026-09-24,10:00,HIT,"zorro,ardilla,raton,mono,perico,oso,delfin,tigre,caballo,lapa,carnero,caiman,camello,gallo","gato,mono",mono
 2026-09-24 11:00:00,2026-09-24,11:00,HIT,"raton,perico,zorro,delfin,ardilla,oso,carnero,ciempies,aguila,lapa,caiman,gallina,cebra,chivo","jirafa,perico",perico
 2026-09-24 12:00:00,2026-09-24,12:00,HIT,"zorro,oso,ardilla,delfin,chivo,ciempies,caiman,caballo,aguila,cebra,tigre,carnero,lapa,gallo","cebra,tigre","cebra,tigre"
 2026-09-24 13:00:00,2026-09-24,13:00,HIT,"raton,zorro,oso,ardilla,caiman,caballo,delfin,ciempies,venado,chivo,gallina,gallo,culebra,lapa","caballo,venado","caballo,venado"
-2026-09-24 14:00:00,2026-09-24,14:00,MISS,"raton,zorro,oso,delfin,ciempies,ardilla,culebra,gallo,carnero,caiman,lapa,chivo,gallina,aguila","leon,pavo",
-2026-09-24 15:00:00,2026-09-24,15:00,HIT,"raton,delfin,zorro,lapa,ciempies,culebra,ardilla,toro,gallina,chivo,caiman,gallo,carnero,iguana",carnero,carnero
+2026-09-24 14:00:00,2026-09-24,14:00,MISS,"raton,zorro,oso,delfin,ciempies,ardilla,toro,culebra,gallo,carnero,caiman,lapa,chivo,aguila","leon,pavo",
+2026-09-24 15:00:00,2026-09-24,15:00,HIT,"raton,delfin,zorro,lapa,ciempies,culebra,ardilla,toro,gallina,chivo,caiman,carnero,gallo,iguana",carnero,carnero
 2026-09-24 16:00:00,2026-09-24,16:00,MISS,"zorro,raton,culebra,ciempies,caiman,oso,ardilla,alacran,lapa,iguana,pescado,gallina,chivo,gallo","cochino,mono",
 2026-09-24 17:00:00,2026-09-24,17:00,HIT,"ciempies,ardilla,delfin,culebra,iguana,zorro,alacran,oso,raton,toro,lapa,caiman,gallina,elefante","alacran,culebra","alacran,culebra"
+2026-09-24 18:00:00,2026-09-24,18:00,HIT,"zorro,toro,oso,lapa,ardilla,raton,caiman,delfin,iguana,chivo,gallo,elefante,aguila,burro","burro,perro",burro
