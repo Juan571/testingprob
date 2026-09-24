@@ -1,4 +1,8 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-09-24 08:00:00,2026-09-24,08:00,HIT,"raton,mono,ardilla,zorro,cebra,tigre,pescado,perico,camello,iguana","pescado,zamuro",pescado,raton,0.028285423773965868
-2026-09-24 09:00:00,2026-09-24,09:00,HIT,"raton,mono,burro,zorro,tigre,perico,iguana,caballo,delfin,caiman","burro,iguana","burro,iguana",raton,0.02832209588726802
-2026-09-24 10:00:00,2026-09-24,10:00,HIT,"raton,zorro,mono,ardilla,perico,tigre,oso,caballo,delfin,carnero","gato,mono",mono,raton,0.02850851424412508
+2026-09-24 09:00:00,2026-09-24,09:00,HIT,"raton,mono,burro,zorro,tigre,perico,iguana,caballo,camello,delfin","burro,iguana","burro,iguana",raton,0.028321002896648115
+2026-09-24 10:00:00,2026-09-24,10:00,HIT,"raton,zorro,mono,ardilla,perico,tigre,oso,caballo,delfin,carnero","gato,mono",mono,raton,0.028515144951492797
+2026-09-24 11:00:00,2026-09-24,11:00,HIT,"zorro,raton,perico,oso,delfin,ardilla,ciempies,caiman,lapa,carnero","jirafa,perico",perico,zorro,0.028554388677565445
+2026-09-24 12:00:00,2026-09-24,12:00,HIT,"zorro,oso,ardilla,delfin,tigre,caiman,ciempies,aguila,lapa,chivo","cebra,tigre",tigre,zorro,0.028464676321572933
+2026-09-24 13:00:00,2026-09-24,13:00,HIT,"raton,zorro,ardilla,delfin,oso,caiman,ciempies,caballo,chivo,lapa","caballo,venado",caballo,raton,0.028856940647887793
+2026-09-24 14:00:00,2026-09-24,14:00,MISS,"raton,zorro,delfin,oso,ciempies,ardilla,culebra,lapa,caiman,chivo","leon,pavo",,raton,0.028798303440733638
