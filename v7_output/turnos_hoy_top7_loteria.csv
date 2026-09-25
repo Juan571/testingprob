@@ -1,7 +1,8 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-09-25 08:00:00,2026-09-25,08:00,MISS,"oso,raton,toro,ciempies,elefante,delfin,lapa,ardilla,chivo,caiman,rana,aguila,jirafa,camello","pavo,venado",
-2026-09-25 09:00:00,2026-09-25,09:00,MISS,"toro,ciempies,elefante,iguana,delfin,caiman,lapa,zorro,raton,ardilla,ballena,camello,zamuro,chivo","caballo,tigre",
-2026-09-25 10:00:00,2026-09-25,10:00,HIT,"toro,ciempies,zorro,iguana,oso,elefante,lapa,zamuro,jirafa,ardilla,delfin,pescado,raton,chivo","ardilla,delfin","ardilla,delfin"
+2026-09-25 08:00:00,2026-09-25,08:00,MISS,"toro,oso,ciempies,elefante,raton,delfin,lapa,ardilla,chivo,caiman,jirafa,rana,zamuro,aguila","pavo,venado",
+2026-09-25 09:00:00,2026-09-25,09:00,MISS,"toro,ciempies,elefante,zorro,iguana,delfin,caiman,raton,lapa,ardilla,ballena,camello,zamuro,chivo","caballo,tigre",
+2026-09-25 10:00:00,2026-09-25,10:00,HIT,"toro,oso,zorro,iguana,ciempies,elefante,lapa,zamuro,jirafa,ardilla,delfin,pescado,raton,chivo","ardilla,delfin","ardilla,delfin"
 2026-09-25 11:00:00,2026-09-25,11:00,MISS,"toro,iguana,zorro,jirafa,oso,elefante,raton,zamuro,ciempies,caiman,gallo,camello,perico,cebra","alacran,chivo",
 2026-09-25 12:00:00,2026-09-25,12:00,MISS,"toro,zorro,oso,jirafa,iguana,raton,zamuro,elefante,lapa,pescado,aguila,cebra,perico,gallo","caiman,gato",
 2026-09-25 13:00:00,2026-09-25,13:00,MISS,"toro,iguana,jirafa,zorro,oso,ciempies,raton,pescado,zamuro,perico,ballena,cebra,leon,aguila","pavo,rana",
+2026-09-25 14:00:00,2026-09-25,14:00,HIT,"toro,zorro,elefante,jirafa,iguana,pescado,raton,ciempies,zamuro,lapa,cebra,ballena,gallo,aguila","ardilla,lapa",lapa
