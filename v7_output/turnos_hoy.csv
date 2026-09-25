@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-09-25 08:00:00,2026-09-25,08:00,MISS,"ciempies,toro,oso,delfin,elefante,raton,caiman,lapa,ardilla,chivo","pavo,venado",,ciempies,0.028226231764214075
+2026-09-25 09:00:00,2026-09-25,09:00,MISS,"toro,ciempies,zorro,iguana,lapa,elefante,delfin,raton,caiman,ardilla","caballo,tigre",,toro,0.0281835530007689
