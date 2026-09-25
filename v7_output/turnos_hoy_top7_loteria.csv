@@ -1,3 +1,4 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
 2026-09-25 08:00:00,2026-09-25,08:00,MISS,"toro,oso,ciempies,elefante,raton,delfin,lapa,ardilla,chivo,caiman,jirafa,rana,zamuro,aguila","pavo,venado",
 2026-09-25 09:00:00,2026-09-25,09:00,MISS,"toro,ciempies,elefante,zorro,iguana,caiman,lapa,delfin,raton,ardilla,ballena,camello,zamuro,chivo","caballo,tigre",
+2026-09-25 10:00:00,2026-09-25,10:00,HIT,"toro,ciempies,zorro,iguana,oso,elefante,lapa,zamuro,jirafa,ardilla,delfin,pescado,raton,chivo","ardilla,delfin","ardilla,delfin"
