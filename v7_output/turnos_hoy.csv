@@ -1,2 +1,4 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-09-26 08:00:00,2026-09-26,08:00,MISS,"jirafa,mono,alacran,iguana,zorro,elefante,cebra,burro,toro,zamuro","leon,perico",,jirafa,0.02832769286643414
+2026-09-26 08:00:00,2026-09-26,08:00,MISS,"jirafa,mono,alacran,iguana,zorro,elefante,cebra,burro,toro,zamuro","leon,perico",,jirafa,0.02832776848150265
+2026-09-26 09:00:00,2026-09-26,09:00,HIT,"mono,jirafa,venado,iguana,burro,zamuro,zorro,toro,elefante,cebra","chivo,mono",mono,mono,0.028504487636719002
+2026-09-26 10:00:00,2026-09-26,10:00,HIT,"alacran,jirafa,venado,iguana,carnero,toro,zorro,elefante,cebra,culebra","iguana,mono",iguana,alacran,0.028310177922059008
