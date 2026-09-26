@@ -1,4 +1,7 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
 2026-09-26 08:00:00,2026-09-26,08:00,MISS,"jirafa,zorro,mono,iguana,elefante,alacran,burro,cebra,carnero,toro,zamuro,culebra,perro,raton","leon,perico",
 2026-09-26 09:00:00,2026-09-26,09:00,HIT,"mono,jirafa,venado,burro,iguana,toro,zorro,zamuro,elefante,cebra,pavo,carnero,culebra,oso","chivo,mono",mono
-2026-09-26 10:00:00,2026-09-26,10:00,HIT,"alacran,jirafa,iguana,carnero,venado,elefante,zorro,toro,oso,cebra,pavo,raton,zamuro,delfin","iguana,mono",iguana
+2026-09-26 10:00:00,2026-09-26,10:00,HIT,"alacran,jirafa,iguana,carnero,venado,elefante,zorro,toro,oso,pavo,raton,zamuro,delfin,cebra","iguana,mono",iguana
+2026-09-26 11:00:00,2026-09-26,11:00,HIT,"venado,alacran,jirafa,toro,zorro,pavo,carnero,elefante,culebra,raton,oso,cochino,delfin,burro","raton,vaca",raton
+2026-09-26 12:00:00,2026-09-26,12:00,HIT,"jirafa,venado,pavo,alacran,carnero,zorro,oso,cebra,culebra,burro,delfin,zamuro,cochino,caballo","alacran,pavo","alacran,pavo"
+2026-09-26 13:00:00,2026-09-26,13:00,HIT,"venado,toro,jirafa,zorro,carnero,cebra,caballo,culebra,elefante,zamuro,cochino,ardilla,gato,perro","rana,venado",venado

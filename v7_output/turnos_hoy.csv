@@ -1,4 +1,7 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-09-26 08:00:00,2026-09-26,08:00,MISS,"jirafa,mono,alacran,iguana,zorro,elefante,cebra,burro,toro,zamuro","leon,perico",,jirafa,0.02832776848150265
-2026-09-26 09:00:00,2026-09-26,09:00,HIT,"mono,jirafa,venado,iguana,burro,zamuro,zorro,toro,elefante,cebra","chivo,mono",mono,mono,0.028504487636719002
-2026-09-26 10:00:00,2026-09-26,10:00,HIT,"alacran,jirafa,venado,iguana,carnero,toro,zorro,elefante,cebra,culebra","iguana,mono",iguana,alacran,0.028310177922059008
+2026-09-26 09:00:00,2026-09-26,09:00,HIT,"mono,jirafa,venado,iguana,burro,zamuro,zorro,toro,elefante,cebra","chivo,mono",mono,mono,0.02850301960827818
+2026-09-26 10:00:00,2026-09-26,10:00,HIT,"alacran,jirafa,venado,iguana,carnero,toro,zorro,elefante,culebra,cebra","iguana,mono",iguana,alacran,0.028310301238365754
+2026-09-26 11:00:00,2026-09-26,11:00,MISS,"alacran,jirafa,venado,toro,zorro,carnero,culebra,elefante,pavo,oso","raton,vaca",,alacran,0.02833489972533377
+2026-09-26 12:00:00,2026-09-26,12:00,HIT,"venado,jirafa,alacran,pavo,carnero,zorro,oso,culebra,cebra,burro","alacran,pavo","alacran,pavo",venado,0.028674828815187535
+2026-09-26 13:00:00,2026-09-26,13:00,HIT,"venado,toro,jirafa,zorro,carnero,culebra,caballo,cebra,elefante,cochino","rana,venado",venado,venado,0.02840276476265983
