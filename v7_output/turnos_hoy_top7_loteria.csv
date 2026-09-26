@@ -2,6 +2,8 @@
 2026-09-26 08:00:00,2026-09-26,08:00,MISS,"jirafa,zorro,mono,iguana,elefante,alacran,burro,cebra,carnero,toro,zamuro,culebra,perro,raton","leon,perico",
 2026-09-26 09:00:00,2026-09-26,09:00,HIT,"mono,jirafa,venado,burro,iguana,toro,zorro,zamuro,elefante,cebra,pavo,carnero,culebra,oso","chivo,mono",mono
 2026-09-26 10:00:00,2026-09-26,10:00,HIT,"alacran,jirafa,iguana,carnero,venado,elefante,zorro,toro,oso,pavo,raton,zamuro,delfin,cebra","iguana,mono",iguana
-2026-09-26 11:00:00,2026-09-26,11:00,HIT,"venado,alacran,jirafa,toro,zorro,pavo,carnero,elefante,culebra,raton,oso,cochino,delfin,burro","raton,vaca",raton
-2026-09-26 12:00:00,2026-09-26,12:00,HIT,"jirafa,venado,pavo,alacran,carnero,zorro,oso,cebra,culebra,burro,delfin,zamuro,cochino,caballo","alacran,pavo","alacran,pavo"
+2026-09-26 11:00:00,2026-09-26,11:00,HIT,"venado,jirafa,alacran,toro,zorro,burro,pavo,elefante,culebra,raton,oso,carnero,cochino,delfin","raton,vaca",raton
+2026-09-26 12:00:00,2026-09-26,12:00,HIT,"jirafa,venado,pavo,alacran,carnero,zorro,oso,cebra,culebra,burro,delfin,ardilla,zamuro,cochino","alacran,pavo","alacran,pavo"
 2026-09-26 13:00:00,2026-09-26,13:00,HIT,"venado,toro,jirafa,zorro,carnero,cebra,caballo,culebra,elefante,zamuro,cochino,ardilla,gato,perro","rana,venado",venado
+2026-09-26 14:00:00,2026-09-26,14:00,MISS,"toro,carnero,caballo,culebra,burro,delfin,elefante,zorro,perro,zamuro,oso,aguila,ardilla,ciempies","pescado,tigre",
+2026-09-26 15:00:00,2026-09-26,15:00,HIT,"jirafa,carnero,toro,culebra,elefante,caballo,perro,burro,zorro,gallina,cochino,delfin,zamuro,cebra","ciempies,zamuro",zamuro
