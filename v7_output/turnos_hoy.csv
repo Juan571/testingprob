@@ -6,7 +6,8 @@
 2026-09-26 12:00:00,2026-09-26,12:00,HIT,"venado,jirafa,alacran,pavo,carnero,zorro,oso,culebra,cebra,burro","alacran,pavo","alacran,pavo",venado,0.028674828815187535
 2026-09-26 13:00:00,2026-09-26,13:00,HIT,"venado,toro,jirafa,elefante,zorro,carnero,culebra,caballo,cebra,cochino","rana,venado",venado,venado,0.028402347853904955
 2026-09-26 14:00:00,2026-09-26,14:00,MISS,"carnero,toro,culebra,zorro,caballo,burro,elefante,delfin,perro,zamuro","pescado,tigre",,carnero,0.028056204143172416
-2026-09-26 15:00:00,2026-09-26,15:00,HIT,"carnero,jirafa,culebra,toro,caballo,elefante,perro,zorro,burro,zamuro","ciempies,zamuro",zamuro,carnero,0.028143773929010425
-2026-09-26 16:00:00,2026-09-26,16:00,MISS,"carnero,culebra,caballo,ardilla,delfin,jirafa,burro,zorro,caiman,cochino","cebra,gato",,carnero,0.028091084825054593
+2026-09-26 15:00:00,2026-09-26,15:00,HIT,"carnero,toro,culebra,jirafa,caballo,elefante,perro,zorro,burro,zamuro","ciempies,zamuro",zamuro,carnero,0.028143744414820003
+2026-09-26 16:00:00,2026-09-26,16:00,MISS,"carnero,culebra,caballo,ardilla,delfin,jirafa,burro,caiman,cochino,gallina","cebra,gato",,carnero,0.02809162538981771
 2026-09-26 17:00:00,2026-09-26,17:00,MISS,"ardilla,culebra,jirafa,gallina,delfin,carnero,burro,toro,caiman,elefante","ciempies,zamuro",,ardilla,0.027832563919362716
 2026-09-26 18:00:00,2026-09-26,18:00,MISS,"jirafa,ardilla,caiman,culebra,burro,caballo,delfin,lapa,pavo,gallina","elefante,leon",,jirafa,0.027868995962696614
+2026-09-26 19:00:00,2026-09-26,19:00,MISS,"ardilla,gallina,delfin,caballo,pavo,toro,burro,jirafa,perro,lapa","culebra,tigre",,ardilla,0.028056387281401036
