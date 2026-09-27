@@ -1,3 +1,8 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-09-27 08:00:00,2026-09-27,08:00,HIT,"pavo,ardilla,caiman,alacran,delfin,lapa,carnero,gallina,caballo,zorro","delfin,gallina","delfin,gallina",pavo,0.028109082118822973
 2026-09-27 09:00:00,2026-09-27,09:00,HIT,"pavo,ardilla,caiman,alacran,lapa,caballo,toro,jirafa,burro,oso","elefante,toro",toro,pavo,0.028328759642572744
+2026-09-27 10:00:00,2026-09-27,10:00,HIT,"ardilla,pavo,alacran,caballo,lapa,rana,jirafa,mono,chivo,burro","cebra,chivo",chivo,ardilla,0.028287454041990432
+2026-09-27 11:00:00,2026-09-27,11:00,HIT,"pavo,rana,alacran,mono,ardilla,caiman,lapa,carnero,jirafa,perico","perico,pescado",perico,pavo,0.028337166272168715
+2026-09-27 12:00:00,2026-09-27,12:00,MISS,"pavo,alacran,caiman,mono,lapa,carnero,jirafa,iguana,burro,zorro","caballo,tigre",,pavo,0.02863377509728505
+2026-09-27 13:00:00,2026-09-27,13:00,MISS,"pavo,rana,caiman,ardilla,alacran,lapa,venado,jirafa,iguana,carnero","gato,raton",,pavo,0.028545247842481535
+2026-09-27 14:00:00,2026-09-27,14:00,HIT,"pavo,rana,mono,alacran,venado,ardilla,lapa,carnero,jirafa,leon","caiman,lapa",lapa,pavo,0.028654024057304536

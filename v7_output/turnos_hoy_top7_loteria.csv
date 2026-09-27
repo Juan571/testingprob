@@ -1,3 +1,8 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
 2026-09-27 08:00:00,2026-09-27,08:00,HIT,"ardilla,pavo,caiman,zorro,lapa,carnero,toro,delfin,alacran,gallina,caballo,burro,camello,mono","delfin,gallina","delfin,gallina"
 2026-09-27 09:00:00,2026-09-27,09:00,HIT,"pavo,alacran,lapa,caballo,toro,jirafa,ardilla,caiman,oso,chivo,burro,camello,mono,rana","elefante,toro",toro
+2026-09-27 10:00:00,2026-09-27,10:00,HIT,"ardilla,pavo,lapa,alacran,caballo,jirafa,chivo,mono,camello,rana,zorro,iguana,burro,pescado","cebra,chivo",chivo
+2026-09-27 11:00:00,2026-09-27,11:00,HIT,"pavo,rana,caiman,alacran,carnero,lapa,mono,ardilla,zorro,jirafa,caballo,pescado,gallo,perico","perico,pescado","perico,pescado"
+2026-09-27 12:00:00,2026-09-27,12:00,HIT,"pavo,mono,jirafa,caiman,alacran,iguana,lapa,carnero,zorro,burro,gallo,camello,caballo,aguila","caballo,tigre",caballo
+2026-09-27 13:00:00,2026-09-27,13:00,MISS,"rana,pavo,caiman,ardilla,lapa,venado,alacran,camello,jirafa,burro,iguana,cochino,zorro,carnero","gato,raton",
+2026-09-27 14:00:00,2026-09-27,14:00,HIT,"rana,pavo,mono,alacran,ardilla,lapa,venado,jirafa,caiman,carnero,zorro,burro,leon,iguana","caiman,lapa","caiman,lapa"
