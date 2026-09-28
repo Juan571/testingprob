@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-09-28 08:00:00,2026-09-28,08:00,HIT,"pavo,mono,tigre,alacran,pescado,leon,iguana,ciempies,zamuro,vaca,carnero,jirafa,elefante,oso","cebra,jirafa",jirafa
+2026-09-28 09:00:00,2026-09-28,09:00,HIT,"mono,pavo,leon,tigre,alacran,zamuro,ciempies,pescado,carnero,vaca,burro,elefante,gallina,gato","burro,leon","burro,leon"
+2026-09-28 10:00:00,2026-09-28,10:00,MISS,"mono,pescado,zamuro,ciempies,iguana,carnero,gato,gallina,elefante,vaca,pavo,perico,raton,toro","oso,rana",
