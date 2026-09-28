@@ -9,3 +9,5 @@
 2026-09-28 15:00:00,2026-09-28,15:00,HIT,"pescado,ciempies,mono,gato,pavo,alacran,caballo,carnero,delfin,perico","alacran,gallo",alacran,pescado,0.02830039159711272
 2026-09-28 16:00:00,2026-09-28,16:00,HIT,"zamuro,pescado,gato,mono,delfin,pavo,caballo,carnero,culebra,cebra","caballo,paloma",caballo,zamuro,0.028110604915688297
 2026-09-28 17:00:00,2026-09-28,17:00,HIT,"ciempies,pescado,delfin,carnero,pavo,cebra,zamuro,perico,culebra,lapa","pescado,vaca",pescado,ciempies,0.02801666475451026
+2026-09-28 18:00:00,2026-09-28,18:00,MISS,"ciempies,delfin,mono,pavo,perico,lapa,culebra,zamuro,gato,leon","caballo,iguana",,ciempies,0.028139521041430998
+2026-09-28 19:00:00,2026-09-28,19:00,HIT,"delfin,leon,culebra,rana,pavo,tigre,ciempies,raton,venado,lapa","lapa,vaca",lapa,delfin,0.02807987513893488
