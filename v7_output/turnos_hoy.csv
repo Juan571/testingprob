@@ -2,3 +2,4 @@
 2026-09-28 08:00:00,2026-09-28,08:00,MISS,"mono,pavo,tigre,alacran,pescado,leon,iguana,ciempies,zamuro,vaca","cebra,jirafa",,mono,0.028781361116084078
 2026-09-28 09:00:00,2026-09-28,09:00,HIT,"mono,tigre,pavo,leon,alacran,zamuro,ciempies,pescado,gallina,burro","burro,leon","burro,leon",mono,0.028804415816543524
 2026-09-28 10:00:00,2026-09-28,10:00,MISS,"mono,pescado,ciempies,zamuro,iguana,carnero,gallina,gato,vaca,elefante","oso,rana",,mono,0.028845541166945054
+2026-09-28 11:00:00,2026-09-28,11:00,MISS,"tigre,mono,ciempies,alacran,iguana,zamuro,gallina,gato,carnero,vaca","elefante,toro",,tigre,0.028860976338823098
