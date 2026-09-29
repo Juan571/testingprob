@@ -3,3 +3,8 @@
 2026-09-29 09:00:00,2026-09-29,09:00,HIT,"delfin,cebra,venado,chivo,mono,ardilla,gato,pavo,ciempies,zorro,elefante,camello,caiman,zamuro","gato,toro",gato
 2026-09-29 10:00:00,2026-09-29,10:00,MISS,"rana,ardilla,cebra,chivo,delfin,venado,caiman,camello,pavo,elefante,raton,zorro,zamuro,mono","jirafa,lapa",
 2026-09-29 11:00:00,2026-09-29,11:00,HIT,"rana,tigre,delfin,cebra,chivo,ciempies,pavo,mono,raton,carnero,zamuro,camello,zorro,burro","chivo,gallina",chivo
+2026-09-29 12:00:00,2026-09-29,12:00,HIT,"rana,tigre,ardilla,raton,cebra,delfin,camello,caiman,venado,ciempies,aguila,pavo,oso,elefante","culebra,oso",oso
+2026-09-29 13:00:00,2026-09-29,13:00,HIT,"rana,tigre,caiman,ardilla,cebra,elefante,ciempies,venado,raton,delfin,aguila,camello,mono,zamuro","camello,oso",camello
+2026-09-29 14:00:00,2026-09-29,14:00,HIT,"rana,caiman,tigre,ardilla,delfin,venado,elefante,raton,ciempies,mono,aguila,zamuro,burro,carnero","mono,paloma",mono
+2026-09-29 15:00:00,2026-09-29,15:00,HIT,"rana,tigre,ardilla,caiman,elefante,cebra,venado,delfin,pavo,pescado,zamuro,ciempies,alacran,aguila","tigre,vaca",tigre
+2026-09-29 16:00:00,2026-09-29,16:00,MISS,"rana,ardilla,caiman,cebra,pescado,elefante,delfin,venado,ciempies,zamuro,zorro,gallo,burro,carnero","lapa,perico",

@@ -3,3 +3,8 @@
 2026-09-29 09:00:00,2026-09-29,09:00,HIT,"delfin,cebra,gato,pavo,venado,ardilla,ciempies,mono,chivo,caiman","gato,toro",gato,delfin,0.028374101522824033
 2026-09-29 10:00:00,2026-09-29,10:00,MISS,"rana,cebra,ardilla,delfin,chivo,pavo,raton,elefante,venado,caiman","jirafa,lapa",,rana,0.028326782378088413
 2026-09-29 11:00:00,2026-09-29,11:00,HIT,"rana,tigre,cebra,delfin,chivo,ciempies,raton,mono,pavo,zorro","chivo,gallina",chivo,rana,0.028570665560661495
+2026-09-29 12:00:00,2026-09-29,12:00,MISS,"rana,tigre,ardilla,caiman,delfin,cebra,venado,raton,ciempies,pavo","culebra,oso",,rana,0.02872012516200199
+2026-09-29 13:00:00,2026-09-29,13:00,HIT,"rana,tigre,caiman,ardilla,cebra,raton,delfin,camello,elefante,venado","camello,oso",camello,rana,0.02903313947125682
+2026-09-29 14:00:00,2026-09-29,14:00,MISS,"rana,caiman,tigre,ardilla,delfin,raton,venado,elefante,ciempies,aguila","mono,paloma",,rana,0.0290345926943482
+2026-09-29 15:00:00,2026-09-29,15:00,HIT,"rana,tigre,ardilla,cebra,caiman,elefante,venado,delfin,ciempies,pescado","tigre,vaca",tigre,rana,0.02900656506307757
+2026-09-29 16:00:00,2026-09-29,16:00,MISS,"rana,ardilla,cebra,delfin,caiman,pescado,venado,elefante,ciempies,zorro","lapa,perico",,rana,0.02900510984957875
