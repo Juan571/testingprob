@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-09-28 08:00:00,2026-09-28,08:00,HIT,"pavo,mono,tigre,alacran,pescado,leon,iguana,ciempies,zamuro,vaca,carnero,jirafa,elefante,oso","cebra,jirafa",jirafa
-2026-09-28 09:00:00,2026-09-28,09:00,HIT,"mono,pavo,leon,tigre,alacran,zamuro,ciempies,pescado,carnero,vaca,burro,elefante,gallina,gato","burro,leon","burro,leon"
-2026-09-28 10:00:00,2026-09-28,10:00,MISS,"mono,pescado,zamuro,ciempies,iguana,carnero,gato,gallina,elefante,vaca,pavo,perico,raton,toro","oso,rana",
-2026-09-28 11:00:00,2026-09-28,11:00,HIT,"tigre,mono,ciempies,iguana,alacran,zamuro,gallina,carnero,gato,vaca,elefante,caballo,raton,caiman","elefante,toro",elefante
-2026-09-28 12:00:00,2026-09-28,12:00,MISS,"tigre,pavo,pescado,mono,gato,alacran,gallina,perico,iguana,lapa,caballo,cochino,delfin,gallo","ardilla,caiman",
-2026-09-28 13:00:00,2026-09-28,13:00,HIT,"tigre,pavo,ciempies,gato,alacran,caballo,gallina,mono,zamuro,carnero,iguana,perico,raton,delfin","chivo,tigre",tigre
-2026-09-28 14:00:00,2026-09-28,14:00,HIT,"pescado,ciempies,zamuro,pavo,carnero,mono,alacran,gallina,perico,caballo,gallo,delfin,vaca,raton","gallina,perro",gallina
-2026-09-28 15:00:00,2026-09-28,15:00,HIT,"pescado,mono,ciempies,gato,pavo,alacran,caballo,carnero,raton,perico,delfin,lapa,cochino,cebra","alacran,gallo",alacran
-2026-09-28 16:00:00,2026-09-28,16:00,HIT,"zamuro,gato,pescado,pavo,mono,delfin,caballo,cebra,carnero,culebra,perico,raton,vaca,lapa","caballo,paloma",caballo
-2026-09-28 17:00:00,2026-09-28,17:00,HIT,"ciempies,pescado,zamuro,delfin,pavo,carnero,cebra,perico,raton,culebra,lapa,iguana,vaca,venado","pescado,vaca","pescado,vaca"
-2026-09-28 18:00:00,2026-09-28,18:00,MISS,"ciempies,pavo,delfin,zamuro,rana,mono,gato,culebra,tigre,cebra,perico,leon,lapa,raton","caballo,iguana",
-2026-09-28 19:00:00,2026-09-28,19:00,HIT,"delfin,tigre,leon,pavo,raton,venado,culebra,rana,perico,lapa,zamuro,zorro,ciempies,ardilla","lapa,vaca",lapa
+﻿
