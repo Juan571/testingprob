@@ -7,3 +7,7 @@
 2026-09-30 13:00:00,2026-09-30,13:00,MISS,"caballo,caiman,rana,elefante,toro,gato,alacran,leon,delfin,raton","paloma,vaca",,caballo,0.027988816837630312
 2026-09-30 14:00:00,2026-09-30,14:00,HIT,"chivo,caballo,elefante,rana,leon,cebra,alacran,delfin,venado,gato","ballena,cebra",cebra,chivo,0.028087574229757852
 2026-09-30 15:00:00,2026-09-30,15:00,HIT,"caballo,chivo,rana,leon,elefante,gato,toro,alacran,venado,zamuro","perico,rana",rana,caballo,0.02822314083449628
+2026-09-30 16:00:00,2026-09-30,16:00,MISS,"caballo,chivo,toro,elefante,gato,delfin,caiman,gallo,zamuro,ciempies","carnero,raton",,caballo,0.02827670370754752
+2026-09-30 17:00:00,2026-09-30,17:00,HIT,"caballo,chivo,gato,oso,ciempies,leon,caiman,ardilla,zamuro,zorro","ballena,gato",gato,caballo,0.0283540250872052
+2026-09-30 18:00:00,2026-09-30,18:00,HIT,"chivo,toro,elefante,oso,leon,caiman,ardilla,jirafa,zorro,gallina","ardilla,gallo",ardilla,chivo,0.028214205777859668
+2026-09-30 19:00:00,2026-09-30,19:00,MISS,"chivo,oso,caballo,leon,gallina,toro,elefante,culebra,delfin,tigre","gallo,pavo",,chivo,0.028249140590562178
