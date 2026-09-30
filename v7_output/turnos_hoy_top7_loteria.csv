@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-09-30 08:00:00,2026-09-30,08:00,MISS,"rana,elefante,pescado,chivo,venado,leon,pavo,caiman,zamuro,raton,ciempies,alacran,caballo,aguila","jirafa,perro",
+2026-09-30 09:00:00,2026-09-30,09:00,MISS,"rana,leon,elefante,caiman,cebra,pescado,caballo,toro,chivo,alacran,delfin,burro,raton,iguana","aguila,ballena",
