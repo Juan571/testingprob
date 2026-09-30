@@ -8,3 +8,6 @@
 2026-09-29 14:00:00,2026-09-29,14:00,HIT,"rana,caiman,tigre,ardilla,delfin,venado,elefante,raton,ciempies,mono,aguila,zamuro,burro,carnero","mono,paloma",mono
 2026-09-29 15:00:00,2026-09-29,15:00,HIT,"rana,tigre,ardilla,caiman,elefante,cebra,venado,delfin,pavo,pescado,zamuro,ciempies,alacran,aguila","tigre,vaca",tigre
 2026-09-29 16:00:00,2026-09-29,16:00,MISS,"rana,ardilla,caiman,cebra,pescado,elefante,delfin,venado,ciempies,zamuro,zorro,gallo,burro,carnero","lapa,perico",
+2026-09-29 17:00:00,2026-09-29,17:00,MISS,"elefante,cebra,ciempies,venado,zorro,pescado,rana,gallo,zamuro,leon,delfin,carnero,pavo,burro","ardilla,vaca",
+2026-09-29 18:00:00,2026-09-29,18:00,MISS,"rana,elefante,cebra,caiman,leon,venado,ciempies,alacran,raton,burro,gallo,delfin,zamuro,zorro","culebra,tigre",
+2026-09-29 19:00:00,2026-09-29,19:00,MISS,"cebra,pescado,rana,elefante,caiman,venado,zamuro,zorro,caballo,chivo,gallo,burro,ciempies,raton","camello,gallina",
