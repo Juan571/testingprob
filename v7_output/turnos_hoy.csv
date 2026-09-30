@@ -1,3 +1,9 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-09-30 08:00:00,2026-09-30,08:00,MISS,"rana,elefante,pescado,chivo,leon,venado,alacran,caiman,ciempies,zamuro","jirafa,perro",,rana,0.028272372400665435
 2026-09-30 09:00:00,2026-09-30,09:00,MISS,"rana,elefante,cebra,leon,pescado,caiman,chivo,caballo,delfin,alacran","aguila,ballena",,rana,0.028135839289002085
+2026-09-30 10:00:00,2026-09-30,10:00,HIT,"elefante,leon,chivo,rana,pescado,cebra,caballo,caiman,alacran,ciempies","pescado,tigre",pescado,elefante,0.02804358709150319
+2026-09-30 11:00:00,2026-09-30,11:00,MISS,"rana,elefante,chivo,cebra,caballo,toro,caiman,delfin,iguana,alacran","lapa,pavo",,rana,0.028156068697383956
+2026-09-30 12:00:00,2026-09-30,12:00,HIT,"elefante,toro,cebra,chivo,venado,rana,iguana,caballo,delfin,leon","cochino,iguana",iguana,elefante,0.027977931708626506
+2026-09-30 13:00:00,2026-09-30,13:00,MISS,"caballo,caiman,rana,elefante,toro,gato,alacran,leon,delfin,raton","paloma,vaca",,caballo,0.027988816837630312
+2026-09-30 14:00:00,2026-09-30,14:00,HIT,"chivo,caballo,elefante,rana,leon,cebra,alacran,delfin,venado,gato","ballena,cebra",cebra,chivo,0.028087574229757852
+2026-09-30 15:00:00,2026-09-30,15:00,HIT,"caballo,chivo,rana,leon,elefante,gato,toro,alacran,venado,zamuro","perico,rana",rana,caballo,0.02822314083449628
