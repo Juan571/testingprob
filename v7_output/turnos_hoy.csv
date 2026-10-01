@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-01 08:00:00,2026-10-01,08:00,HIT,"chivo,tigre,lapa,elefante,leon,culebra,jirafa,gallina,toro,vaca","chivo,perico",chivo,chivo,0.028254663749120296
+2026-10-01 09:00:00,2026-10-01,09:00,MISS,"tigre,oso,lapa,gallina,culebra,toro,jirafa,camello,leon,caiman","cebra,paloma",,tigre,0.02826108779419514
