@@ -5,3 +5,4 @@
 2026-10-01 11:00:00,2026-10-01,11:00,MISS,"lapa,tigre,jirafa,culebra,gallina,camello,toro,caballo,pescado,caiman,venado,mono,elefante,delfin","aguila,raton",
 2026-10-01 12:00:00,2026-10-01,12:00,HIT,"lapa,oso,vaca,camello,gallina,jirafa,culebra,pescado,tigre,toro,caballo,venado,caiman,mono","delfin,oso",oso
 2026-10-01 13:00:00,2026-10-01,13:00,MISS,"tigre,vaca,lapa,camello,culebra,jirafa,gallina,caballo,toro,caiman,leon,iguana,elefante,mono","gallo,rana",
+2026-10-01 14:00:00,2026-10-01,14:00,MISS,"tigre,vaca,lapa,jirafa,gallina,caballo,culebra,caiman,toro,elefante,pescado,mono,zorro,venado","carnero,pavo",
