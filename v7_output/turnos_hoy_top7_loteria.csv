@@ -1,1 +1,6 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-10-02 08:00:00,2026-10-02,08:00,HIT,"camello,lapa,ballena,perico,gallina,iguana,venado,cebra,pescado,culebra,leon,alacran,mono,caballo","iguana,pescado","iguana,pescado"
+2026-10-02 09:00:00,2026-10-02,09:00,MISS,"tigre,lapa,vaca,ballena,camello,perico,leon,caiman,cochino,caballo,burro,culebra,perro,gato","gallo,raton",
+2026-10-02 10:00:00,2026-10-02,10:00,MISS,"vaca,lapa,ballena,tigre,cebra,gato,caballo,gallina,alacran,oso,caiman,pavo,perico,leon","iguana,venado",
+2026-10-02 11:00:00,2026-10-02,11:00,MISS,"perico,lapa,vaca,tigre,ballena,oso,camello,gato,cochino,caballo,leon,perro,pavo,mono","paloma,raton",
+2026-10-02 12:00:00,2026-10-02,12:00,MISS,"lapa,vaca,tigre,pavo,oso,ballena,gallina,cebra,caiman,camello,rana,carnero,alacran,cochino","chivo,ciempies",
