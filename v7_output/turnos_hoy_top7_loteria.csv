@@ -9,3 +9,5 @@
 2026-10-03 15:00:00,2026-10-03,15:00,HIT,"pavo,carnero,rana,jirafa,oso,delfin,cebra,ciempies,cochino,lapa,ballena,venado,mono,paloma","carnero,rana","carnero,rana"
 2026-10-03 16:00:00,2026-10-03,16:00,MISS,"raton,iguana,pavo,vaca,cebra,ciempies,tigre,paloma,pescado,jirafa,lapa,ballena,venado,perro","delfin,perico",
 2026-10-03 17:00:00,2026-10-03,17:00,HIT,"iguana,pavo,lapa,ciempies,jirafa,paloma,tigre,cebra,vaca,chivo,oso,caballo,zorro,pescado","lapa,raton",lapa
+2026-10-03 18:00:00,2026-10-03,18:00,MISS,"pavo,jirafa,ciempies,iguana,paloma,pescado,venado,chivo,cebra,tigre,vaca,gallo,caballo,ballena",toro,
+2026-10-03 19:00:00,2026-10-03,19:00,HIT,"iguana,paloma,pavo,pescado,cebra,chivo,ballena,zorro,gallo,venado,camello,oso,perro,tigre","chivo,iguana","chivo,iguana"
