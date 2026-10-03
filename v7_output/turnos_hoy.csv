@@ -9,3 +9,5 @@
 2026-10-02 15:00:00,2026-10-02,15:00,HIT,"perico,vaca,ballena,tigre,pavo,gallina,cebra,perro,carnero,oso","ardilla,perico",perico,perico,0.02821951133969714
 2026-10-02 16:00:00,2026-10-02,16:00,MISS,"vaca,pavo,carnero,ballena,perro,tigre,gato,cebra,oso,gallina","leon,perico",,vaca,0.02806878413281476
 2026-10-02 17:00:00,2026-10-02,17:00,MISS,"pavo,vaca,carnero,oso,ballena,gato,gallo,cebra,camello,gallina","rana,zorro",,pavo,0.02825262162525306
+2026-10-02 18:00:00,2026-10-02,18:00,HIT,"pavo,vaca,ballena,tigre,gallo,camello,cebra,jirafa,carnero,gato","camello,pescado",camello,pavo,0.028426194139610252
+2026-10-02 19:00:00,2026-10-02,19:00,MISS,"pavo,vaca,paloma,gallina,tigre,carnero,perro,ballena,delfin,gato","chivo,zamuro",,pavo,0.028504081052356883
