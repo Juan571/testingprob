@@ -1,2 +1,7 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-10-03 08:00:00,2026-10-03,08:00,MISS,"pavo,vaca,oso,cebra,paloma,jirafa,tigre,carnero,aguila,gallo","alacran,gato",,pavo,0.0286929050886536
+2026-10-03 09:00:00,2026-10-03,09:00,HIT,"pavo,paloma,oso,vaca,jirafa,ballena,cebra,delfin,aguila,gallo","aguila,burro",aguila,pavo,0.028382031626293353
+2026-10-03 10:00:00,2026-10-03,10:00,HIT,"paloma,oso,carnero,cebra,gallo,jirafa,delfin,ballena,vaca,gallina","ardilla,paloma",paloma,paloma,0.02847619408166328
+2026-10-03 11:00:00,2026-10-03,11:00,HIT,"pavo,gallo,oso,delfin,carnero,jirafa,ballena,vaca,tigre,perro","gallo,leon",gallo,pavo,0.028447446102691027
+2026-10-03 12:00:00,2026-10-03,12:00,MISS,"pavo,oso,jirafa,delfin,carnero,raton,vaca,cebra,ballena,iguana","elefante,zamuro",,pavo,0.02831508815653533
+2026-10-03 13:00:00,2026-10-03,13:00,MISS,"pavo,oso,delfin,jirafa,tigre,iguana,carnero,vaca,cebra,rana","ardilla,toro",,pavo,0.028078320600687757
