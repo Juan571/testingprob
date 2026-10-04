@@ -5,3 +5,7 @@
 2026-10-04 11:00:00,2026-10-04,11:00,HIT,"paloma,ciempies,rana,gallo,pescado,ardilla,zorro,venado,perico,cebra","delfin,gallo",gallo,paloma,0.02839328962733812
 2026-10-04 12:00:00,2026-10-04,12:00,HIT,"paloma,rana,ardilla,ciempies,pavo,perico,pescado,zorro,cebra,zamuro","elefante,zamuro",zamuro,paloma,0.02870368148594792
 2026-10-04 13:00:00,2026-10-04,13:00,HIT,"rana,ardilla,paloma,ciempies,perico,pavo,zorro,gato,cebra,leon","iguana,paloma",paloma,rana,0.028618305894738315
+2026-10-04 14:00:00,2026-10-04,14:00,HIT,"rana,ardilla,perico,leon,ciempies,aguila,pavo,pescado,gato,caballo","oso,pescado",pescado,rana,0.028544638851731162
+2026-10-04 15:00:00,2026-10-04,15:00,MISS,"rana,perico,leon,aguila,caballo,gato,alacran,raton,carnero,camello","mono,vaca",,rana,0.028432214338637306
+2026-10-04 16:00:00,2026-10-04,16:00,MISS,"ardilla,perico,rana,aguila,leon,zorro,chivo,raton,carnero,gato","ciempies,venado",,ardilla,0.028873770322864416
+2026-10-04 17:00:00,2026-10-04,17:00,MISS,"ardilla,rana,perico,aguila,chivo,raton,zorro,carnero,gato,leon","paloma,vaca",,ardilla,0.028613515963837113
