@@ -9,3 +9,5 @@
 2026-10-04 15:00:00,2026-10-04,15:00,MISS,"rana,perico,leon,aguila,caballo,gato,alacran,raton,carnero,camello","mono,vaca",,rana,0.028432214338637306
 2026-10-04 16:00:00,2026-10-04,16:00,MISS,"ardilla,perico,rana,aguila,leon,zorro,chivo,raton,carnero,gato","ciempies,venado",,ardilla,0.028873770322864416
 2026-10-04 17:00:00,2026-10-04,17:00,MISS,"ardilla,rana,perico,aguila,chivo,raton,zorro,carnero,gato,leon","paloma,vaca",,ardilla,0.028613515963837113
+2026-10-04 18:00:00,2026-10-04,18:00,HIT,"ardilla,rana,aguila,chivo,raton,perico,pavo,carnero,camello,alacran","gallo,pavo",pavo,ardilla,0.028532372857109838
+2026-10-04 19:00:00,2026-10-04,19:00,HIT,"ardilla,aguila,chivo,rana,toro,raton,gato,perico,leon,zorro","rana,vaca",rana,ardilla,0.02863974900281792
