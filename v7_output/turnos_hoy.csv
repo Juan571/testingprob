@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-05 08:00:00,2026-10-05,08:00,MISS,"ardilla,aguila,chivo,raton,alacran,carnero,zorro,cebra,zamuro,lapa",gato,,ardilla,0.02873155741693911
+2026-10-05 09:00:00,2026-10-05,09:00,HIT,"ardilla,aguila,toro,chivo,perico,raton,leon,lapa,carnero,alacran","chivo,delfin",chivo,ardilla,0.02833021968317529
+2026-10-05 10:00:00,2026-10-05,10:00,HIT,"ardilla,aguila,toro,perico,raton,lapa,leon,elefante,zamuro,gallina","aguila,culebra",aguila,ardilla,0.028669263241356636
+2026-10-05 11:00:00,2026-10-05,11:00,MISS,"toro,ardilla,lapa,perico,iguana,carnero,leon,zamuro,elefante,gallina","aguila,vaca",,toro,0.028487674653591855

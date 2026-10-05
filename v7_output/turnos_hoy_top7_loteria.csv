@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-10-05 08:00:00,2026-10-05,08:00,HIT,"ardilla,aguila,chivo,raton,zorro,carnero,alacran,zamuro,gato,cebra,camello,lapa,elefante,jirafa",gato,gato
+2026-10-05 09:00:00,2026-10-05,09:00,HIT,"ardilla,aguila,chivo,toro,perico,lapa,leon,raton,carnero,burro,zorro,alacran,zamuro,delfin","chivo,delfin","chivo,delfin"
+2026-10-05 10:00:00,2026-10-05,10:00,HIT,"ardilla,toro,aguila,perico,lapa,raton,zorro,leon,zamuro,iguana,elefante,camello,gallina,caballo","aguila,culebra",aguila
+2026-10-05 11:00:00,2026-10-05,11:00,MISS,"toro,ardilla,iguana,perico,lapa,elefante,carnero,leon,zorro,cebra,zamuro,burro,caballo,gallina","aguila,vaca",
