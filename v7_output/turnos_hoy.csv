@@ -4,9 +4,10 @@
 2026-10-05 10:00:00,2026-10-05,10:00,HIT,"ardilla,aguila,toro,perico,raton,lapa,leon,elefante,zamuro,gallina","aguila,culebra",aguila,ardilla,0.028669263241356636
 2026-10-05 11:00:00,2026-10-05,11:00,MISS,"toro,ardilla,lapa,perico,iguana,carnero,leon,zamuro,elefante,gallina","aguila,vaca",,toro,0.028487674653591855
 2026-10-05 12:00:00,2026-10-05,12:00,HIT,"ardilla,perico,lapa,iguana,carnero,elefante,zamuro,leon,zorro,jirafa","chivo,iguana",iguana,ardilla,0.028343382956216027
-2026-10-05 13:00:00,2026-10-05,13:00,MISS,"toro,ardilla,raton,lapa,elefante,perico,zamuro,carnero,zorro,jirafa","camello,paloma",,toro,0.028767255125724183
+2026-10-05 13:00:00,2026-10-05,13:00,MISS,"toro,ardilla,raton,lapa,elefante,perico,zamuro,carnero,zorro,jirafa","camello,paloma",,toro,0.02876725512572418
 2026-10-05 14:00:00,2026-10-05,14:00,MISS,"toro,ardilla,perico,lapa,raton,carnero,gallina,elefante,jirafa,zamuro","iguana,tigre",,toro,0.028544805300520094
 2026-10-05 15:00:00,2026-10-05,15:00,MISS,"toro,lapa,raton,carnero,ardilla,perico,elefante,zamuro,zorro,rana","ciempies,cochino",,toro,0.028278591034022287
 2026-10-05 16:00:00,2026-10-05,16:00,HIT,"lapa,ardilla,raton,carnero,perico,zamuro,elefante,pescado,zorro,rana","pescado,vaca",pescado,lapa,0.02798507795593578
 2026-10-05 17:00:00,2026-10-05,17:00,HIT,"lapa,raton,perico,elefante,zorro,jirafa,zamuro,carnero,burro,caiman","alacran,raton",raton,lapa,0.02831557926032318
 2026-10-05 18:00:00,2026-10-05,18:00,HIT,"toro,lapa,ardilla,jirafa,gallo,zamuro,burro,zorro,gallina,caiman","jirafa,venado",jirafa,toro,0.028627872305758008
+2026-10-05 19:00:00,2026-10-05,19:00,MISS,"toro,ardilla,gallo,zamuro,lapa,gallina,rana,elefante,perico,leon","carnero,mono",,toro,0.028335729639380233
