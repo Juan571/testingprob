@@ -4,3 +4,8 @@
 2026-10-07 10:00:00,2026-10-07,10:00,MISS,"iguana,delfin,ardilla,paloma,pescado,carnero,rana,burro,toro,lapa,jirafa,gato,oso,venado","leon,zamuro",
 2026-10-07 11:00:00,2026-10-07,11:00,MISS,"iguana,gallo,paloma,delfin,lapa,venado,pescado,gallina,carnero,toro,jirafa,culebra,aguila,oso","alacran,ardilla",
 2026-10-07 12:00:00,2026-10-07,12:00,HIT,"iguana,paloma,toro,jirafa,delfin,gallo,carnero,vaca,venado,gallina,oso,caiman,tigre,rana","rana,vaca","rana,vaca"
+2026-10-07 13:00:00,2026-10-07,13:00,MISS,"iguana,pescado,paloma,gallo,jirafa,delfin,carnero,lapa,caiman,venado,gato,oso,zorro,tigre","culebra,perico",
+2026-10-07 14:00:00,2026-10-07,14:00,MISS,"iguana,pescado,toro,paloma,delfin,venado,gallo,tigre,carnero,elefante,gato,zorro,lapa,caiman","burro,cebra",
+2026-10-07 15:00:00,2026-10-07,15:00,HIT,"pescado,carnero,delfin,venado,jirafa,paloma,gallina,gallo,toro,tigre,gato,elefante,caballo,oso","lapa,venado",venado
+2026-10-07 16:00:00,2026-10-07,16:00,MISS,"iguana,gallo,chivo,delfin,aguila,elefante,carnero,gallina,caballo,paloma,toro,mono,gato,pavo","cebra,vaca",
+2026-10-07 17:00:00,2026-10-07,17:00,MISS,"chivo,carnero,elefante,pescado,delfin,jirafa,gallo,gato,mono,paloma,ballena,caballo,oso,aguila","ardilla,venado",
