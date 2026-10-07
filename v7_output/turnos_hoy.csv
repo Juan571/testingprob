@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-10-06 08:00:00,2026-10-06,08:00,HIT,"ardilla,lapa,elefante,zamuro,rana,perico,gallo,iguana,zorro,burro","chivo,elefante",elefante,ardilla,0.02820762458770365
-2026-10-06 09:00:00,2026-10-06,09:00,HIT,"lapa,gallo,ardilla,toro,rana,iguana,perico,gallina,delfin,leon","gallina,pescado",gallina,lapa,0.028251900024247368
-2026-10-06 10:00:00,2026-10-06,10:00,MISS,"gallo,zamuro,rana,lapa,perico,delfin,burro,toro,caiman,paloma","caballo,mono",,gallo,0.028228117582973576
-2026-10-06 11:00:00,2026-10-06,11:00,HIT,"gallo,iguana,rana,zamuro,delfin,lapa,perico,toro,ardilla,burro","ballena,zamuro",zamuro,gallo,0.028284960957473033
-2026-10-06 12:00:00,2026-10-06,12:00,HIT,"iguana,rana,gallo,paloma,ardilla,toro,perico,lapa,oso,vaca","chivo,perico",perico,iguana,0.02820541213905068
-2026-10-06 13:00:00,2026-10-06,13:00,MISS,"iguana,paloma,ardilla,toro,lapa,gato,gallo,vaca,delfin,oso","cebra,elefante",,iguana,0.028062442102694013
-2026-10-06 14:00:00,2026-10-06,14:00,MISS,"rana,vaca,gallo,paloma,ardilla,delfin,lapa,toro,gato,aguila","alacran,camello",,rana,0.02828415550386441
-2026-10-06 15:00:00,2026-10-06,15:00,MISS,"vaca,rana,iguana,paloma,gato,aguila,ardilla,toro,lapa,delfin","cebra,zamuro",,vaca,0.028525606923423135
-2026-10-06 16:00:00,2026-10-06,16:00,HIT,"vaca,aguila,rana,gallo,delfin,paloma,ardilla,gato,toro,lapa","aguila,elefante",aguila,vaca,0.028634947511285654
-2026-10-06 17:00:00,2026-10-06,17:00,HIT,"vaca,iguana,paloma,gato,gallo,ardilla,rana,delfin,lapa,ciempies","camello,vaca",vaca,vaca,0.028842561462812524
-2026-10-06 18:00:00,2026-10-06,18:00,MISS,"iguana,paloma,rana,delfin,gato,lapa,ardilla,pavo,burro,leon","chivo,cochino",,iguana,0.028357573984130306
-2026-10-06 19:00:00,2026-10-06,19:00,MISS,"iguana,gato,rana,delfin,paloma,toro,ardilla,zorro,lapa,pavo","ciempies,raton",,iguana,0.02837011930088155
+﻿
