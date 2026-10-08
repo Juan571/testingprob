@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-10-07 08:00:00,2026-10-07,08:00,MISS,"iguana,rana,delfin,jirafa,lapa,venado,paloma,ardilla,gato,oso,gallo,culebra,caiman,burro","leon,mono",
-2026-10-07 09:00:00,2026-10-07,09:00,MISS,"iguana,delfin,gato,gallo,ardilla,caiman,carnero,lapa,toro,zorro,pavo,oso,burro,culebra",cochino,
-2026-10-07 10:00:00,2026-10-07,10:00,MISS,"iguana,delfin,ardilla,paloma,pescado,carnero,rana,burro,toro,lapa,jirafa,gato,oso,venado","leon,zamuro",
-2026-10-07 11:00:00,2026-10-07,11:00,MISS,"iguana,gallo,paloma,delfin,lapa,venado,pescado,gallina,carnero,toro,jirafa,culebra,aguila,oso","alacran,ardilla",
-2026-10-07 12:00:00,2026-10-07,12:00,HIT,"iguana,paloma,toro,jirafa,delfin,gallo,carnero,vaca,venado,gallina,oso,caiman,tigre,rana","rana,vaca","rana,vaca"
-2026-10-07 13:00:00,2026-10-07,13:00,MISS,"iguana,pescado,paloma,gallo,jirafa,delfin,carnero,lapa,caiman,venado,gato,oso,zorro,tigre","culebra,perico",
-2026-10-07 14:00:00,2026-10-07,14:00,MISS,"iguana,pescado,toro,paloma,delfin,venado,gallo,tigre,carnero,elefante,gato,zorro,lapa,caiman","burro,cebra",
-2026-10-07 15:00:00,2026-10-07,15:00,HIT,"pescado,carnero,delfin,venado,jirafa,paloma,gallina,gallo,toro,tigre,gato,elefante,caballo,oso","lapa,venado",venado
-2026-10-07 16:00:00,2026-10-07,16:00,MISS,"iguana,gallo,chivo,delfin,aguila,elefante,carnero,gallina,caballo,paloma,toro,mono,gato,pavo","cebra,vaca",
-2026-10-07 17:00:00,2026-10-07,17:00,MISS,"chivo,carnero,elefante,pescado,delfin,jirafa,gallo,gato,mono,paloma,ballena,caballo,oso,aguila","ardilla,venado",
-2026-10-07 18:00:00,2026-10-07,18:00,MISS,"chivo,elefante,iguana,ballena,paloma,delfin,oso,camello,gallo,carnero,mono,toro,raton,aguila",vaca,
-2026-10-07 19:00:00,2026-10-07,19:00,HIT,"chivo,elefante,pescado,iguana,carnero,caballo,gallo,mono,delfin,gato,jirafa,paloma,ballena,oso","caballo,oso","caballo,oso"
+﻿
