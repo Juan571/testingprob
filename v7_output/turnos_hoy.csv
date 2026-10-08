@@ -9,3 +9,5 @@
 2026-10-07 15:00:00,2026-10-07,15:00,HIT,"pescado,gallina,carnero,paloma,toro,venado,delfin,tigre,gallo,jirafa","lapa,venado",venado,pescado,0.02789728542577412
 2026-10-07 16:00:00,2026-10-07,16:00,MISS,"iguana,chivo,delfin,carnero,elefante,gallo,gallina,aguila,toro,paloma","cebra,vaca",,iguana,0.028000165153769532
 2026-10-07 17:00:00,2026-10-07,17:00,MISS,"chivo,pescado,elefante,carnero,jirafa,delfin,paloma,gallo,gato,ballena","ardilla,venado",,chivo,0.0282005519272772
+2026-10-07 18:00:00,2026-10-07,18:00,MISS,"chivo,elefante,iguana,delfin,toro,paloma,mono,gallo,carnero,gallina",vaca,,chivo,0.02839400942861918
+2026-10-07 19:00:00,2026-10-07,19:00,MISS,"chivo,iguana,elefante,pescado,gallo,paloma,mono,carnero,delfin,jirafa","caballo,oso",,chivo,0.028182368296692833
