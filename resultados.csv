@@ -23630,6 +23630,11 @@ date,lottery,number,animal,time
 2026-10-08,lagranjita,22,camello,10:00 AM
 2026-10-08,lagranjita,4,alacran,11:00 AM
 2026-10-08,lagranjita,32,ardilla,12:00 PM
+2026-10-08,lagranjita,8,raton,01:00 PM
+2026-10-08,lagranjita,5,leon,02:00 PM
+2026-10-08,lagranjita,37,ballena,03:00 PM
+2026-10-08,lagranjita,15,zorro,04:00 PM
+2026-10-08,lagranjita,13,mono,05:00 PM
 2021-01-02,lottoactivo,0,delfin,08:00 AM
 2021-01-02,lottoactivo,10,tigre,09:00 AM
 2021-01-02,lottoactivo,31,lapa,10:00 AM
@@ -46513,3 +46518,8 @@ date,lottery,number,animal,time
 2026-10-08,lottoactivo,0,delfin,10:00 AM
 2026-10-08,lottoactivo,26,vaca,11:00 AM
 2026-10-08,lottoactivo,3,ciempies,12:00 PM
+2026-10-08,lottoactivo,3,ciempies,01:00 PM
+2026-10-08,lottoactivo,22,camello,02:00 PM
+2026-10-08,lottoactivo,5,leon,03:00 PM
+2026-10-08,lottoactivo,1,carnero,04:00 PM
+2026-10-08,lottoactivo,12,caballo,05:00 PM
