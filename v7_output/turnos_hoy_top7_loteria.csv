@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-10-08 08:00:00,2026-10-08,08:00,HIT,"chivo,elefante,iguana,camello,paloma,jirafa,carnero,zamuro,aguila,ballena,gallina,delfin,gallo,caiman","burro,zamuro",zamuro
-2026-10-08 09:00:00,2026-10-08,09:00,HIT,"iguana,pescado,jirafa,mono,ballena,camello,aguila,paloma,gallina,caiman,delfin,gallo,ciempies,zorro","gato,zorro",zorro
-2026-10-08 10:00:00,2026-10-08,10:00,HIT,"chivo,iguana,ciempies,ballena,camello,elefante,pescado,mono,carnero,raton,aguila,gallo,caiman,delfin","camello,delfin","camello,delfin"
-2026-10-08 11:00:00,2026-10-08,11:00,MISS,"iguana,chivo,elefante,mono,cochino,ciempies,jirafa,raton,caiman,pavo,paloma,aguila,pescado,toro","alacran,vaca",
-2026-10-08 12:00:00,2026-10-08,12:00,MISS,"elefante,chivo,aguila,pescado,iguana,carnero,pavo,paloma,gallo,mono,jirafa,raton,tigre,caiman","ardilla,ciempies",
-2026-10-08 13:00:00,2026-10-08,13:00,HIT,"elefante,chivo,iguana,cochino,raton,paloma,jirafa,gallo,mono,caiman,carnero,gallina,aguila,tigre","ciempies,raton",raton
-2026-10-08 14:00:00,2026-10-08,14:00,HIT,"chivo,pescado,cochino,jirafa,paloma,iguana,mono,gallo,pavo,carnero,gallina,ballena,caiman,leon","camello,leon",leon
-2026-10-08 15:00:00,2026-10-08,15:00,HIT,"chivo,iguana,elefante,aguila,paloma,cochino,mono,pavo,pescado,carnero,gallina,culebra,toro,ballena","ballena,leon",ballena
-2026-10-08 16:00:00,2026-10-08,16:00,HIT,"cochino,chivo,aguila,mono,elefante,gallo,iguana,pescado,perico,carnero,cebra,caiman,toro,paloma","carnero,zorro",carnero
-2026-10-08 17:00:00,2026-10-08,17:00,HIT,"chivo,cochino,mono,elefante,aguila,gallo,jirafa,iguana,pescado,lapa,perico,caiman,pavo,rana","caballo,mono",mono
-2026-10-08 18:00:00,2026-10-08,18:00,HIT,"chivo,cochino,vaca,elefante,rana,pavo,toro,aguila,gallo,tigre,lapa,iguana,jirafa,perico","jirafa,venado",jirafa
-2026-10-08 19:00:00,2026-10-08,19:00,MISS,"cochino,chivo,vaca,gallo,cebra,rana,iguana,elefante,aguila,paloma,gallina,pavo,zamuro,caiman","burro,delfin",
+﻿
