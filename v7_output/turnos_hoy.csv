@@ -9,3 +9,5 @@
 2026-10-08 15:00:00,2026-10-08,15:00,MISS,"chivo,iguana,mono,cochino,elefante,paloma,aguila,pescado,carnero,gallina","ballena,leon",,chivo,0.02821080105209305
 2026-10-08 16:00:00,2026-10-08,16:00,HIT,"cochino,chivo,aguila,elefante,mono,pescado,iguana,gallo,carnero,caiman","carnero,zorro",carnero,cochino,0.028243163832732475
 2026-10-08 17:00:00,2026-10-08,17:00,HIT,"chivo,cochino,mono,elefante,aguila,iguana,gallo,jirafa,rana,pavo","caballo,mono",mono,chivo,0.02827118398844546
+2026-10-08 18:00:00,2026-10-08,18:00,HIT,"chivo,cochino,aguila,vaca,elefante,iguana,jirafa,gallo,perico,rana","jirafa,venado",jirafa,chivo,0.028267249675629134
+2026-10-08 19:00:00,2026-10-08,19:00,MISS,"cochino,chivo,vaca,cebra,iguana,elefante,rana,aguila,paloma,gallo","burro,delfin",,cochino,0.028434124177605227
