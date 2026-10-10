@@ -6,3 +6,7 @@
 2026-10-10 12:00:00,2026-10-10,12:00,MISS,"vaca,cebra,zamuro,mono,leon,zorro,alacran,lapa,cochino,ballena,aguila,gato,camello,carnero","caiman,delfin",
 2026-10-10 13:00:00,2026-10-10,13:00,MISS,"cebra,vaca,leon,zorro,cochino,raton,zamuro,mono,camello,alacran,burro,gato,chivo,toro","elefante,lapa",
 2026-10-10 14:00:00,2026-10-10,14:00,MISS,"vaca,leon,zorro,cebra,burro,cochino,carnero,alacran,mono,camello,gato,iguana,ballena,oso","paloma,zamuro",
+2026-10-10 15:00:00,2026-10-10,15:00,HIT,"leon,vaca,carnero,burro,gato,cebra,camello,alacran,cochino,iguana,raton,ballena,gallina,venado","iguana,vaca","iguana,vaca"
+2026-10-10 16:00:00,2026-10-10,16:00,HIT,"leon,burro,carnero,mono,gato,cochino,camello,zorro,chivo,ciempies,venado,ballena,aguila,alacran","carnero,leon","carnero,leon"
+2026-10-10 17:00:00,2026-10-10,17:00,HIT,"gato,mono,burro,zorro,cebra,ciempies,cochino,raton,camello,oso,aguila,venado,chivo,ballena",aguila,aguila
+2026-10-10 18:00:00,2026-10-10,18:00,HIT,"burro,venado,ciempies,camello,mono,gato,cochino,zorro,oso,alacran,caballo,cebra,jirafa,gallo","vaca,zorro",zorro
