@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-10 08:00:00,2026-10-10,08:00,HIT,"vaca,cebra,zamuro,alacran,ardilla,zorro,caballo,cochino,oso,raton","caballo,delfin",caballo,vaca,0.028844788679818167
+2026-10-10 09:00:00,2026-10-10,09:00,MISS,"vaca,zamuro,cebra,ardilla,alacran,zorro,cochino,perico,raton,burro","culebra,venado",,vaca,0.02860583419259167
