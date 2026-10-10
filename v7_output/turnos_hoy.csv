@@ -1,3 +1,8 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-10-10 08:00:00,2026-10-10,08:00,HIT,"vaca,cebra,zamuro,alacran,ardilla,zorro,caballo,cochino,oso,raton","caballo,delfin",caballo,vaca,0.028844788679818167
 2026-10-10 09:00:00,2026-10-10,09:00,MISS,"vaca,zamuro,cebra,ardilla,alacran,zorro,cochino,perico,raton,burro","culebra,venado",,vaca,0.02860583419259167
+2026-10-10 10:00:00,2026-10-10,10:00,HIT,"vaca,cebra,ardilla,zamuro,alacran,zorro,cochino,raton,perico,mono","ardilla,rana",ardilla,vaca,0.028566232715709305
+2026-10-10 11:00:00,2026-10-10,11:00,MISS,"vaca,cebra,zamuro,alacran,mono,cochino,zorro,ballena,raton,burro","pavo,perico",,vaca,0.028699249392075927
+2026-10-10 12:00:00,2026-10-10,12:00,MISS,"vaca,cebra,zamuro,leon,alacran,mono,zorro,cochino,ballena,lapa","caiman,delfin",,vaca,0.028807726770288904
+2026-10-10 13:00:00,2026-10-10,13:00,MISS,"vaca,cebra,leon,zamuro,cochino,raton,burro,zorro,mono,camello","elefante,lapa",,vaca,0.02844362406316377
+2026-10-10 14:00:00,2026-10-10,14:00,MISS,"leon,vaca,burro,cebra,zorro,mono,carnero,cochino,camello,alacran","paloma,zamuro",,leon,0.028573448190382954
