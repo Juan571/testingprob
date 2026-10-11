@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-11 08:00:00,2026-10-11,08:00,MISS,"ciempies,burro,venado,gato,mono,camello,cebra,chivo,alacran,cochino","caiman,jirafa",,ciempies,0.028467088029831097
+2026-10-11 09:00:00,2026-10-11,09:00,HIT,"ciempies,burro,gato,camello,mono,cebra,ardilla,cochino,gallo,alacran","ardilla,carnero",ardilla,ciempies,0.028630686766054247
+2026-10-11 10:00:00,2026-10-11,10:00,MISS,"ciempies,gato,venado,burro,camello,mono,cebra,caballo,alacran,gallo","gallina,paloma",,ciempies,0.028218075366646694
+2026-10-11 11:00:00,2026-10-11,11:00,HIT,"venado,ciempies,burro,gato,camello,gallo,cebra,cochino,caballo,alacran","ciempies,jirafa",ciempies,venado,0.028438814738168967
