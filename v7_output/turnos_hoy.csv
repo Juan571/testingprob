@@ -3,3 +3,8 @@
 2026-10-11 09:00:00,2026-10-11,09:00,HIT,"ciempies,burro,gato,camello,mono,cebra,ardilla,cochino,gallo,alacran","ardilla,carnero",ardilla,ciempies,0.028630686766054247
 2026-10-11 10:00:00,2026-10-11,10:00,MISS,"ciempies,gato,venado,burro,camello,mono,cebra,caballo,alacran,gallo","gallina,paloma",,ciempies,0.028218075366646694
 2026-10-11 11:00:00,2026-10-11,11:00,HIT,"venado,ciempies,burro,gato,camello,gallo,cebra,cochino,caballo,alacran","ciempies,jirafa",ciempies,venado,0.028438814738168967
+2026-10-11 12:00:00,2026-10-11,12:00,MISS,"burro,camello,cebra,gallo,mono,oso,elefante,delfin,chivo,rana","cochino,venado",,burro,0.028126338647560863
+2026-10-11 13:00:00,2026-10-11,13:00,MISS,"burro,camello,elefante,rana,delfin,caballo,mono,cebra,gato,vaca","aguila,zamuro",,burro,0.028112500158321414
+2026-10-11 14:00:00,2026-10-11,14:00,HIT,"burro,gallo,delfin,vaca,camello,rana,caballo,leon,gato,perico","gato,rana","gato,rana",burro,0.028150532615787434
+2026-10-11 15:00:00,2026-10-11,15:00,MISS,"elefante,vaca,delfin,camello,burro,gallo,chivo,lapa,mono,cebra","tigre,zorro",,elefante,0.02814882243324191
+2026-10-11 16:00:00,2026-10-11,16:00,MISS,"elefante,delfin,vaca,caballo,camello,gallo,burro,lapa,chivo,cebra","iguana,venado",,elefante,0.028482998225230472
