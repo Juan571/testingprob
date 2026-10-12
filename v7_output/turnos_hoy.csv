@@ -3,3 +3,10 @@
 2026-10-12 09:00:00,2026-10-12,09:00,MISS,"delfin,carnero,leon,caballo,elefante,lapa,ciempies,caiman,camello,ardilla","venado,zamuro",,delfin,0.02870530366587681
 2026-10-12 10:00:00,2026-10-12,10:00,MISS,"carnero,delfin,ciempies,leon,camello,ardilla,lapa,caiman,caballo,pavo","aguila,gato",,carnero,0.028438086331093394
 2026-10-12 11:00:00,2026-10-12,11:00,MISS,"carnero,delfin,ciempies,leon,elefante,lapa,camello,caiman,ardilla,mono","pescado,vaca",,carnero,0.028561496948907965
+2026-10-12 12:00:00,2026-10-12,12:00,HIT,"carnero,delfin,ciempies,leon,elefante,caiman,lapa,jirafa,camello,paloma","camello,lapa","camello,lapa",carnero,0.028782430960957624
+2026-10-12 13:00:00,2026-10-12,13:00,HIT,"carnero,ciempies,elefante,leon,delfin,jirafa,paloma,caballo,ballena,mono","chivo,ciempies",ciempies,carnero,0.02856176116027805
+2026-10-12 14:00:00,2026-10-12,14:00,MISS,"carnero,leon,elefante,jirafa,paloma,delfin,ardilla,gallo,ballena,caiman","perico,perro",,carnero,0.02879030243843772
+2026-10-12 15:00:00,2026-10-12,15:00,MISS,"carnero,leon,paloma,jirafa,elefante,delfin,caballo,iguana,mono,gallo","ardilla,cochino",,carnero,0.02893148357079733
+2026-10-12 16:00:00,2026-10-12,16:00,MISS,"carnero,leon,jirafa,delfin,caiman,elefante,rana,iguana,caballo,paloma","burro,vaca",,carnero,0.02904262596823655
+2026-10-12 17:00:00,2026-10-12,17:00,HIT,"carnero,jirafa,elefante,zorro,paloma,delfin,leon,caiman,venado,ballena","cochino,elefante",elefante,carnero,0.029262084435371642
+2026-10-12 18:00:00,2026-10-12,18:00,HIT,"carnero,jirafa,venado,zorro,paloma,delfin,rana,aguila,iguana,caballo","culebra,zorro",zorro,carnero,0.028765372196547657
