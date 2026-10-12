@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-12 08:00:00,2026-10-12,08:00,MISS,"delfin,carnero,elefante,leon,camello,lapa,ardilla,ciempies,pavo,caiman","gallina,perico",,delfin,0.02840125204720506
+2026-10-12 09:00:00,2026-10-12,09:00,MISS,"delfin,carnero,leon,caballo,elefante,lapa,ciempies,caiman,camello,ardilla","venado,zamuro",,delfin,0.02870530366587681
+2026-10-12 10:00:00,2026-10-12,10:00,MISS,"carnero,delfin,ciempies,leon,camello,ardilla,lapa,caiman,caballo,pavo","aguila,gato",,carnero,0.028438086331093394
+2026-10-12 11:00:00,2026-10-12,11:00,MISS,"carnero,delfin,ciempies,leon,elefante,lapa,camello,caiman,ardilla,mono","pescado,vaca",,carnero,0.028561496948907965
