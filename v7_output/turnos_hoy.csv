@@ -10,3 +10,4 @@
 2026-10-12 16:00:00,2026-10-12,16:00,MISS,"carnero,leon,jirafa,delfin,caiman,elefante,rana,iguana,caballo,paloma","burro,vaca",,carnero,0.02904262596823655
 2026-10-12 17:00:00,2026-10-12,17:00,HIT,"carnero,jirafa,elefante,zorro,paloma,delfin,leon,caiman,venado,ballena","cochino,elefante",elefante,carnero,0.029262084435371642
 2026-10-12 18:00:00,2026-10-12,18:00,HIT,"carnero,jirafa,venado,zorro,paloma,delfin,rana,aguila,iguana,caballo","culebra,zorro",zorro,carnero,0.028765372196547657
+2026-10-12 19:00:00,2026-10-12,19:00,MISS,"carnero,venado,zamuro,rana,delfin,iguana,caiman,gallo,caballo,mono","jirafa,pavo",,carnero,0.02857254405466262
