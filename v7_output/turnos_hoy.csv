@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-14 08:00:00,2026-10-14,08:00,HIT,"venado,vaca,zorro,ardilla,zamuro,jirafa,ciempies,carnero,lapa,caiman","elefante,zamuro",zamuro,venado,0.028488496748184274
+2026-10-14 09:00:00,2026-10-14,09:00,MISS,"venado,vaca,zorro,lapa,ardilla,jirafa,delfin,cochino,ciempies,camello","tigre,toro",,venado,0.028244795173148703
+2026-10-14 10:00:00,2026-10-14,10:00,MISS,"zorro,venado,ardilla,lapa,delfin,cochino,camello,jirafa,caiman,rana","alacran,gallina",,zorro,0.02830296789236878
+2026-10-14 11:00:00,2026-10-14,11:00,HIT,"venado,lapa,cochino,carnero,ardilla,jirafa,culebra,rana,caiman,delfin","caiman,perro",caiman,venado,0.028176715271199654
