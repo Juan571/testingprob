@@ -6,3 +6,7 @@
 2026-10-15 12:00:00,2026-10-15,12:00,MISS,"gato,aguila,zorro,chivo,zamuro,culebra,venado,oso,toro,jirafa","pescado,rana",,gato,0.028447899393288057
 2026-10-15 13:00:00,2026-10-15,13:00,MISS,"gato,zorro,aguila,toro,cochino,zamuro,cebra,chivo,elefante,jirafa","burro,camello",,gato,0.028979046928501215
 2026-10-15 14:00:00,2026-10-15,14:00,MISS,"gato,zorro,aguila,zamuro,venado,cochino,elefante,toro,oso,culebra","caiman,mono",,gato,0.028940024407077203
+2026-10-15 15:00:00,2026-10-15,15:00,HIT,"gato,zamuro,zorro,aguila,gallo,alacran,toro,chivo,venado,culebra","aguila,alacran","aguila,alacran",gato,0.02923201776018324
+2026-10-15 16:00:00,2026-10-15,16:00,HIT,"gato,gallo,zorro,zamuro,toro,venado,elefante,culebra,perro,cochino",venado,venado,gato,0.029096318590091607
+2026-10-15 17:00:00,2026-10-15,17:00,HIT,"gato,zorro,gallo,vaca,zamuro,elefante,toro,chivo,ardilla,culebra","aguila,ardilla",ardilla,gato,0.0291715388206246
+2026-10-15 18:00:00,2026-10-15,18:00,HIT,"gato,toro,gallo,vaca,zorro,zamuro,elefante,chivo,perro,jirafa","rana,zorro",zorro,gato,0.02899983148537029
