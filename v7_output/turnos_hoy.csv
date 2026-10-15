@@ -1,3 +1,8 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-10-15 08:00:00,2026-10-15,08:00,MISS,"zorro,jirafa,zamuro,chivo,ardilla,culebra,pavo,cebra,carnero,cochino","ballena,lapa",,zorro,0.028598419205696307
 2026-10-15 09:00:00,2026-10-15,09:00,MISS,"zorro,zamuro,aguila,gato,jirafa,chivo,cochino,oso,burro,cebra","caiman,delfin",,zorro,0.028210735000003536
+2026-10-15 10:00:00,2026-10-15,10:00,MISS,"gato,zorro,aguila,ardilla,jirafa,culebra,chivo,pescado,zamuro,cochino","gallina,paloma",,gato,0.028298727167876948
+2026-10-15 11:00:00,2026-10-15,11:00,MISS,"gato,culebra,aguila,cochino,zamuro,chivo,cebra,pescado,jirafa,carnero","iguana,perico",,gato,0.028524254154022852
+2026-10-15 12:00:00,2026-10-15,12:00,MISS,"gato,aguila,zorro,chivo,zamuro,culebra,venado,oso,toro,jirafa","pescado,rana",,gato,0.028447899393288057
+2026-10-15 13:00:00,2026-10-15,13:00,MISS,"gato,zorro,aguila,toro,cochino,zamuro,cebra,chivo,elefante,jirafa","burro,camello",,gato,0.028979046928501215
+2026-10-15 14:00:00,2026-10-15,14:00,MISS,"gato,zorro,aguila,zamuro,venado,cochino,elefante,toro,oso,culebra","caiman,mono",,gato,0.028940024407077203
