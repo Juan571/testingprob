@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-10-14 08:00:00,2026-10-14,08:00,HIT,"venado,vaca,zorro,ardilla,zamuro,lapa,jirafa,carnero,ciempies,elefante,caiman,delfin,ballena,burro","elefante,zamuro","elefante,zamuro"
-2026-10-14 09:00:00,2026-10-14,09:00,HIT,"venado,zorro,vaca,lapa,jirafa,ardilla,cochino,delfin,tigre,carnero,ciempies,rana,ballena,camello","tigre,toro",tigre
-2026-10-14 10:00:00,2026-10-14,10:00,MISS,"zorro,ardilla,venado,lapa,caiman,camello,cochino,delfin,rana,culebra,pavo,jirafa,burro,caballo","alacran,gallina",
-2026-10-14 11:00:00,2026-10-14,11:00,HIT,"venado,lapa,jirafa,carnero,ardilla,caiman,rana,cochino,pavo,culebra,delfin,camello,burro,ballena","caiman,perro",caiman
-2026-10-14 12:00:00,2026-10-14,12:00,HIT,"zorro,vaca,jirafa,ardilla,venado,cochino,carnero,ciempies,culebra,chivo,rana,delfin,camello,pavo","mono,venado",venado
-2026-10-14 13:00:00,2026-10-14,13:00,HIT,"zorro,vaca,cochino,ardilla,rana,carnero,ciempies,camello,culebra,chivo,lapa,delfin,pavo,burro","delfin,gato",delfin
-2026-10-14 14:00:00,2026-10-14,14:00,HIT,"zorro,vaca,ciempies,ardilla,jirafa,chivo,cochino,lapa,rana,culebra,burro,aguila,pavo,paloma","camello,paloma",paloma
-2026-10-14 15:00:00,2026-10-14,15:00,MISS,"vaca,cochino,lapa,aguila,rana,jirafa,ardilla,carnero,culebra,pavo,burro,chivo,iguana,caballo","caiman,delfin",
-2026-10-14 16:00:00,2026-10-14,16:00,HIT,"zorro,vaca,cochino,aguila,jirafa,ardilla,iguana,culebra,chivo,rana,burro,caballo,ciempies,zamuro","ciempies,gallina",ciempies
-2026-10-14 17:00:00,2026-10-14,17:00,MISS,"jirafa,aguila,burro,culebra,cochino,carnero,ardilla,chivo,pavo,lapa,cebra,rana,raton,pescado","iguana,vaca",
-2026-10-14 18:00:00,2026-10-14,18:00,MISS,"zorro,jirafa,aguila,cochino,pavo,culebra,burro,chivo,carnero,ardilla,rana,lapa,perico,oso","gallina,mono",
-2026-10-14 19:00:00,2026-10-14,19:00,MISS,"aguila,zamuro,jirafa,carnero,cochino,rana,ardilla,cebra,chivo,pescado,pavo,culebra,lapa,gato","perico,tigre",
+﻿
