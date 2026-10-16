@@ -7,3 +7,6 @@
 2026-10-16 13:00:00,2026-10-16,13:00,MISS,"gallina,gato,delfin,perico,paloma,caiman,iguana,camello,ciempies,toro","tigre,venado",,gallina,0.02868722162155887
 2026-10-16 14:00:00,2026-10-16,14:00,MISS,"gallina,delfin,perico,caiman,paloma,camello,iguana,ciempies,lapa,perro","gallo,mono",,gallina,0.029009232718506407
 2026-10-16 15:00:00,2026-10-16,15:00,MISS,"gallina,gato,perico,iguana,delfin,caiman,perro,chivo,ciempies,alacran","ballena,paloma",,gallina,0.02901898193604964
+2026-10-16 16:00:00,2026-10-16,16:00,HIT,"gallina,caiman,perico,gato,iguana,perro,toro,camello,ciempies,alacran","camello,carnero",camello,gallina,0.028860487576948667
+2026-10-16 17:00:00,2026-10-16,17:00,HIT,"gallina,gato,perico,caiman,iguana,alacran,ciempies,lapa,zorro,oso","aguila,ciempies",ciempies,gallina,0.029078473272139815
+2026-10-16 18:00:00,2026-10-16,18:00,HIT,"gallina,perico,caiman,iguana,gato,delfin,lapa,zorro,jirafa,rana","perico,rana","perico,rana",gallina,0.02855110004234197
