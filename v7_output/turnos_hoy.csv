@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-10-15 08:00:00,2026-10-15,08:00,MISS,"zorro,jirafa,zamuro,chivo,ardilla,culebra,pavo,cebra,carnero,cochino","ballena,lapa",,zorro,0.028598419205696307
-2026-10-15 09:00:00,2026-10-15,09:00,MISS,"zorro,zamuro,aguila,gato,jirafa,chivo,cochino,oso,burro,cebra","caiman,delfin",,zorro,0.028210735000003536
-2026-10-15 10:00:00,2026-10-15,10:00,MISS,"gato,zorro,aguila,ardilla,jirafa,culebra,chivo,pescado,zamuro,cochino","gallina,paloma",,gato,0.028298727167876948
-2026-10-15 11:00:00,2026-10-15,11:00,MISS,"gato,culebra,aguila,cochino,zamuro,chivo,cebra,pescado,jirafa,carnero","iguana,perico",,gato,0.028524254154022852
-2026-10-15 12:00:00,2026-10-15,12:00,MISS,"gato,aguila,zorro,chivo,zamuro,culebra,venado,oso,toro,jirafa","pescado,rana",,gato,0.028447899393288057
-2026-10-15 13:00:00,2026-10-15,13:00,MISS,"gato,zorro,aguila,toro,cochino,zamuro,cebra,chivo,elefante,jirafa","burro,camello",,gato,0.028979046928501215
-2026-10-15 14:00:00,2026-10-15,14:00,MISS,"gato,zorro,aguila,zamuro,venado,cochino,elefante,toro,oso,culebra","caiman,mono",,gato,0.028940024407077203
-2026-10-15 15:00:00,2026-10-15,15:00,HIT,"gato,zamuro,zorro,aguila,gallo,alacran,toro,chivo,venado,culebra","aguila,alacran","aguila,alacran",gato,0.02923201776018324
-2026-10-15 16:00:00,2026-10-15,16:00,HIT,"gato,gallo,zorro,zamuro,toro,venado,elefante,culebra,perro,cochino",venado,venado,gato,0.029096318590091607
-2026-10-15 17:00:00,2026-10-15,17:00,HIT,"gato,zorro,gallo,vaca,zamuro,elefante,toro,chivo,ardilla,culebra","aguila,ardilla",ardilla,gato,0.0291715388206246
-2026-10-15 18:00:00,2026-10-15,18:00,HIT,"gato,toro,gallo,vaca,zorro,zamuro,elefante,chivo,perro,jirafa","rana,zorro",zorro,gato,0.02899983148537029
-2026-10-15 19:00:00,2026-10-15,19:00,MISS,"gato,gallo,vaca,zamuro,toro,elefante,perro,chivo,cebra,cochino","caballo,mono",,gato,0.029079474167417147
+﻿
