@@ -3,3 +3,6 @@
 2026-10-17 09:00:00,2026-10-17,09:00,HIT,"caiman,gallina,gato,iguana,alacran,lapa,zorro,toro,oso,jirafa","gallina,gallo",gallina,caiman,0.028576319957351354
 2026-10-17 10:00:00,2026-10-17,10:00,MISS,"caiman,gato,alacran,zamuro,pescado,ardilla,venado,toro,cebra,elefante","aguila,ciempies",,caiman,0.028533880903723798
 2026-10-17 11:00:00,2026-10-17,11:00,HIT,"iguana,caiman,gato,venado,zorro,mono,cebra,lapa,oso,vaca","gato,zamuro",gato,iguana,0.028166750056010395
+2026-10-17 12:00:00,2026-10-17,12:00,HIT,"caiman,iguana,venado,alacran,mono,vaca,pescado,cebra,oso,ardilla","elefante,iguana",iguana,caiman,0.028304676866835823
+2026-10-17 13:00:00,2026-10-17,13:00,MISS,"venado,mono,alacran,pescado,ardilla,rana,toro,vaca,zorro,burro","cebra,raton",,venado,0.028105617370992125
+2026-10-17 14:00:00,2026-10-17,14:00,MISS,"venado,mono,caiman,alacran,vaca,zorro,burro,pescado,tigre,rana","ardilla,paloma",,venado,0.028317196776782624
