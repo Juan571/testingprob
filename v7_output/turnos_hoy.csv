@@ -1,3 +1,7 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-10-18 08:00:00,2026-10-18,08:00,MISS,"mono,vaca,venado,rana,camello,tigre,alacran,pescado,perico,burro","ardilla,gato",,mono,0.028522954492582134
 2026-10-18 09:00:00,2026-10-18,09:00,HIT,"mono,venado,rana,vaca,camello,gallina,burro,perico,cochino,alacran","alacran,raton",alacran,mono,0.02813218814605198
+2026-10-18 10:00:00,2026-10-18,10:00,MISS,"mono,venado,gallina,camello,rana,vaca,pescado,tigre,burro,zamuro","ciempies,paloma",,mono,0.02815094893588914
+2026-10-18 11:00:00,2026-10-18,11:00,HIT,"venado,rana,gallina,vaca,camello,tigre,perico,cochino,pescado,burro","caballo,rana",rana,venado,0.028121510855147306
+2026-10-18 12:00:00,2026-10-18,12:00,MISS,"venado,gallina,camello,tigre,pescado,vaca,burro,cochino,gallo,delfin","jirafa,mono",,venado,0.028321108026012544
+2026-10-18 13:00:00,2026-10-18,13:00,MISS,"camello,gallina,perico,delfin,tigre,pescado,burro,gallo,vaca,cochino",lapa,,camello,0.027917154026606876
