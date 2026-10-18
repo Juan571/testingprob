@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-10-18 08:00:00,2026-10-18,08:00,MISS,"vaca,venado,mono,rana,camello,tigre,pescado,burro,alacran,zorro,gallo,perico,zamuro,caballo","ardilla,gato",
+2026-10-18 09:00:00,2026-10-18,09:00,HIT,"rana,mono,vaca,venado,camello,gallina,burro,cochino,alacran,zorro,zamuro,carnero,elefante,culebra","alacran,raton",alacran
