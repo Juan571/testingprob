@@ -8,3 +8,6 @@
 2026-10-18 14:00:00,2026-10-18,14:00,HIT,"venado,perico,camello,delfin,gallo,tigre,gallina,carnero,vaca,aguila,burro,chivo,zamuro,pescado","camello,ciempies",camello
 2026-10-18 15:00:00,2026-10-18,15:00,HIT,"gallina,vaca,delfin,venado,perico,ballena,tigre,carnero,cochino,aguila,iguana,chivo,elefante,zorro","carnero,vaca","carnero,vaca"
 2026-10-18 16:00:00,2026-10-18,16:00,MISS,"aguila,venado,perico,gallo,cochino,ballena,zamuro,chivo,iguana,pescado,tigre,elefante,burro,zorro","alacran,gallina",
+2026-10-18 17:00:00,2026-10-18,17:00,HIT,"aguila,perico,delfin,elefante,cochino,venado,chivo,gallo,zamuro,tigre,cebra,ardilla,raton,ballena","ballena,carnero",ballena
+2026-10-18 18:00:00,2026-10-18,18:00,HIT,"aguila,perico,venado,gallo,iguana,elefante,tigre,ardilla,cochino,chivo,zamuro,raton,pescado,burro","zamuro,zorro",zamuro
+2026-10-18 19:00:00,2026-10-18,19:00,HIT,"aguila,iguana,delfin,raton,venado,ardilla,perico,gallo,chivo,cochino,cebra,pescado,gato,caiman","cochino,rana",cochino
