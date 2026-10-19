@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-19 08:00:00,2026-10-19,08:00,HIT,"aguila,ardilla,venado,delfin,elefante,iguana,raton,cebra,paloma,tigre","venado,zamuro",venado,aguila,0.028579277570217963
+2026-10-19 09:00:00,2026-10-19,09:00,HIT,"aguila,delfin,ardilla,iguana,paloma,raton,caiman,perico,gallo,tigre","ballena,iguana",iguana,aguila,0.02848477557105878
+2026-10-19 10:00:00,2026-10-19,10:00,HIT,"aguila,ardilla,raton,paloma,elefante,gallo,caiman,pescado,gato,ciempies","caiman,mono",caiman,aguila,0.028625325759703696

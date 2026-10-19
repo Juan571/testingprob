@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-10-19 08:00:00,2026-10-19,08:00,HIT,"aguila,ardilla,venado,elefante,delfin,iguana,raton,burro,paloma,cebra,pescado,tigre,perro,caiman","venado,zamuro",venado
+2026-10-19 09:00:00,2026-10-19,09:00,HIT,"aguila,iguana,ardilla,delfin,raton,paloma,perico,gallo,caiman,tigre,burro,gato,culebra,cebra","ballena,iguana",iguana
+2026-10-19 10:00:00,2026-10-19,10:00,HIT,"aguila,ardilla,paloma,raton,gallo,elefante,caiman,gato,pescado,ciempies,burro,chivo,perico,mono","caiman,mono","caiman,mono"
