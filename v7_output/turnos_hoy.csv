@@ -4,3 +4,7 @@
 2026-10-20 10:00:00,2026-10-20,10:00,HIT,"zamuro,rana,lapa,ardilla,aguila,camello,vaca,ballena,paloma,gallina","lapa,venado",lapa,zamuro,0.02818229780045002
 2026-10-20 11:00:00,2026-10-20,11:00,MISS,"zamuro,rana,ballena,paloma,aguila,camello,gallo,vaca,gallina,alacran","ciempies,zorro",,zamuro,0.028173673143590344
 2026-10-20 12:00:00,2026-10-20,12:00,MISS,"zamuro,rana,aguila,ballena,ardilla,camello,vaca,gallo,cebra,iguana","ciempies,tigre",,zamuro,0.028017914730288702
+2026-10-20 13:00:00,2026-10-20,13:00,MISS,"zamuro,rana,ballena,ardilla,camello,gallina,paloma,cochino,raton,iguana","lapa,vaca",,zamuro,0.027816225026416626
+2026-10-20 14:00:00,2026-10-20,14:00,MISS,"zamuro,ballena,rana,paloma,gallo,aguila,camello,alacran,raton,elefante","iguana,toro",,zamuro,0.028033335264531084
+2026-10-20 15:00:00,2026-10-20,15:00,MISS,"zamuro,ballena,paloma,rana,alacran,gato,camello,raton,ardilla,gallo","carnero,pavo",,zamuro,0.0281665148734977
+2026-10-20 16:00:00,2026-10-20,16:00,MISS,"zamuro,ballena,rana,paloma,aguila,ardilla,raton,cochino,gato,gallo","mono,oso",,zamuro,0.028098720767636913
