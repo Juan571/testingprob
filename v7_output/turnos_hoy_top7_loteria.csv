@@ -1,1 +1,6 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-10-20 08:00:00,2026-10-20,08:00,HIT,"ciempies,ardilla,zamuro,vaca,aguila,alacran,lapa,zorro,caballo,camello,paloma,venado,ballena,cebra","caballo,carnero",caballo
+2026-10-20 09:00:00,2026-10-20,09:00,HIT,"ciempies,zamuro,rana,vaca,ardilla,camello,lapa,aguila,paloma,ballena,alacran,zorro,gallina,raton","burro,ciempies",ciempies
+2026-10-20 10:00:00,2026-10-20,10:00,HIT,"rana,zamuro,ardilla,lapa,vaca,paloma,aguila,camello,ballena,gallina,raton,gallo,zorro,culebra","lapa,venado",lapa
+2026-10-20 11:00:00,2026-10-20,11:00,HIT,"zamuro,rana,aguila,ballena,paloma,camello,vaca,gallo,gallina,raton,zorro,elefante,culebra,alacran","ciempies,zorro",zorro
+2026-10-20 12:00:00,2026-10-20,12:00,MISS,"rana,zamuro,ballena,vaca,camello,aguila,ardilla,raton,gallo,cebra,chivo,mono,iguana,elefante","ciempies,tigre",
