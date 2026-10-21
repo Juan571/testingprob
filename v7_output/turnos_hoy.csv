@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-21 08:00:00,2026-10-21,08:00,HIT,"rana,raton,cochino,elefante,paloma,ardilla,ballena,caiman,delfin,jirafa","elefante,vaca",elefante,rana,0.02799215805802635
+2026-10-21 09:00:00,2026-10-21,09:00,HIT,"gato,paloma,ballena,delfin,ardilla,cochino,jirafa,iguana,alacran,rana","burro,gato",gato,gato,0.028102966432091744
+2026-10-21 10:00:00,2026-10-21,10:00,MISS,"raton,paloma,ardilla,delfin,caiman,ballena,ciempies,iguana,jirafa,pescado","cebra,elefante",,raton,0.027973484769239342
+2026-10-21 11:00:00,2026-10-21,11:00,MISS,"ciempies,paloma,carnero,delfin,jirafa,cochino,ballena,ardilla,rana,pescado","mono,venado",,ciempies,0.027999561866373406
