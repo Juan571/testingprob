@@ -3,3 +3,7 @@
 2026-10-21 09:00:00,2026-10-21,09:00,HIT,"gato,paloma,ballena,delfin,ardilla,cochino,jirafa,iguana,alacran,rana","burro,gato",gato,gato,0.028102966432091744
 2026-10-21 10:00:00,2026-10-21,10:00,MISS,"raton,paloma,ardilla,delfin,caiman,ballena,ciempies,iguana,jirafa,pescado","cebra,elefante",,raton,0.027973484769239342
 2026-10-21 11:00:00,2026-10-21,11:00,MISS,"ciempies,paloma,carnero,delfin,jirafa,cochino,ballena,ardilla,rana,pescado","mono,venado",,ciempies,0.027999561866373406
+2026-10-21 12:00:00,2026-10-21,12:00,HIT,"ciempies,raton,carnero,ardilla,iguana,caiman,lapa,delfin,aguila,cochino","aguila,elefante",aguila,ciempies,0.028119896388926226
+2026-10-21 13:00:00,2026-10-21,13:00,HIT,"ciempies,lapa,paloma,carnero,iguana,ardilla,delfin,jirafa,cochino,rana","cochino,venado",cochino,ciempies,0.028134146602741435
+2026-10-21 14:00:00,2026-10-21,14:00,HIT,"carnero,ciempies,raton,lapa,iguana,delfin,tigre,caiman,paloma,ardilla","caiman,pavo",caiman,carnero,0.02836403445414405
+2026-10-21 15:00:00,2026-10-21,15:00,HIT,"carnero,ciempies,paloma,tigre,iguana,raton,delfin,jirafa,ardilla,rana","ardilla,chivo",ardilla,carnero,0.028536772699032785
