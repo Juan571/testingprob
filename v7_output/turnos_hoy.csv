@@ -7,3 +7,7 @@
 2026-10-22 13:00:00,2026-10-22,13:00,MISS,"lapa,elefante,mono,ciempies,toro,caballo,vaca,tigre,venado,jirafa","perico,zamuro",,lapa,0.02914965027143694
 2026-10-22 14:00:00,2026-10-22,14:00,MISS,"lapa,vaca,mono,venado,ciempies,toro,zorro,gato,jirafa,cochino","perro,tigre",,lapa,0.029084048155374107
 2026-10-22 15:00:00,2026-10-22,15:00,MISS,"elefante,lapa,mono,venado,caballo,toro,ciempies,vaca,cochino,zorro","ballena,culebra",,elefante,0.028842591711412742
+2026-10-22 16:00:00,2026-10-22,16:00,HIT,"elefante,vaca,mono,lapa,venado,gato,caballo,ciempies,cochino,caiman","gato,tigre",gato,elefante,0.02869376279947037
+2026-10-22 17:00:00,2026-10-22,17:00,MISS,"elefante,vaca,mono,lapa,venado,ciempies,cochino,caiman,zorro,burro","raton,zamuro",,elefante,0.028899543291870812
+2026-10-22 18:00:00,2026-10-22,18:00,HIT,"lapa,vaca,venado,mono,caiman,ciempies,caballo,cochino,zorro,toro","camello,vaca",vaca,lapa,0.028431933689558035
+2026-10-22 19:00:00,2026-10-22,19:00,MISS,"elefante,venado,mono,lapa,cochino,caballo,caiman,ciempies,zorro,burro","delfin,jirafa",,elefante,0.028888924572328438
