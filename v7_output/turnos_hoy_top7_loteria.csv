@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-10-22 08:00:00,2026-10-22,08:00,MISS,"carnero,lapa,ciempies,elefante,zamuro,caballo,tigre,mono,jirafa,alacran,ballena,vaca,toro,oso","gallina,paloma",
+2026-10-22 09:00:00,2026-10-22,09:00,HIT,"lapa,ciempies,carnero,elefante,caballo,zamuro,jirafa,toro,tigre,burro,ballena,alacran,oso,pescado","iguana,oso",oso
+2026-10-22 10:00:00,2026-10-22,10:00,HIT,"lapa,ciempies,vaca,carnero,elefante,zamuro,mono,tigre,caballo,burro,venado,toro,delfin,alacran","carnero,gallo",carnero
+2026-10-22 11:00:00,2026-10-22,11:00,MISS,"lapa,ciempies,vaca,mono,elefante,zamuro,zorro,tigre,jirafa,venado,ballena,caballo,alacran,burro","culebra,pavo",
