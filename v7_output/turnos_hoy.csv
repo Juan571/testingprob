@@ -10,3 +10,4 @@
 2026-10-23 16:00:00,2026-10-23,16:00,MISS,"carnero,perico,gallo,venado,elefante,ciempies,iguana,caballo,caiman,gallina",perro,,carnero,0.02827038955038134
 2026-10-23 17:00:00,2026-10-23,17:00,HIT,"carnero,perico,gato,ciempies,elefante,gallo,mono,pavo,oso,gallina","gallina,oso","gallina,oso",carnero,0.02822237529919102
 2026-10-23 18:00:00,2026-10-23,18:00,MISS,"perico,carnero,gallo,ciempies,camello,elefante,gato,venado,mono,zamuro","caiman,rana",,perico,0.028542773029049135
+2026-10-23 19:00:00,2026-10-23,19:00,MISS,"carnero,gallo,zamuro,camello,venado,ciempies,pavo,iguana,gato,caballo","alacran,jirafa",,carnero,0.028280842829129287
