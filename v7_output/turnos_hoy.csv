@@ -1,1 +1,6 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-25 08:00:00,2026-10-25,08:00,MISS,"vaca,elefante,zamuro,venado,aguila,lapa,tigre,rana,toro,jirafa","caballo,delfin",,vaca,0.0285416038885065
+2026-10-25 09:00:00,2026-10-25,09:00,MISS,"vaca,elefante,toro,culebra,tigre,rana,perro,paloma,zamuro,alacran","ballena,carnero",,vaca,0.02793966079475021
+2026-10-25 10:00:00,2026-10-25,10:00,HIT,"vaca,alacran,perro,elefante,gallina,rana,cebra,paloma,tigre,gato","cebra,zamuro",cebra,vaca,0.027955768871117774
+2026-10-25 11:00:00,2026-10-25,11:00,HIT,"alacran,rana,culebra,toro,vaca,gallina,tigre,cochino,paloma,venado","paloma,raton",paloma,alacran,0.028075517559635808
+2026-10-25 12:00:00,2026-10-25,12:00,HIT,"alacran,toro,perro,rana,culebra,tigre,venado,vaca,gallina,jirafa","ballena,venado",venado,alacran,0.028229506163101322
