@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-10-25 08:00:00,2026-10-25,08:00,MISS,"vaca,elefante,venado,aguila,tigre,zamuro,rana,toro,jirafa,pavo","caballo,delfin",,vaca,0.028159223737099826
-2026-10-25 09:00:00,2026-10-25,09:00,MISS,"vaca,elefante,toro,culebra,tigre,rana,perro,paloma,zamuro,alacran","ballena,carnero",,vaca,0.027941855926510065
-2026-10-25 10:00:00,2026-10-25,10:00,HIT,"alacran,perro,elefante,gallina,rana,vaca,cebra,paloma,tigre,gato","cebra,zamuro",cebra,alacran,0.02787657842536493
-2026-10-25 11:00:00,2026-10-25,11:00,HIT,"alacran,rana,culebra,toro,vaca,gallina,tigre,cochino,paloma,venado","paloma,raton",paloma,alacran,0.028075517559635808
-2026-10-25 12:00:00,2026-10-25,12:00,HIT,"alacran,toro,perro,rana,culebra,tigre,venado,vaca,gallina,jirafa","ballena,venado",venado,alacran,0.028229634566932307
-2026-10-25 13:00:00,2026-10-25,13:00,MISS,"alacran,rana,toro,perro,gallina,tigre,ardilla,cochino,elefante,vaca","raton,zamuro",,alacran,0.028279453581781144
-2026-10-25 14:00:00,2026-10-25,14:00,MISS,"alacran,culebra,rana,tigre,gallina,ardilla,vaca,camello,cochino,jirafa","paloma,perro",,alacran,0.028628831140903248
-2026-10-25 15:00:00,2026-10-25,15:00,MISS,"alacran,culebra,rana,camello,tigre,gallina,cochino,ardilla,gallo,jirafa",ciempies,,alacran,0.028542158393586196
-2026-10-25 16:00:00,2026-10-25,16:00,MISS,"culebra,camello,rana,tigre,caiman,gallo,gallina,ardilla,vaca,perico","elefante,venado",,culebra,0.02841021587026109
-2026-10-25 17:00:00,2026-10-25,17:00,HIT,"alacran,camello,rana,culebra,ardilla,gallina,tigre,gallo,perico,oso","aguila,gallo",gallo,alacran,0.02860692287363128
-2026-10-25 18:00:00,2026-10-25,18:00,MISS,"alacran,rana,culebra,perico,ardilla,jirafa,gallina,oso,caiman,toro","pescado,tigre",,alacran,0.028678220611597
-2026-10-25 19:00:00,2026-10-25,19:00,HIT,"camello,alacran,rana,gallina,culebra,caiman,perico,delfin,jirafa,iguana","ardilla,culebra",culebra,camello,0.02903933298245503
+﻿
