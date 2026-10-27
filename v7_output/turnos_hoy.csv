@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-10-26 08:00:00,2026-10-26,08:00,MISS,"camello,alacran,rana,perico,caiman,delfin,oso,vaca,cebra,gallina","ballena,iguana",,camello,0.02926135689297112
-2026-10-26 09:00:00,2026-10-26,09:00,MISS,"camello,alacran,perico,jirafa,oso,rana,caiman,chivo,lapa,mono","carnero,paloma",,camello,0.02933219229655819
-2026-10-26 10:00:00,2026-10-26,10:00,MISS,"camello,alacran,perico,cebra,oso,rana,gallina,caiman,zamuro,chivo","raton,zorro",,camello,0.029181286205858567
-2026-10-26 11:00:00,2026-10-26,11:00,MISS,"camello,alacran,delfin,cebra,caiman,mono,rana,jirafa,toro,chivo","culebra,pavo",,camello,0.029000012910060956
-2026-10-26 12:00:00,2026-10-26,12:00,HIT,"camello,delfin,alacran,perico,caiman,chivo,cebra,toro,mono,vaca","chivo,delfin","chivo,delfin",camello,0.028892049744012428
-2026-10-26 13:00:00,2026-10-26,13:00,MISS,"camello,perico,caiman,cebra,alacran,toro,rana,oso,jirafa,zamuro","mono,perro",,camello,0.02905605506325885
-2026-10-26 14:00:00,2026-10-26,14:00,HIT,"camello,perico,alacran,oso,caiman,cebra,jirafa,rana,toro,gallo","lapa,oso",oso,camello,0.02858467903927451
-2026-10-26 15:00:00,2026-10-26,15:00,MISS,"camello,zamuro,alacran,perico,cebra,rana,gallo,vaca,ballena,toro","caballo,venado",,camello,0.02850154893962019
-2026-10-26 16:00:00,2026-10-26,16:00,HIT,"camello,zamuro,gallo,caiman,ballena,cebra,alacran,perico,ardilla,rana","caiman,tigre",caiman,camello,0.028492971068456722
-2026-10-26 17:00:00,2026-10-26,17:00,HIT,"camello,ballena,zamuro,gallo,alacran,cebra,ardilla,perico,vaca,raton","caiman,gallo",gallo,camello,0.028584150259312952
-2026-10-26 18:00:00,2026-10-26,18:00,HIT,"ballena,zamuro,alacran,cebra,jirafa,toro,ardilla,vaca,raton,rana","pavo,vaca",vaca,ballena,0.02820881795267701
-2026-10-26 19:00:00,2026-10-26,19:00,MISS,"camello,zamuro,ballena,cebra,raton,paloma,alacran,ardilla,rana,jirafa","chivo,lapa",,camello,0.02874727719093272
+﻿
