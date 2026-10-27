@@ -1,1 +1,6 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-27 08:00:00,2026-10-27,08:00,HIT,"ballena,zamuro,camello,raton,cebra,alacran,paloma,jirafa,rana,aguila","cebra,gallo",cebra,ballena,0.028501173034085468
+2026-10-27 09:00:00,2026-10-27,09:00,MISS,"ballena,paloma,zamuro,raton,ardilla,alacran,delfin,culebra,jirafa,rana","gato,perro",,ballena,0.02877809638931329
+2026-10-27 10:00:00,2026-10-27,10:00,MISS,"ballena,raton,paloma,ardilla,camello,alacran,culebra,carnero,pescado,delfin","leon,mono",,ballena,0.028698075994155393
+2026-10-27 11:00:00,2026-10-27,11:00,HIT,"ballena,raton,zamuro,culebra,camello,ardilla,carnero,iguana,pescado,delfin","carnero,culebra","carnero,culebra",ballena,0.028505347128183322
+2026-10-27 12:00:00,2026-10-27,12:00,HIT,"paloma,raton,zamuro,ardilla,camello,alacran,venado,iguana,pescado,rana","alacran,oso",alacran,paloma,0.02862509013680923
