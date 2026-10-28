@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-10-28 08:00:00,2026-10-28,08:00,HIT,"chivo,raton,venado,delfin,ballena,paloma,zamuro,gallo,aguila,tigre,ciempies,vaca,elefante,jirafa","chivo,rana",chivo
+2026-10-28 09:00:00,2026-10-28,09:00,HIT,"raton,zorro,ballena,delfin,camello,venado,gallo,paloma,lapa,zamuro,caballo,mono,tigre,elefante","elefante,leon",elefante
+2026-10-28 10:00:00,2026-10-28,10:00,MISS,"gallo,delfin,camello,venado,paloma,zorro,caballo,carnero,lapa,pescado,ballena,mono,ciempies,perro","gallina,pavo",
+2026-10-28 11:00:00,2026-10-28,11:00,HIT,"raton,gallo,delfin,camello,venado,zamuro,mono,lapa,ballena,carnero,paloma,pescado,caballo,perro","gallo,leon",gallo

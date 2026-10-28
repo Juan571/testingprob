@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-28 08:00:00,2026-10-28,08:00,HIT,"raton,chivo,venado,ballena,delfin,zamuro,paloma,gallo,elefante,jirafa","chivo,rana",chivo,raton,0.02816550389717942
+2026-10-28 09:00:00,2026-10-28,09:00,MISS,"ballena,raton,delfin,camello,paloma,venado,gallo,zorro,zamuro,lapa","elefante,leon",,ballena,0.028005535019162538
+2026-10-28 10:00:00,2026-10-28,10:00,MISS,"gallo,delfin,camello,paloma,venado,zorro,ballena,carnero,mono,lapa","gallina,pavo",,gallo,0.02826558742877472
+2026-10-28 11:00:00,2026-10-28,11:00,HIT,"gallo,raton,delfin,venado,mono,camello,ballena,zamuro,lapa,perro","gallo,leon",gallo,gallo,0.02851461842425449
