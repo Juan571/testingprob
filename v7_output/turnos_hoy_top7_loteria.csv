@@ -1,11 +1,13 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
 2026-10-27 08:00:00,2026-10-27,08:00,HIT,"camello,ballena,zamuro,raton,cebra,paloma,alacran,delfin,aguila,zorro,rana,jirafa,elefante,carnero","cebra,gallo",cebra
 2026-10-27 09:00:00,2026-10-27,09:00,MISS,"ballena,paloma,zamuro,raton,ardilla,alacran,rana,delfin,culebra,carnero,jirafa,toro,aguila,ciempies","gato,perro",
-2026-10-27 10:00:00,2026-10-27,10:00,MISS,"ballena,paloma,camello,raton,ardilla,alacran,delfin,carnero,culebra,aguila,ciempies,pescado,toro,gallina","leon,mono",
-2026-10-27 11:00:00,2026-10-27,11:00,HIT,"raton,zamuro,ballena,ardilla,carnero,camello,culebra,zorro,iguana,aguila,delfin,ciempies,pescado,toro","carnero,culebra","carnero,culebra"
+2026-10-27 10:00:00,2026-10-27,10:00,MISS,"ballena,paloma,camello,raton,ardilla,alacran,pescado,carnero,culebra,aguila,ciempies,delfin,toro,gallina","leon,mono",
+2026-10-27 11:00:00,2026-10-27,11:00,HIT,"ballena,raton,zamuro,ardilla,camello,culebra,carnero,zorro,iguana,aguila,delfin,ciempies,pescado,toro","carnero,culebra","carnero,culebra"
 2026-10-27 12:00:00,2026-10-27,12:00,HIT,"paloma,raton,ardilla,zamuro,camello,alacran,venado,iguana,zorro,pescado,aguila,oso,ciempies,elefante","alacran,oso","alacran,oso"
-2026-10-27 13:00:00,2026-10-27,13:00,HIT,"paloma,ballena,raton,ardilla,venado,iguana,toro,camello,zamuro,rana,delfin,aguila,elefante,gallina","cochino,rana",rana
+2026-10-27 13:00:00,2026-10-27,13:00,HIT,"raton,ballena,paloma,ardilla,venado,iguana,toro,camello,zamuro,rana,delfin,aguila,elefante,gallina","cochino,rana",rana
 2026-10-27 14:00:00,2026-10-27,14:00,HIT,"raton,paloma,ardilla,ballena,venado,zamuro,zorro,delfin,camello,ciempies,pescado,iguana,elefante,jirafa","ardilla,cebra",ardilla
 2026-10-27 15:00:00,2026-10-27,15:00,MISS,"paloma,raton,ballena,delfin,chivo,venado,zamuro,tigre,zorro,elefante,gallina,toro,ciempies,aguila","iguana,pavo",
 2026-10-27 16:00:00,2026-10-27,16:00,MISS,"paloma,venado,raton,elefante,ballena,camello,delfin,zamuro,tigre,pescado,chivo,zorro,perro,gallo","caiman,toro",
 2026-10-27 17:00:00,2026-10-27,17:00,MISS,"paloma,raton,venado,delfin,ballena,chivo,tigre,camello,zorro,gallo,zamuro,aguila,pescado,caballo","caiman,rana",
+2026-10-27 18:00:00,2026-10-27,18:00,MISS,"raton,paloma,zorro,camello,tigre,pescado,caballo,chivo,gallo,ballena,venado,delfin,aguila,zamuro","burro,culebra",
+2026-10-27 19:00:00,2026-10-27,19:00,MISS,"paloma,zorro,raton,pescado,gallo,zamuro,perro,delfin,camello,venado,caballo,ciempies,gallina,elefante","cebra,oso",

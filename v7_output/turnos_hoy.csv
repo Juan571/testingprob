@@ -1,11 +1,13 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-10-27 08:00:00,2026-10-27,08:00,HIT,"ballena,zamuro,camello,raton,cebra,alacran,paloma,jirafa,rana,aguila","cebra,gallo",cebra,ballena,0.028501173034085468
+2026-10-27 08:00:00,2026-10-27,08:00,HIT,"ballena,zamuro,camello,raton,cebra,alacran,paloma,jirafa,rana,aguila","cebra,gallo",cebra,ballena,0.02850074676755753
 2026-10-27 09:00:00,2026-10-27,09:00,MISS,"ballena,paloma,zamuro,raton,ardilla,alacran,delfin,culebra,jirafa,rana","gato,perro",,ballena,0.02877856442198181
-2026-10-27 10:00:00,2026-10-27,10:00,MISS,"ballena,raton,paloma,ardilla,camello,alacran,delfin,culebra,carnero,pescado","leon,mono",,ballena,0.028697460992218374
-2026-10-27 11:00:00,2026-10-27,11:00,HIT,"ballena,raton,zamuro,culebra,camello,ardilla,carnero,iguana,pescado,delfin","carnero,culebra","carnero,culebra",ballena,0.028505347128183322
+2026-10-27 10:00:00,2026-10-27,10:00,MISS,"ballena,raton,paloma,ardilla,camello,alacran,culebra,carnero,pescado,delfin","leon,mono",,ballena,0.028698075994155393
+2026-10-27 11:00:00,2026-10-27,11:00,HIT,"ballena,raton,zamuro,culebra,camello,ardilla,iguana,pescado,delfin,venado","carnero,culebra",culebra,ballena,0.028938599807327353
 2026-10-27 12:00:00,2026-10-27,12:00,HIT,"paloma,raton,ardilla,camello,zamuro,alacran,venado,iguana,pescado,rana","alacran,oso",alacran,paloma,0.028626694439542223
-2026-10-27 13:00:00,2026-10-27,13:00,HIT,"paloma,ballena,raton,ardilla,zamuro,camello,venado,rana,toro,iguana","cochino,rana",rana,paloma,0.028718535266829798
+2026-10-27 13:00:00,2026-10-27,13:00,HIT,"raton,ballena,paloma,ardilla,zamuro,camello,venado,rana,toro,iguana","cochino,rana",rana,raton,0.028862531039207356
 2026-10-27 14:00:00,2026-10-27,14:00,HIT,"raton,paloma,ballena,zamuro,venado,ardilla,delfin,camello,zorro,pescado","ardilla,cebra",ardilla,raton,0.0283719723522837
 2026-10-27 15:00:00,2026-10-27,15:00,MISS,"paloma,raton,ballena,venado,zamuro,delfin,tigre,zorro,elefante,chivo","iguana,pavo",,paloma,0.02864057398382493
 2026-10-27 16:00:00,2026-10-27,16:00,MISS,"raton,paloma,venado,delfin,ballena,camello,pescado,zamuro,tigre,chivo","caiman,toro",,raton,0.028090004306554863
 2026-10-27 17:00:00,2026-10-27,17:00,MISS,"raton,paloma,ballena,venado,delfin,chivo,camello,zorro,tigre,gallo","caiman,rana",,raton,0.028323196613312923
+2026-10-27 18:00:00,2026-10-27,18:00,MISS,"paloma,raton,chivo,tigre,camello,ballena,delfin,zorro,gallo,venado","burro,culebra",,paloma,0.028145265075065144
+2026-10-27 19:00:00,2026-10-27,19:00,MISS,"raton,delfin,paloma,zorro,camello,zamuro,pescado,venado,gallo,caballo","cebra,oso",,raton,0.02818389773491007
