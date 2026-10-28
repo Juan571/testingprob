@@ -3,3 +3,8 @@
 2026-10-28 09:00:00,2026-10-28,09:00,HIT,"raton,zorro,ballena,delfin,camello,venado,gallo,paloma,lapa,zamuro,caballo,mono,tigre,elefante","elefante,leon",elefante
 2026-10-28 10:00:00,2026-10-28,10:00,MISS,"gallo,delfin,camello,venado,paloma,zorro,caballo,carnero,lapa,pescado,ballena,mono,ciempies,perro","gallina,pavo",
 2026-10-28 11:00:00,2026-10-28,11:00,HIT,"raton,gallo,delfin,camello,venado,zamuro,mono,lapa,ballena,carnero,paloma,pescado,caballo,perro","gallo,leon",gallo
+2026-10-28 12:00:00,2026-10-28,12:00,HIT,"venado,delfin,paloma,mono,raton,lapa,zamuro,zorro,carnero,perro,ballena,aguila,vaca,pescado","culebra,vaca",vaca
+2026-10-28 13:00:00,2026-10-28,13:00,MISS,"mono,raton,lapa,venado,paloma,delfin,zorro,camello,tigre,caballo,ardilla,carnero,chivo,zamuro","alacran,elefante",
+2026-10-28 14:00:00,2026-10-28,14:00,HIT,"venado,lapa,perro,mono,zorro,paloma,tigre,delfin,caballo,carnero,camello,ballena,aguila,ardilla","caballo,camello","caballo,camello"
+2026-10-28 15:00:00,2026-10-28,15:00,HIT,"venado,raton,carnero,lapa,paloma,zamuro,tigre,caiman,iguana,zorro,ballena,perro,ardilla,oso","lapa,rana",lapa
+2026-10-28 16:00:00,2026-10-28,16:00,HIT,"venado,raton,carnero,tigre,zorro,iguana,cebra,perro,mono,zamuro,paloma,oso,chivo,pescado","elefante,oso",oso
