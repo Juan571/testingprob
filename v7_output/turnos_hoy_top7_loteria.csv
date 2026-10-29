@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-10-29 08:00:00,2026-10-29,08:00,MISS,"cebra,venado,ardilla,caiman,culebra,perro,ballena,mono,zorro,paloma,delfin,zamuro,pavo,tigre","alacran,gato",
+2026-10-29 09:00:00,2026-10-29,09:00,MISS,"cebra,caiman,gallo,venado,ballena,chivo,ardilla,culebra,mono,paloma,delfin,zorro,perro,zamuro","burro,camello",
+2026-10-29 10:00:00,2026-10-29,10:00,HIT,"caiman,culebra,ardilla,venado,perro,paloma,delfin,mono,zorro,ballena,pescado,zamuro,toro,leon","elefante,pescado",pescado
