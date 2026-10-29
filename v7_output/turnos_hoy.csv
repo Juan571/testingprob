@@ -8,3 +8,6 @@
 2026-10-28 14:00:00,2026-10-28,14:00,HIT,"venado,mono,perro,lapa,carnero,camello,tigre,ballena,zorro,paloma","caballo,camello",camello,venado,0.028075222545886902
 2026-10-28 15:00:00,2026-10-28,15:00,HIT,"venado,raton,lapa,carnero,paloma,tigre,perro,ballena,caiman,zamuro","lapa,rana",lapa,venado,0.02800715070159995
 2026-10-28 16:00:00,2026-10-28,16:00,MISS,"venado,raton,carnero,perro,tigre,cebra,paloma,delfin,ballena,chivo","elefante,oso",,venado,0.028082125542741337
+2026-10-28 17:00:00,2026-10-28,17:00,HIT,"carnero,ardilla,cebra,chivo,paloma,ballena,venado,iguana,mono,tigre","gato,iguana",iguana,carnero,0.02810587705608747
+2026-10-28 18:00:00,2026-10-28,18:00,HIT,"chivo,caiman,gallo,carnero,venado,paloma,raton,zorro,ballena,perro","carnero,raton","carnero,raton",chivo,0.027959175585488612
+2026-10-28 19:00:00,2026-10-28,19:00,MISS,"cebra,chivo,gallo,venado,perro,paloma,caiman,zorro,mono,ardilla","ciempies,cochino",,cebra,0.02848661132594243
