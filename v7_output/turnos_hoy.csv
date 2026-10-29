@@ -1,4 +1,10 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-10-29 08:00:00,2026-10-29,08:00,MISS,"cebra,venado,caiman,culebra,zorro,ballena,ardilla,perro,mono,paloma","alacran,gato",,cebra,0.02862118028162975
-2026-10-29 09:00:00,2026-10-29,09:00,MISS,"cebra,caiman,culebra,gallo,chivo,ballena,venado,paloma,perro,pavo","burro,camello",,cebra,0.02848802117488981
+2026-10-29 08:00:00,2026-10-29,08:00,MISS,"cebra,venado,caiman,culebra,zorro,ballena,ardilla,perro,mono,paloma","alacran,gato",,cebra,0.0286213392879228
+2026-10-29 09:00:00,2026-10-29,09:00,MISS,"cebra,caiman,culebra,chivo,ballena,venado,paloma,perro,pavo,ardilla","burro,camello",,cebra,0.028488480729298684
 2026-10-29 10:00:00,2026-10-29,10:00,MISS,"culebra,caiman,ardilla,perro,venado,ballena,paloma,mono,delfin,zorro","elefante,pescado",,culebra,0.028220222259248254
+2026-10-29 11:00:00,2026-10-29,11:00,MISS,"culebra,cebra,pavo,mono,ballena,gallo,delfin,chivo,rana,paloma","aguila,iguana",,culebra,0.028642300857106413
+2026-10-29 12:00:00,2026-10-29,12:00,MISS,"culebra,caiman,pavo,venado,rana,gallo,ardilla,chivo,paloma,oso","ballena,raton",,culebra,0.028499550829165762
+2026-10-29 13:00:00,2026-10-29,13:00,HIT,"cebra,caiman,rana,pavo,chivo,ardilla,gallo,venado,paloma,oso","culebra,oso",oso,cebra,0.028665857777217054
+2026-10-29 14:00:00,2026-10-29,14:00,MISS,"caiman,rana,cebra,gallo,venado,chivo,ardilla,leon,perro,tigre","culebra,toro",,caiman,0.028393089885496395
+2026-10-29 15:00:00,2026-10-29,15:00,MISS,"caiman,pavo,cebra,rana,gallo,chivo,venado,leon,ardilla,paloma","caballo,tigre",,caiman,0.028255074846910103
+2026-10-29 16:00:00,2026-10-29,16:00,HIT,"caiman,rana,gallo,pavo,cebra,chivo,venado,perro,ardilla,delfin","delfin,perico",delfin,caiman,0.028656926064452824
