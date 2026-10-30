@@ -5,6 +5,9 @@
 2026-10-29 11:00:00,2026-10-29,11:00,MISS,"culebra,cebra,pavo,mono,ballena,gallo,delfin,chivo,rana,paloma","aguila,iguana",,culebra,0.028642300857106413
 2026-10-29 12:00:00,2026-10-29,12:00,MISS,"culebra,caiman,pavo,venado,rana,gallo,ardilla,chivo,paloma,oso","ballena,raton",,culebra,0.028499550829165762
 2026-10-29 13:00:00,2026-10-29,13:00,HIT,"cebra,caiman,rana,pavo,chivo,ardilla,gallo,venado,paloma,oso","culebra,oso",oso,cebra,0.028665857777217054
-2026-10-29 14:00:00,2026-10-29,14:00,MISS,"caiman,rana,cebra,gallo,venado,chivo,ardilla,leon,perro,tigre","culebra,toro",,caiman,0.028393089885496395
+2026-10-29 14:00:00,2026-10-29,14:00,MISS,"caiman,rana,cebra,gallo,venado,chivo,ardilla,leon,paloma,perro","culebra,toro",,caiman,0.02839196007030423
 2026-10-29 15:00:00,2026-10-29,15:00,MISS,"caiman,pavo,cebra,rana,gallo,chivo,venado,leon,ardilla,paloma","caballo,tigre",,caiman,0.028255074846910103
 2026-10-29 16:00:00,2026-10-29,16:00,HIT,"caiman,rana,gallo,pavo,cebra,chivo,venado,perro,ardilla,delfin","delfin,perico",delfin,caiman,0.028656926064452824
+2026-10-29 17:00:00,2026-10-29,17:00,MISS,"caiman,gallo,chivo,pavo,cebra,ardilla,lapa,leon,vaca,mono","camello,perro",,caiman,0.02853394408388528
+2026-10-29 18:00:00,2026-10-29,18:00,HIT,"rana,caiman,pavo,chivo,leon,lapa,elefante,venado,ardilla,zorro","gallina,leon",leon,rana,0.0283324126625701
+2026-10-29 19:00:00,2026-10-29,19:00,MISS,"cebra,gallo,chivo,pavo,caiman,elefante,lapa,ardilla,mono,carnero","iguana,zamuro",,cebra,0.028438132864736846
