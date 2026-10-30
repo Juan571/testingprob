@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-10-30 08:00:00,2026-10-30,08:00,HIT,"pavo,rana,chivo,lapa,vaca,gallo,caiman,carnero,venado,mono,ardilla,alacran,zorro,cochino","gallina,vaca",vaca
+2026-10-30 09:00:00,2026-10-30,09:00,HIT,"elefante,rana,pavo,chivo,lapa,carnero,alacran,caiman,gallo,ardilla,mono,cebra,gato,venado","leon,venado",venado
+2026-10-30 10:00:00,2026-10-30,10:00,HIT,"elefante,pavo,gallo,caiman,cebra,lapa,carnero,zorro,chivo,oso,gato,ardilla,cochino,ciempies","caiman,iguana",caiman

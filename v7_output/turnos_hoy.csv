@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-10-30 08:00:00,2026-10-30,08:00,HIT,"rana,pavo,chivo,vaca,caiman,lapa,gallo,carnero,ardilla,alacran","gallina,vaca",vaca,rana,0.028372177568247458
+2026-10-30 09:00:00,2026-10-30,09:00,MISS,"elefante,rana,pavo,caiman,chivo,lapa,gallo,cebra,carnero,alacran","leon,venado",,elefante,0.02845978364960363
+2026-10-30 10:00:00,2026-10-30,10:00,HIT,"elefante,pavo,caiman,lapa,gallo,carnero,cebra,chivo,gato,ardilla","caiman,iguana",caiman,elefante,0.02860036788056882
