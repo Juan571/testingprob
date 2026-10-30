@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-10-29 08:00:00,2026-10-29,08:00,MISS,"cebra,venado,ardilla,caiman,culebra,perro,ballena,mono,zorro,paloma,delfin,zamuro,pavo,tigre","alacran,gato",
-2026-10-29 09:00:00,2026-10-29,09:00,MISS,"cebra,caiman,venado,ballena,chivo,ardilla,paloma,culebra,mono,delfin,zorro,perro,zamuro,gallo","burro,camello",
-2026-10-29 10:00:00,2026-10-29,10:00,HIT,"caiman,culebra,ardilla,venado,perro,paloma,delfin,mono,zorro,ballena,pescado,zamuro,toro,leon","elefante,pescado",pescado
-2026-10-29 11:00:00,2026-10-29,11:00,MISS,"cebra,culebra,mono,gallo,pavo,chivo,ballena,delfin,paloma,leon,toro,zorro,perro,rana","aguila,iguana",
-2026-10-29 12:00:00,2026-10-29,12:00,MISS,"caiman,pavo,culebra,venado,gallo,ardilla,paloma,rana,chivo,zamuro,cebra,oso,perro,mono","ballena,raton",
-2026-10-29 13:00:00,2026-10-29,13:00,HIT,"cebra,caiman,rana,pavo,venado,chivo,gallo,ardilla,paloma,tigre,toro,perro,oso,leon","culebra,oso",oso
-2026-10-29 14:00:00,2026-10-29,14:00,HIT,"caiman,gallo,cebra,rana,paloma,perro,ardilla,venado,leon,tigre,vaca,chivo,toro,mono","culebra,toro",toro
-2026-10-29 15:00:00,2026-10-29,15:00,HIT,"caiman,rana,pavo,cebra,gallo,venado,chivo,ardilla,leon,tigre,paloma,zorro,perro,mono","caballo,tigre",tigre
-2026-10-29 16:00:00,2026-10-29,16:00,HIT,"caiman,pavo,rana,gallo,chivo,cebra,ardilla,venado,lapa,zorro,perro,delfin,zamuro,carnero","delfin,perico",delfin
-2026-10-29 17:00:00,2026-10-29,17:00,MISS,"caiman,gallo,chivo,cebra,pavo,ardilla,venado,lapa,leon,zorro,mono,vaca,elefante,paloma","camello,perro",
-2026-10-29 18:00:00,2026-10-29,18:00,HIT,"rana,caiman,leon,pavo,chivo,lapa,venado,zorro,elefante,ardilla,carnero,mono,jirafa,paloma","gallina,leon",leon
-2026-10-29 19:00:00,2026-10-29,19:00,HIT,"gallo,pavo,cebra,chivo,elefante,lapa,caiman,ardilla,mono,carnero,venado,zamuro,paloma,cochino","iguana,zamuro",zamuro
+﻿
