@@ -7,3 +7,6 @@
 2026-10-30 13:00:00,2026-10-30,13:00,MISS,"elefante,rana,oso,lapa,gato,alacran,pavo,cebra,chivo,gallo",perro,,elefante,0.028625724602213132
 2026-10-30 14:00:00,2026-10-30,14:00,MISS,"elefante,rana,oso,alacran,lapa,gato,gallo,carnero,cebra,chivo","delfin,toro",,elefante,0.02861851466273915
 2026-10-30 15:00:00,2026-10-30,15:00,MISS,"rana,elefante,oso,gato,lapa,alacran,culebra,gallo,cebra,pavo","chivo,vaca",,rana,0.0283942853741216
+2026-10-30 16:00:00,2026-10-30,16:00,HIT,"rana,elefante,oso,culebra,gato,lapa,gallo,cebra,carnero,alacran","burro,rana",rana,rana,0.028418322512341113
+2026-10-30 17:00:00,2026-10-30,17:00,MISS,"elefante,oso,gato,culebra,carnero,alacran,iguana,gallo,raton,cebra","ardilla,pescado",,elefante,0.028514043416092705
+2026-10-30 18:00:00,2026-10-30,18:00,MISS,"elefante,culebra,iguana,gato,alacran,gallo,pavo,camello,raton,cebra","leon,oso",,elefante,0.028179235727035373
