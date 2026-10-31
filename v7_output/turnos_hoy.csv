@@ -1,2 +1,7 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
 2026-10-31 08:00:00,2026-10-31,08:00,MISS,"elefante,culebra,iguana,alacran,camello,cebra,pavo,carnero,lapa,raton","delfin,rana",,elefante,0.02844662919360579
+2026-10-31 09:00:00,2026-10-31,09:00,MISS,"culebra,iguana,elefante,camello,alacran,gato,cebra,lapa,pavo,raton","tigre,zorro",,culebra,0.028338302479980433
+2026-10-31 10:00:00,2026-10-31,10:00,MISS,"culebra,iguana,elefante,camello,cebra,alacran,carnero,raton,pavo,gallo","oso,pescado",,culebra,0.02857805662474095
+2026-10-31 11:00:00,2026-10-31,11:00,HIT,"iguana,culebra,elefante,camello,carnero,alacran,gallina,raton,cebra,ballena","gallina,perico",gallina,iguana,0.02880732764426858
+2026-10-31 12:00:00,2026-10-31,12:00,HIT,"culebra,elefante,camello,cebra,iguana,caiman,carnero,pavo,aguila,alacran","camello,toro",camello,culebra,0.02864548166307224
+2026-10-31 13:00:00,2026-10-31,13:00,MISS,"culebra,iguana,elefante,raton,caiman,caballo,alacran,gato,pavo,ballena","gallina,zamuro",,culebra,0.028663144907209157

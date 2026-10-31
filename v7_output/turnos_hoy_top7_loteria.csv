@@ -1,2 +1,7 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
 2026-10-31 08:00:00,2026-10-31,08:00,MISS,"iguana,culebra,elefante,alacran,camello,cebra,pavo,lapa,raton,ciempies,carnero,caiman,ballena,mono","delfin,rana",
+2026-10-31 09:00:00,2026-10-31,09:00,MISS,"iguana,elefante,culebra,camello,gato,alacran,cebra,lapa,pavo,raton,gallo,caiman,ciempies,aguila","tigre,zorro",
+2026-10-31 10:00:00,2026-10-31,10:00,MISS,"iguana,culebra,elefante,camello,carnero,cebra,pavo,alacran,raton,gallo,mono,lapa,caiman,ciempies","oso,pescado",
+2026-10-31 11:00:00,2026-10-31,11:00,HIT,"iguana,culebra,elefante,camello,caiman,alacran,gallina,cebra,carnero,ballena,raton,caballo,gato,perico","gallina,perico","gallina,perico"
+2026-10-31 12:00:00,2026-10-31,12:00,HIT,"culebra,elefante,camello,aguila,carnero,iguana,cebra,pavo,gallo,toro,lapa,caiman,caballo,alacran","camello,toro","camello,toro"
+2026-10-31 13:00:00,2026-10-31,13:00,HIT,"iguana,culebra,elefante,caballo,raton,lapa,caiman,alacran,gato,pavo,ballena,perro,venado,zamuro","gallina,zamuro",zamuro
