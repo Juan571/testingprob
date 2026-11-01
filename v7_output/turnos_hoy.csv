@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-10-31 08:00:00,2026-10-31,08:00,MISS,"elefante,culebra,iguana,alacran,camello,cebra,pavo,carnero,lapa,raton","delfin,rana",,elefante,0.02844662919360579
-2026-10-31 09:00:00,2026-10-31,09:00,MISS,"culebra,iguana,elefante,camello,alacran,gato,cebra,lapa,pavo,raton","tigre,zorro",,culebra,0.028338302479980433
-2026-10-31 10:00:00,2026-10-31,10:00,MISS,"culebra,iguana,elefante,camello,cebra,alacran,carnero,raton,pavo,gallo","oso,pescado",,culebra,0.02857805662474095
-2026-10-31 11:00:00,2026-10-31,11:00,HIT,"iguana,culebra,elefante,camello,carnero,alacran,gallina,raton,cebra,ballena","gallina,perico",gallina,iguana,0.02880732764426858
-2026-10-31 12:00:00,2026-10-31,12:00,HIT,"culebra,elefante,camello,cebra,iguana,caiman,carnero,pavo,aguila,alacran","camello,toro",camello,culebra,0.02864548166307224
-2026-10-31 13:00:00,2026-10-31,13:00,MISS,"culebra,iguana,elefante,raton,caiman,caballo,alacran,gato,pavo,ballena","gallina,zamuro",,culebra,0.028663144907209157
-2026-10-31 14:00:00,2026-10-31,14:00,HIT,"culebra,caballo,alacran,caiman,leon,cebra,pavo,carnero,raton,gallo","oso,raton",raton,culebra,0.028544110708685243
-2026-10-31 15:00:00,2026-10-31,15:00,MISS,"iguana,caballo,culebra,leon,vaca,perro,caiman,alacran,cebra,delfin","aguila,venado",,iguana,0.028891811842908566
-2026-10-31 16:00:00,2026-10-31,16:00,MISS,"iguana,caballo,elefante,caiman,delfin,leon,perro,culebra,vaca,cebra","raton,zorro",,iguana,0.02874348212437013
-2026-10-31 17:00:00,2026-10-31,17:00,MISS,"iguana,delfin,caiman,vaca,leon,caballo,perro,culebra,gato,carnero",burro,,iguana,0.028946621173151315
-2026-10-31 18:00:00,2026-10-31,18:00,MISS,"iguana,leon,elefante,vaca,caiman,delfin,perro,caballo,culebra,alacran","burro,toro",,iguana,0.02839086779265841
-2026-10-31 19:00:00,2026-10-31,19:00,HIT,"iguana,leon,delfin,elefante,caballo,perro,culebra,caiman,rana,cebra","leon,rana","leon,rana",iguana,0.028632607059804725
+﻿
