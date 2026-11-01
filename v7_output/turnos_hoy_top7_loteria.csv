@@ -9,3 +9,5 @@
 2026-10-31 15:00:00,2026-10-31,15:00,HIT,"iguana,caballo,perro,culebra,leon,vaca,alacran,caiman,cebra,venado,delfin,gallo,ciempies,gato","aguila,venado",venado
 2026-10-31 16:00:00,2026-10-31,16:00,MISS,"iguana,elefante,caiman,caballo,leon,delfin,perro,culebra,vaca,carnero,gallo,cebra,gato,pavo","raton,zorro",
 2026-10-31 17:00:00,2026-10-31,17:00,MISS,"iguana,vaca,delfin,caiman,caballo,perro,gato,leon,culebra,alacran,chivo,pavo,carnero,jirafa",burro,
+2026-10-31 18:00:00,2026-10-31,18:00,MISS,"iguana,leon,delfin,perro,vaca,caiman,elefante,caballo,culebra,alacran,gallo,ciempies,rana,carnero","burro,toro",
+2026-10-31 19:00:00,2026-10-31,19:00,HIT,"iguana,leon,delfin,caballo,elefante,rana,caiman,perro,culebra,cebra,gallo,alacran,gato,ardilla","leon,rana","leon,rana"
