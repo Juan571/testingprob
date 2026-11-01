@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-11-01 08:00:00,2026-11-01,08:00,HIT,"iguana,elefante,vaca,delfin,caballo,chivo,culebra,perro,caiman,cebra,carnero,lapa,jirafa,ciempies","caballo,raton",caballo
+2026-11-01 09:00:00,2026-11-01,09:00,HIT,"delfin,iguana,vaca,perro,jirafa,chivo,lapa,culebra,caiman,pavo,alacran,ardilla,carnero,ballena","caiman,pavo","caiman,pavo"
+2026-11-01 10:00:00,2026-11-01,10:00,HIT,"delfin,iguana,perro,vaca,pescado,alacran,gato,carnero,chivo,culebra,ciempies,ardilla,jirafa,camello","camello,venado",camello
