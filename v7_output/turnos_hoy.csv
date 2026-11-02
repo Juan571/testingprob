@@ -3,3 +3,11 @@
 2026-11-02 09:00:00,2026-11-02,09:00,HIT,"delfin,oso,gallina,tigre,leon,raton,zamuro,perico,toro,vaca","oso,venado",oso,delfin,0.028400330203136502
 2026-11-02 10:00:00,2026-11-02,10:00,HIT,"gallina,delfin,raton,camello,iguana,toro,tigre,leon,zamuro,perico","delfin,gallo",delfin,gallina,0.028503703954102663
 2026-11-02 11:00:00,2026-11-02,11:00,MISS,"gallina,raton,toro,iguana,leon,perico,zamuro,perro,tigre,vaca","ardilla,mono",,gallina,0.028418379996178487
+2026-11-02 12:00:00,2026-11-02,12:00,MISS,"toro,raton,gallina,leon,iguana,perico,camello,zamuro,tigre,burro",culebra,,toro,0.02847952368289399
+2026-11-02 13:00:00,2026-11-02,13:00,MISS,"toro,raton,gallina,camello,leon,iguana,burro,tigre,zamuro,perro","carnero,elefante",,toro,0.028558107069211778
+2026-11-02 14:00:00,2026-11-02,14:00,HIT,"leon,burro,gallina,tigre,perro,camello,perico,vaca,rana,iguana","gallina,raton",gallina,leon,0.028195754569054692
+2026-11-02 15:00:00,2026-11-02,15:00,HIT,"toro,burro,leon,tigre,rana,camello,perro,zamuro,pescado,caiman","camello,pavo",camello,toro,0.0285170993497393
+2026-11-02 16:00:00,2026-11-02,16:00,HIT,"toro,leon,rana,caiman,pescado,zorro,tigre,perro,iguana,caballo","ballena,rana",rana,toro,0.028554681949129884
+2026-11-02 17:00:00,2026-11-02,17:00,HIT,"burro,toro,zorro,pescado,caiman,caballo,iguana,tigre,jirafa,vaca","jirafa,perro",jirafa,burro,0.028738358503931364
+2026-11-02 18:00:00,2026-11-02,18:00,HIT,"burro,toro,leon,zorro,pescado,caiman,cochino,iguana,caballo,tigre","ardilla,cochino",cochino,burro,0.02895509639800929
+2026-11-02 19:00:00,2026-11-02,19:00,HIT,"zorro,toro,burro,leon,caballo,venado,caiman,iguana,vaca,zamuro","burro,lapa",burro,zorro,0.028586281796921815
