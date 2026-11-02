@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-11-02 08:00:00,2026-11-02,08:00,MISS,"oso,delfin,gallina,iguana,vaca,perico,leon,zamuro,camello,carnero","cebra,culebra",,oso,0.028267530767123773
+2026-11-02 09:00:00,2026-11-02,09:00,HIT,"delfin,oso,gallina,tigre,leon,raton,zamuro,perico,toro,vaca","oso,venado",oso,delfin,0.028400330203136502
+2026-11-02 10:00:00,2026-11-02,10:00,HIT,"gallina,delfin,raton,camello,iguana,toro,tigre,leon,zamuro,perico","delfin,gallo",delfin,gallina,0.028503703954102663
+2026-11-02 11:00:00,2026-11-02,11:00,MISS,"gallina,raton,toro,iguana,leon,perico,zamuro,perro,tigre,vaca","ardilla,mono",,gallina,0.028418379996178487
