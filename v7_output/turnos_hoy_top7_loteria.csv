@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-11-03 08:00:00,2026-11-03,08:00,HIT,"zorro,pescado,venado,leon,toro,caballo,oso,vaca,cebra,zamuro,iguana,delfin,tigre,aguila","aguila,rana",aguila
+2026-11-03 09:00:00,2026-11-03,09:00,MISS,"zorro,pescado,venado,toro,caballo,oso,iguana,caiman,delfin,zamuro,vaca,cebra,alacran,chivo","camello,mono",
+2026-11-03 10:00:00,2026-11-03,10:00,MISS,"zorro,pescado,venado,caiman,toro,delfin,oso,vaca,iguana,alacran,chivo,leon,perico,pavo",ardilla,
+2026-11-03 11:00:00,2026-11-03,11:00,HIT,"zorro,toro,oso,venado,delfin,caballo,iguana,caiman,cebra,alacran,leon,tigre,vaca,gallo",cebra,cebra
