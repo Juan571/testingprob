@@ -3,3 +3,8 @@
 2026-11-03 09:00:00,2026-11-03,09:00,MISS,"zorro,pescado,toro,venado,caballo,caiman,oso,delfin,iguana,zamuro","camello,mono",,zorro,0.028833093729098397
 2026-11-03 10:00:00,2026-11-03,10:00,MISS,"zorro,pescado,toro,venado,caiman,oso,delfin,leon,vaca,alacran",ardilla,,zorro,0.028973358039697212
 2026-11-03 11:00:00,2026-11-03,11:00,HIT,"zorro,venado,toro,delfin,oso,caballo,cebra,leon,iguana,caiman",cebra,cebra,zorro,0.028861882436229294
+2026-11-03 12:00:00,2026-11-03,12:00,HIT,"zorro,toro,oso,delfin,venado,leon,caiman,caballo,tigre,jirafa","leon,oso","leon,oso",zorro,0.02897046439139103
+2026-11-03 13:00:00,2026-11-03,13:00,MISS,"toro,zorro,delfin,caballo,venado,raton,jirafa,elefante,culebra,chivo","camello,cebra",,toro,0.028466067469740827
+2026-11-03 14:00:00,2026-11-03,14:00,HIT,"zorro,pescado,delfin,toro,venado,jirafa,caballo,culebra,raton,elefante","culebra,toro","culebra,toro",zorro,0.02888751660863823
+2026-11-03 15:00:00,2026-11-03,15:00,HIT,"zorro,pescado,venado,caballo,rana,delfin,raton,tigre,burro,alacran","delfin,zorro","delfin,zorro",zorro,0.028567852720091113
+2026-11-03 16:00:00,2026-11-03,16:00,HIT,"rana,pescado,venado,burro,caballo,raton,elefante,cochino,tigre,gallo","elefante,rana","elefante,rana",rana,0.028022007637221947
