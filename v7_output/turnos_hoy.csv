@@ -1,13 +1,2 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-11-04 08:00:00,2026-11-04,08:00,HIT,"raton,pavo,burro,pescado,caballo,tigre,aguila,cochino,carnero,zamuro","aguila,gallo",aguila,raton,0.027808712453771946
-2026-11-04 09:00:00,2026-11-04,09:00,MISS,"venado,burro,pavo,caballo,pescado,caiman,carnero,zamuro,ballena,perico","alacran,cochino",,venado,0.027944855102959812
-2026-11-04 10:00:00,2026-11-04,10:00,HIT,"raton,burro,venado,pescado,pavo,ardilla,camello,carnero,caballo,zamuro","camello,toro",camello,raton,0.027978427937702593
-2026-11-04 11:00:00,2026-11-04,11:00,HIT,"venado,raton,burro,pavo,ardilla,pescado,mono,caballo,ballena,lapa","gallo,venado",venado,venado,0.028126079685607746
-2026-11-04 12:00:00,2026-11-04,12:00,MISS,"ardilla,burro,raton,pavo,culebra,carnero,mono,zorro,caiman,lapa","cebra,delfin",,ardilla,0.028132762167890492
-2026-11-04 13:00:00,2026-11-04,13:00,HIT,"raton,burro,ardilla,pavo,culebra,zorro,mono,rana,caballo,pescado","iguana,mono",mono,raton,0.028207339642173774
-2026-11-04 14:00:00,2026-11-04,14:00,MISS,"burro,ardilla,raton,culebra,rana,pavo,zorro,carnero,elefante,pescado","oso,toro",,burro,0.028253246962507573
-2026-11-04 15:00:00,2026-11-04,15:00,HIT,"ardilla,rana,burro,raton,culebra,elefante,caballo,leon,ballena,lapa","caiman,lapa",lapa,ardilla,0.02837576841837412
-2026-11-04 16:00:00,2026-11-04,16:00,HIT,"rana,burro,raton,culebra,zorro,pavo,caballo,pescado,perro,leon","lapa,pavo",pavo,rana,0.02849761604472009
-2026-11-04 17:00:00,2026-11-04,17:00,HIT,"rana,zorro,culebra,raton,jirafa,elefante,caballo,carnero,ballena,aguila","aguila,gato",aguila,rana,0.028597240184823156
-2026-11-04 18:00:00,2026-11-04,18:00,MISS,"ardilla,rana,burro,zorro,culebra,jirafa,camello,elefante,leon,cochino","delfin,perro",,ardilla,0.028793320863584233
-2026-11-04 19:00:00,2026-11-04,19:00,MISS,"ardilla,rana,zorro,burro,culebra,camello,jirafa,cochino,cebra,elefante","aguila,perro",,ardilla,0.02891804778217711
+2026-11-05 08:00:00,2026-11-05,08:00,MISS,"rana,ardilla,culebra,zorro,burro,camello,elefante,jirafa,cebra,leon","mono,pavo",,rana,0.0288204956597097

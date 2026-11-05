@@ -1,13 +1,2 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-11-04 08:00:00,2026-11-04,08:00,HIT,"pavo,burro,cochino,raton,caballo,tigre,pescado,aguila,carnero,caiman,vaca,zamuro,ciempies,gallo","aguila,gallo","aguila,gallo"
-2026-11-04 09:00:00,2026-11-04,09:00,MISS,"venado,burro,pavo,caiman,caballo,iguana,zamuro,pescado,carnero,ballena,lapa,ciempies,ardilla,vaca","alacran,cochino",
-2026-11-04 10:00:00,2026-11-04,10:00,HIT,"pescado,venado,ardilla,burro,carnero,pavo,raton,caballo,camello,zamuro,tigre,vaca,perico,lapa","camello,toro",camello
-2026-11-04 11:00:00,2026-11-04,11:00,HIT,"venado,burro,pavo,raton,ardilla,lapa,pescado,mono,zorro,zamuro,caballo,iguana,ballena,culebra","gallo,venado",venado
-2026-11-04 12:00:00,2026-11-04,12:00,HIT,"burro,ardilla,raton,pavo,culebra,caiman,cebra,carnero,mono,zorro,lapa,ballena,tigre,zamuro","cebra,delfin",cebra
-2026-11-04 13:00:00,2026-11-04,13:00,HIT,"raton,ardilla,burro,pavo,zorro,caballo,culebra,rana,caiman,mono,leon,oso,pescado,perro","iguana,mono",mono
-2026-11-04 14:00:00,2026-11-04,14:00,HIT,"burro,raton,ardilla,pavo,zorro,rana,culebra,elefante,lapa,carnero,ballena,perro,oso,pescado","oso,toro",oso
-2026-11-04 15:00:00,2026-11-04,15:00,HIT,"rana,ardilla,raton,burro,caballo,culebra,elefante,perro,gallina,leon,ballena,caiman,lapa,zamuro","caiman,lapa","caiman,lapa"
-2026-11-04 16:00:00,2026-11-04,16:00,HIT,"rana,burro,raton,zorro,pavo,caballo,culebra,carnero,pescado,zamuro,leon,perro,chivo,jirafa","lapa,pavo",pavo
-2026-11-04 17:00:00,2026-11-04,17:00,HIT,"rana,zorro,culebra,raton,caballo,elefante,jirafa,carnero,pescado,aguila,ballena,ardilla,gato,ciempies","aguila,gato","aguila,gato"
-2026-11-04 18:00:00,2026-11-04,18:00,HIT,"ardilla,rana,burro,zorro,culebra,jirafa,camello,cochino,elefante,pescado,leon,ballena,gallo,perro","delfin,perro",perro
-2026-11-04 19:00:00,2026-11-04,19:00,MISS,"ardilla,rana,zorro,burro,culebra,camello,cochino,gallina,elefante,jirafa,cebra,raton,caballo,leon","aguila,perro",
+2026-11-05 08:00:00,2026-11-05,08:00,MISS,"rana,ardilla,culebra,zorro,camello,jirafa,burro,elefante,cebra,cochino,pescado,caballo,gallina,carnero","mono,pavo",
