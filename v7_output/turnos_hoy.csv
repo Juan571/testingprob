@@ -1,2 +1,10 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-11-05 08:00:00,2026-11-05,08:00,MISS,"rana,ardilla,culebra,zorro,burro,camello,elefante,jirafa,cebra,leon","mono,pavo",,rana,0.0288204956597097
+2026-11-05 08:00:00,2026-11-05,08:00,MISS,"rana,ardilla,culebra,zorro,burro,camello,elefante,jirafa,cebra,cochino","mono,pavo",,rana,0.02882025369192078
+2026-11-05 09:00:00,2026-11-05,09:00,HIT,"rana,ardilla,culebra,camello,zorro,elefante,jirafa,cebra,leon,cochino","jirafa,rana","jirafa,rana",rana,0.02878450867148438
+2026-11-05 10:00:00,2026-11-05,10:00,HIT,"ardilla,camello,zorro,cebra,elefante,cochino,pescado,oso,caballo,gallina","toro,zorro",zorro,ardilla,0.028645475928565218
+2026-11-05 11:00:00,2026-11-05,11:00,HIT,"culebra,ardilla,cebra,camello,cochino,elefante,gallo,alacran,venado,pescado","leon,venado",venado,culebra,0.028771029661334827
+2026-11-05 12:00:00,2026-11-05,12:00,HIT,"culebra,cebra,ardilla,camello,oso,elefante,gallo,cochino,carnero,burro","gallo,tigre",gallo,culebra,0.02863020945448979
+2026-11-05 13:00:00,2026-11-05,13:00,HIT,"culebra,cebra,oso,ardilla,elefante,alacran,gallina,pescado,burro,delfin","ballena,delfin",delfin,culebra,0.028602477272973707
+2026-11-05 14:00:00,2026-11-05,14:00,MISS,"cebra,camello,elefante,oso,ardilla,alacran,cochino,culebra,gallina,pescado","gato,vaca",,cebra,0.028216438288963266
+2026-11-05 15:00:00,2026-11-05,15:00,HIT,"culebra,alacran,cebra,elefante,oso,ardilla,camello,cochino,aguila,rana","aguila,caiman",aguila,culebra,0.028761091968898193
+2026-11-05 16:00:00,2026-11-05,16:00,HIT,"culebra,cebra,oso,camello,ardilla,cochino,alacran,rana,gallina,carnero","alacran,oso","alacran,oso",culebra,0.028491238192761267
