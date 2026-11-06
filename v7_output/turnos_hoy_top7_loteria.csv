@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-11-05 08:00:00,2026-11-05,08:00,MISS,"rana,ardilla,culebra,zorro,camello,jirafa,burro,elefante,cebra,cochino,pescado,caballo,gallina,carnero","mono,pavo",
-2026-11-05 09:00:00,2026-11-05,09:00,HIT,"rana,ardilla,culebra,elefante,camello,cebra,zorro,cochino,jirafa,raton,leon,gallo,chivo,ballena","jirafa,rana","jirafa,rana"
-2026-11-05 10:00:00,2026-11-05,10:00,HIT,"ardilla,camello,zorro,cebra,elefante,pescado,oso,caballo,alacran,carnero,gallo,cochino,raton,gallina","toro,zorro",zorro
-2026-11-05 11:00:00,2026-11-05,11:00,HIT,"culebra,cebra,ardilla,camello,cochino,elefante,gallo,alacran,venado,pescado,leon,burro,raton,ballena","leon,venado","leon,venado"
-2026-11-05 12:00:00,2026-11-05,12:00,HIT,"cebra,camello,culebra,ardilla,gallo,oso,elefante,cochino,carnero,raton,gallina,burro,vaca,delfin","gallo,tigre",gallo
-2026-11-05 13:00:00,2026-11-05,13:00,HIT,"culebra,oso,cebra,ardilla,elefante,gallina,alacran,delfin,raton,burro,pescado,carnero,cochino,ballena","ballena,delfin","ballena,delfin"
-2026-11-05 14:00:00,2026-11-05,14:00,MISS,"cebra,oso,camello,elefante,ardilla,culebra,cochino,alacran,gallina,raton,burro,pescado,aguila,caballo","gato,vaca",
-2026-11-05 15:00:00,2026-11-05,15:00,HIT,"culebra,elefante,oso,alacran,cebra,ardilla,camello,aguila,cochino,carnero,pescado,burro,mono,raton","aguila,caiman",aguila
-2026-11-05 16:00:00,2026-11-05,16:00,HIT,"cebra,culebra,ardilla,camello,oso,cochino,rana,alacran,carnero,gallina,caballo,pescado,mono,burro","alacran,oso","alacran,oso"
-2026-11-05 17:00:00,2026-11-05,17:00,HIT,"culebra,cebra,camello,elefante,ardilla,cochino,rana,gallina,carnero,caballo,mono,lapa,raton,iguana","iguana,rana","iguana,rana"
-2026-11-05 18:00:00,2026-11-05,18:00,MISS,"camello,culebra,ardilla,cochino,lapa,burro,elefante,mono,carnero,jirafa,caballo,ciempies,zorro,toro","alacran,chivo",
-2026-11-05 19:00:00,2026-11-05,19:00,HIT,"cebra,ardilla,camello,gallina,culebra,lapa,mono,gallo,elefante,caballo,zorro,raton,carnero,pescado","gallo,oso",gallo
+﻿
