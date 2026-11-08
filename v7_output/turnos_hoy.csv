@@ -7,3 +7,7 @@
 2026-11-08 13:00:00,2026-11-08,13:00,MISS,"jirafa,gato,iguana,delfin,lapa,caiman,burro,oso,gallo,rana","ardilla,mono",,jirafa,0.028290601673353233
 2026-11-08 14:00:00,2026-11-08,14:00,HIT,"jirafa,delfin,gato,iguana,burro,caiman,ciempies,oso,gallo,perro","gallo,pavo",gallo,jirafa,0.028502353602671848
 2026-11-08 15:00:00,2026-11-08,15:00,MISS,"iguana,gato,jirafa,caiman,lapa,delfin,ciempies,rana,caballo,perro","burro,elefante",,iguana,0.02840092520776806
+2026-11-08 16:00:00,2026-11-08,16:00,HIT,"gato,iguana,delfin,jirafa,lapa,ciempies,oso,rana,cochino,perro","gallina,rana",rana,gato,0.028328432961598572
+2026-11-08 17:00:00,2026-11-08,17:00,HIT,"gato,caiman,jirafa,lapa,delfin,ciempies,camello,cochino,oso,aguila","caiman,cochino","caiman,cochino",gato,0.02854969835430294
+2026-11-08 18:00:00,2026-11-08,18:00,HIT,"jirafa,iguana,delfin,camello,gato,aguila,ciempies,oso,toro,perico","gallina,oso",oso,jirafa,0.028476314331739097
+2026-11-08 19:00:00,2026-11-08,19:00,MISS,"jirafa,gato,delfin,camello,aguila,ciempies,toro,perro,ballena,lapa","ardilla,paloma",,jirafa,0.028389113571950945
