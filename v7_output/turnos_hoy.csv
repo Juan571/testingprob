@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-11-07 08:00:00,2026-11-07,08:00,HIT,"aguila,rana,oso,cebra,mono,zorro,camello,pavo,gallo,leon","burro,camello",camello,aguila,0.028496255414726585
-2026-11-07 09:00:00,2026-11-07,09:00,MISS,"oso,rana,aguila,mono,zorro,venado,leon,caiman,ardilla,tigre","cochino,iguana",,oso,0.028510211021685463
-2026-11-07 10:00:00,2026-11-07,10:00,MISS,"aguila,rana,oso,zorro,venado,ardilla,caiman,leon,mono,alacran","ciempies,gato",,aguila,0.028636522834263045
-2026-11-07 11:00:00,2026-11-07,11:00,HIT,"oso,aguila,gallo,rana,venado,zorro,cebra,caiman,mono,leon","caiman,cochino",caiman,oso,0.028676425363018634
-2026-11-07 12:00:00,2026-11-07,12:00,MISS,"aguila,oso,rana,venado,alacran,cebra,toro,leon,mono,ardilla","camello,jirafa",,aguila,0.02899954739721125
-2026-11-07 13:00:00,2026-11-07,13:00,MISS,"aguila,oso,rana,toro,alacran,ballena,perro,chivo,zorro,tigre","caiman,perico",,aguila,0.028961661808901112
-2026-11-07 14:00:00,2026-11-07,14:00,MISS,"aguila,oso,alacran,gallo,toro,zorro,perro,ballena,venado,delfin","carnero,vaca",,aguila,0.028972253978348277
-2026-11-07 15:00:00,2026-11-07,15:00,MISS,"aguila,alacran,oso,rana,gallo,mono,zorro,venado,chivo,cebra","ardilla,pavo",,aguila,0.029102989600749352
-2026-11-07 16:00:00,2026-11-07,16:00,MISS,"aguila,toro,alacran,rana,gallo,perro,delfin,venado,zorro,elefante","ballena,tigre",,aguila,0.029336806241305954
-2026-11-07 17:00:00,2026-11-07,17:00,HIT,"alacran,oso,gallo,toro,rana,aguila,elefante,perro,zorro,chivo","ardilla,toro",toro,alacran,0.029004876385391377
-2026-11-07 18:00:00,2026-11-07,18:00,MISS,"aguila,alacran,oso,gallo,rana,perro,elefante,delfin,chivo,venado","pavo,pescado",,aguila,0.02918584737950403
-2026-11-07 19:00:00,2026-11-07,19:00,MISS,"aguila,alacran,gallo,perro,delfin,rana,chivo,cebra,mono,elefante","toro,vaca",,aguila,0.029048562487808953
+﻿
