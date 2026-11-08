@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-11-08 08:00:00,2026-11-08,08:00,MISS,"aguila,oso,rana,gallo,alacran,elefante,venado,delfin,cebra,zorro,mono,lapa,iguana,chivo","gallina,pavo",
+2026-11-08 09:00:00,2026-11-08,09:00,HIT,"aguila,alacran,elefante,gallo,rana,delfin,lapa,perro,cebra,venado,mono,ciempies,caballo,chivo","aguila,culebra",aguila
+2026-11-08 10:00:00,2026-11-08,10:00,MISS,"gallo,perro,lapa,delfin,oso,alacran,elefante,rana,gato,venado,iguana,mono,zorro,ciempies","carnero,pescado",
+2026-11-08 11:00:00,2026-11-08,11:00,HIT,"iguana,gallo,jirafa,alacran,mono,lapa,perro,burro,zorro,gato,caballo,ciempies,rana,elefante","chivo,elefante",elefante
