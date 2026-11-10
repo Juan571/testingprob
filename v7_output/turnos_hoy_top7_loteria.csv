@@ -5,3 +5,9 @@
 2026-11-10 11:00:00,2026-11-10,11:00,HIT,"ardilla,pescado,toro,caiman,elefante,cochino,iguana,camello,mono,gallo,ballena,perico,zamuro,culebra","toro,zamuro","toro,zamuro"
 2026-11-10 12:00:00,2026-11-10,12:00,HIT,"ardilla,pavo,gallina,caiman,iguana,pescado,ballena,cochino,chivo,mono,gallo,perico,camello,oso","camello,tigre",camello
 2026-11-10 13:00:00,2026-11-10,13:00,MISS,"gallina,ardilla,pavo,caiman,elefante,iguana,cochino,mono,ballena,pescado,rana,perico,oso,chivo",camello,
+2026-11-10 14:00:00,2026-11-10,14:00,HIT,"gallina,pavo,ardilla,elefante,iguana,cochino,aguila,caiman,mono,perico,pescado,carnero,oso,rana","culebra,rana",rana
+2026-11-10 15:00:00,2026-11-10,15:00,HIT,"gallina,gallo,pavo,ardilla,iguana,elefante,cochino,caiman,aguila,mono,carnero,oso,pescado,alacran","caballo,caiman",caiman
+2026-11-10 16:00:00,2026-11-10,16:00,HIT,"gallina,ardilla,cochino,iguana,aguila,carnero,pavo,gallo,pescado,ballena,ciempies,chivo,oso,vaca","jirafa,oso",oso
+2026-11-10 17:00:00,2026-11-10,17:00,MISS,"gallina,iguana,ardilla,aguila,cochino,carnero,gallo,mono,ciempies,ballena,elefante,gato,alacran,lapa","perico,zorro",
+2026-11-10 18:00:00,2026-11-10,18:00,HIT,"iguana,aguila,ardilla,cochino,carnero,gallo,pavo,lapa,pescado,mono,ciempies,elefante,chivo,vaca","burro,mono",mono
+2026-11-10 19:00:00,2026-11-10,19:00,HIT,"iguana,gallina,ardilla,gallo,aguila,carnero,cochino,pescado,ciempies,vaca,elefante,toro,ballena,lapa",gallo,gallo
