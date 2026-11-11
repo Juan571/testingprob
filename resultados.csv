@@ -24032,6 +24032,9 @@ date,lottery,number,animal,time
 2026-11-10,lagranjita,7,perico,05:00 PM
 2026-11-10,lagranjita,18,burro,06:00 PM
 2026-11-10,lagranjita,21,gallo,07:00 PM
+2026-11-11,lagranjita,17,pavo,08:00 AM
+2026-11-11,lagranjita,9,aguila,09:00 AM
+2026-11-11,lagranjita,10,tigre,10:00 AM
 2021-01-02,lottoactivo,0,delfin,08:00 AM
 2021-01-02,lottoactivo,10,tigre,09:00 AM
 2021-01-02,lottoactivo,31,lapa,10:00 AM
@@ -47316,3 +47319,6 @@ date,lottery,number,animal,time
 2026-11-10,lottoactivo,15,zorro,05:00 PM
 2026-11-10,lottoactivo,13,mono,06:00 PM
 2026-11-10,lottoactivo,21,gallo,07:00 PM
+2026-11-11,lottoactivo,26,vaca,08:00 AM
+2026-11-11,lottoactivo,33,pescado,09:00 AM
+2026-11-11,lottoactivo,31,lapa,10:00 AM

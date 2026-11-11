@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-11-11 08:00:00,2026-11-11,08:00,HIT,"iguana,aguila,ardilla,pavo,carnero,vaca,gallina,elefante,ciempies,ballena,lapa,alacran,gato,paloma","pavo,vaca","pavo,vaca"
+2026-11-11 09:00:00,2026-11-11,09:00,HIT,"aguila,carnero,iguana,ardilla,ciempies,elefante,cochino,lapa,ballena,alacran,pescado,gato,venado,chivo","aguila,pescado","aguila,pescado"
+2026-11-11 10:00:00,2026-11-11,10:00,HIT,"carnero,iguana,gallina,ciempies,elefante,cochino,lapa,alacran,gato,camello,toro,delfin,chivo,ballena","lapa,tigre",lapa

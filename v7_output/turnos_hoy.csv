@@ -1,1 +1,4 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-11-11 08:00:00,2026-11-11,08:00,HIT,"aguila,iguana,ardilla,carnero,pavo,gallina,ciempies,vaca,ballena,elefante","pavo,vaca","pavo,vaca",aguila,0.02854136126914968
+2026-11-11 09:00:00,2026-11-11,09:00,HIT,"aguila,iguana,carnero,ardilla,ciempies,ballena,lapa,cochino,elefante,alacran","aguila,pescado",aguila,aguila,0.028641123373925898
+2026-11-11 10:00:00,2026-11-11,10:00,HIT,"carnero,gallina,iguana,ciempies,cochino,elefante,camello,alacran,lapa,gato","lapa,tigre",lapa,carnero,0.02851340187114793
