@@ -1,1 +1,8 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-11-12 08:00:00,2026-11-12,08:00,MISS,"camello,aguila,pavo,ciempies,elefante,toro,burro,zamuro,oso,vaca","jirafa,leon",,camello,0.028103397051331584
+2026-11-12 09:00:00,2026-11-12,09:00,HIT,"camello,burro,toro,aguila,gallo,zamuro,elefante,oso,caballo,pavo","ballena,zamuro",zamuro,camello,0.028383208747688737
+2026-11-12 10:00:00,2026-11-12,10:00,MISS,"camello,gallo,burro,aguila,rana,gallina,caballo,toro,pavo,oso","culebra,venado",,camello,0.02856393711080939
+2026-11-12 11:00:00,2026-11-12,11:00,HIT,"camello,gallo,burro,rana,aguila,toro,oso,caballo,gallina,ciempies","oso,paloma",oso,camello,0.0285257350000271
+2026-11-12 12:00:00,2026-11-12,12:00,MISS,"camello,gallo,aguila,rana,toro,caiman,burro,ardilla,tigre,elefante","delfin,perro",,camello,0.028875117333664428
+2026-11-12 13:00:00,2026-11-12,13:00,MISS,"camello,gallo,rana,aguila,caiman,gallina,ardilla,mono,burro,elefante","cochino,pescado",,camello,0.029053176114988116
+2026-11-12 14:00:00,2026-11-12,14:00,MISS,"camello,mono,rana,aguila,caiman,gallina,burro,carnero,caballo,vaca","elefante,zorro",,camello,0.028832191125938895
