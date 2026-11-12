@@ -1,5 +1,5 @@
 ﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-11-11 08:00:00,2026-11-11,08:00,HIT,"aguila,iguana,ardilla,carnero,pavo,gallina,ciempies,vaca,ballena,elefante","pavo,vaca","pavo,vaca",aguila,0.02854136126914968
+2026-11-11 08:00:00,2026-11-11,08:00,HIT,"aguila,iguana,ardilla,carnero,pavo,gallina,ciempies,vaca,ballena,elefante","pavo,vaca","pavo,vaca",aguila,0.028541361269149686
 2026-11-11 09:00:00,2026-11-11,09:00,HIT,"aguila,iguana,carnero,ardilla,ciempies,ballena,lapa,cochino,elefante,alacran","aguila,pescado",aguila,aguila,0.028641123373925898
 2026-11-11 10:00:00,2026-11-11,10:00,HIT,"carnero,gallina,iguana,ciempies,cochino,elefante,camello,alacran,lapa,gato","lapa,tigre",lapa,carnero,0.02851340187114793
 2026-11-11 11:00:00,2026-11-11,11:00,HIT,"carnero,gallina,iguana,ciempies,cochino,toro,alacran,ballena,elefante,camello","caiman,gallina",gallina,carnero,0.02865827699765531
@@ -9,3 +9,5 @@
 2026-11-11 15:00:00,2026-11-11,15:00,HIT,"ciempies,rana,alacran,perro,iguana,elefante,caballo,gato,zamuro,ballena","ardilla,ballena",ballena,ciempies,0.027845832311416158
 2026-11-11 16:00:00,2026-11-11,16:00,HIT,"toro,rana,ciempies,perro,caballo,alacran,zamuro,elefante,iguana,gato","cochino,iguana",iguana,toro,0.027994305513264078
 2026-11-11 17:00:00,2026-11-11,17:00,HIT,"ciempies,toro,alacran,caballo,perro,elefante,gato,rana,raton,zamuro","alacran,delfin",alacran,ciempies,0.028085308736949338
+2026-11-11 18:00:00,2026-11-11,18:00,HIT,"toro,caballo,rana,perro,aguila,burro,elefante,camello,zorro,pavo","mono,zorro",zorro,toro,0.028371726888627023
+2026-11-11 19:00:00,2026-11-11,19:00,MISS,"toro,rana,ciempies,zamuro,camello,gallo,elefante,burro,aguila,vaca","leon,perico",,toro,0.02809180629341859
