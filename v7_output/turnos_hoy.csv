@@ -6,3 +6,8 @@
 2026-11-12 12:00:00,2026-11-12,12:00,MISS,"camello,gallo,aguila,rana,toro,caiman,burro,ardilla,tigre,elefante","delfin,perro",,camello,0.028875117333664428
 2026-11-12 13:00:00,2026-11-12,13:00,MISS,"camello,gallo,rana,aguila,caiman,gallina,ardilla,mono,burro,elefante","cochino,pescado",,camello,0.029053176114988116
 2026-11-12 14:00:00,2026-11-12,14:00,MISS,"camello,mono,rana,aguila,caiman,gallina,burro,carnero,caballo,vaca","elefante,zorro",,camello,0.028832191125938895
+2026-11-12 15:00:00,2026-11-12,15:00,MISS,"gallo,mono,rana,camello,ardilla,aguila,caballo,carnero,burro,vaca","elefante,zorro",,gallo,0.028865693945108108
+2026-11-12 16:00:00,2026-11-12,16:00,MISS,"gallo,mono,camello,aguila,carnero,ardilla,rana,caballo,burro,vaca","caiman,zamuro",,gallo,0.029057983042923625
+2026-11-12 17:00:00,2026-11-12,17:00,MISS,"mono,gallo,camello,aguila,carnero,ardilla,gallina,burro,rana,vaca","ballena,iguana",,mono,0.028580549505719678
+2026-11-12 18:00:00,2026-11-12,18:00,MISS,"gallo,mono,camello,aguila,carnero,ardilla,lapa,rana,vaca,burro","elefante,gato",,gallo,0.02865587410268686
+2026-11-12 19:00:00,2026-11-12,19:00,HIT,"mono,gallo,camello,carnero,ardilla,aguila,gallina,vaca,lapa,burro","iguana,mono",mono,mono,0.028982403669574264
