@@ -1,1 +1,6 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-11-13 08:00:00,2026-11-13,08:00,MISS,"camello,carnero,gallo,aguila,ardilla,vaca,jirafa,lapa,tigre,pavo","gallina,leon",,camello,0.02852078926504906
+2026-11-13 09:00:00,2026-11-13,09:00,HIT,"camello,carnero,ardilla,aguila,jirafa,lapa,gallo,pavo,ciempies,burro","lapa,oso",lapa,camello,0.028714676402953693
+2026-11-13 10:00:00,2026-11-13,10:00,HIT,"camello,carnero,aguila,jirafa,gallo,tigre,alacran,ciempies,caballo,perico","ardilla,perico",perico,camello,0.028699748654414978
+2026-11-13 11:00:00,2026-11-13,11:00,HIT,"carnero,camello,jirafa,gallo,aguila,tigre,delfin,alacran,ciempies,caballo","aguila,gato",aguila,carnero,0.028627718112339016
+2026-11-13 12:00:00,2026-11-13,12:00,HIT,"carnero,jirafa,camello,gallo,delfin,alacran,rana,ciempies,vaca,burro","delfin,gallina",delfin,carnero,0.028643376239382137

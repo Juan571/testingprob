@@ -1,1 +1,6 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-11-13 08:00:00,2026-11-13,08:00,MISS,"camello,gallo,carnero,ardilla,aguila,tigre,vaca,lapa,rana,jirafa,alacran,ciempies,pavo,raton","gallina,leon",
+2026-11-13 09:00:00,2026-11-13,09:00,HIT,"camello,ardilla,carnero,aguila,lapa,gallo,jirafa,pavo,ciempies,toro,caballo,perico,burro,raton","lapa,oso",lapa
+2026-11-13 10:00:00,2026-11-13,10:00,HIT,"camello,carnero,jirafa,aguila,gallo,tigre,alacran,caballo,ciempies,rana,perico,delfin,burro,toro","ardilla,perico",perico
+2026-11-13 11:00:00,2026-11-13,11:00,HIT,"camello,jirafa,carnero,gallo,aguila,delfin,alacran,tigre,caballo,ciempies,burro,pavo,vaca,culebra","aguila,gato",aguila
+2026-11-13 12:00:00,2026-11-13,12:00,HIT,"carnero,jirafa,camello,gallo,delfin,vaca,rana,ciempies,alacran,burro,mono,toro,zorro,cochino","delfin,gallina",delfin
