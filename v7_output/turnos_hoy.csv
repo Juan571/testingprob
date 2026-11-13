@@ -4,3 +4,9 @@
 2026-11-13 10:00:00,2026-11-13,10:00,HIT,"camello,carnero,aguila,jirafa,gallo,tigre,alacran,ciempies,caballo,perico","ardilla,perico",perico,camello,0.028699748654414978
 2026-11-13 11:00:00,2026-11-13,11:00,HIT,"carnero,camello,jirafa,gallo,aguila,tigre,delfin,alacran,ciempies,caballo","aguila,gato",aguila,carnero,0.028627718112339016
 2026-11-13 12:00:00,2026-11-13,12:00,HIT,"carnero,jirafa,camello,gallo,delfin,alacran,rana,ciempies,vaca,burro","delfin,gallina",delfin,carnero,0.028643376239382137
+2026-11-13 13:00:00,2026-11-13,13:00,HIT,"camello,jirafa,rana,gallo,cochino,alacran,mono,ciempies,caballo,perro","ciempies,perico",ciempies,camello,0.028435471791610687
+2026-11-13 14:00:00,2026-11-13,14:00,HIT,"jirafa,carnero,zorro,camello,gallo,ballena,mono,cochino,perro,vaca","delfin,vaca",vaca,jirafa,0.028578121597113107
+2026-11-13 15:00:00,2026-11-13,15:00,MISS,"jirafa,zorro,camello,gallo,alacran,rana,caballo,mono,cochino,tigre","cebra,chivo",,jirafa,0.028366731093095163
+2026-11-13 16:00:00,2026-11-13,16:00,HIT,"zorro,carnero,jirafa,ballena,perro,rana,caballo,gallo,zamuro,alacran","cochino,zamuro",zamuro,zorro,0.028243277332500247
+2026-11-13 17:00:00,2026-11-13,17:00,HIT,"zorro,jirafa,camello,carnero,alacran,ballena,mono,caiman,caballo,rana","alacran,mono","alacran,mono",zorro,0.02852118279683247
+2026-11-13 18:00:00,2026-11-13,18:00,MISS,"zorro,jirafa,camello,ballena,carnero,elefante,caiman,gallo,perro,tigre","caballo,oso",,zorro,0.028750482909876047
