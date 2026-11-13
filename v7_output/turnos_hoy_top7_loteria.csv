@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-11-12 08:00:00,2026-11-12,08:00,MISS,"camello,pavo,elefante,aguila,oso,gallo,zamuro,burro,toro,ciempies,caballo,gallina,vaca,culebra","jirafa,leon",
-2026-11-12 09:00:00,2026-11-12,09:00,HIT,"camello,burro,gallo,aguila,zamuro,caballo,oso,toro,pavo,elefante,ciempies,raton,gallina,vaca","ballena,zamuro",zamuro
-2026-11-12 10:00:00,2026-11-12,10:00,MISS,"camello,gallo,rana,aguila,pavo,caballo,oso,gallina,burro,chivo,ciempies,toro,caiman,pescado","culebra,venado",
-2026-11-12 11:00:00,2026-11-12,11:00,HIT,"gallo,camello,burro,aguila,rana,oso,toro,caiman,ciempies,caballo,elefante,gallina,mono,vaca","oso,paloma",oso
-2026-11-12 12:00:00,2026-11-12,12:00,MISS,"camello,gallo,toro,aguila,caiman,rana,burro,gallina,ardilla,tigre,carnero,vaca,ciempies,caballo","delfin,perro",
-2026-11-12 13:00:00,2026-11-12,13:00,MISS,"camello,gallo,rana,caiman,aguila,ardilla,mono,gallina,caballo,toro,lapa,tigre,elefante,ciempies","cochino,pescado",
-2026-11-12 14:00:00,2026-11-12,14:00,MISS,"camello,rana,mono,aguila,vaca,carnero,burro,caiman,gallina,caballo,pavo,tigre,lapa,toro","elefante,zorro",
-2026-11-12 15:00:00,2026-11-12,15:00,MISS,"gallo,mono,rana,camello,caballo,ardilla,aguila,carnero,vaca,burro,lapa,iguana,pavo,toro","elefante,zorro",
-2026-11-12 16:00:00,2026-11-12,16:00,MISS,"gallo,aguila,camello,mono,ardilla,carnero,burro,caballo,rana,toro,lapa,vaca,tigre,ciempies","caiman,zamuro",
-2026-11-12 17:00:00,2026-11-12,17:00,HIT,"mono,gallo,aguila,camello,carnero,ardilla,gallina,rana,vaca,burro,caballo,ciempies,iguana,jirafa","ballena,iguana",iguana
-2026-11-12 18:00:00,2026-11-12,18:00,MISS,"gallo,camello,aguila,mono,carnero,ardilla,rana,lapa,tigre,burro,vaca,toro,jirafa,caballo","elefante,gato",
-2026-11-12 19:00:00,2026-11-12,19:00,HIT,"mono,gallo,camello,carnero,ardilla,aguila,gallina,lapa,vaca,burro,ciempies,toro,alacran,jirafa","iguana,mono",mono
+﻿
