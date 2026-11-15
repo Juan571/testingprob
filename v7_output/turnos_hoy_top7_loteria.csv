@@ -9,3 +9,5 @@
 2026-11-14 15:00:00,2026-11-14,15:00,MISS,"elefante,zorro,iguana,delfin,gallo,carnero,perico,ballena,camello,gallina,zamuro,lapa,aguila,pavo","burro,leon",
 2026-11-14 16:00:00,2026-11-14,16:00,HIT,"elefante,zorro,delfin,iguana,gallo,perico,zamuro,pescado,gallina,ballena,carnero,aguila,vaca,lapa","toro,zorro",zorro
 2026-11-14 17:00:00,2026-11-14,17:00,HIT,"iguana,delfin,elefante,ballena,perico,lapa,cochino,zamuro,gallo,camello,ardilla,aguila,pescado,pavo","aguila,vaca",aguila
+2026-11-14 18:00:00,2026-11-14,18:00,HIT,"iguana,perico,elefante,delfin,ballena,gallo,lapa,oso,carnero,ardilla,cochino,chivo,pescado,zamuro","burro,delfin",delfin
+2026-11-14 19:00:00,2026-11-14,19:00,HIT,"perico,iguana,gallina,elefante,ardilla,lapa,oso,zamuro,cochino,gallo,ciempies,cebra,pescado,camello","perico,vaca",perico
