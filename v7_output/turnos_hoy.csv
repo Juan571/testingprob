@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-11-14 08:00:00,2026-11-14,08:00,MISS,"camello,elefante,ballena,leon,carnero,caiman,zorro,tigre,iguana,burro","ardilla,culebra",,camello,0.028299410934607735
-2026-11-14 09:00:00,2026-11-14,09:00,MISS,"zorro,camello,elefante,caiman,leon,delfin,carnero,iguana,tigre,burro","gato,perro",,zorro,0.028688428611844622
-2026-11-14 10:00:00,2026-11-14,10:00,MISS,"zorro,camello,elefante,ballena,delfin,caiman,pescado,iguana,carnero,gallo","jirafa,toro",,zorro,0.02875883589758196
-2026-11-14 11:00:00,2026-11-14,11:00,MISS,"zorro,delfin,elefante,camello,iguana,ballena,caiman,pescado,gallo,leon","culebra,paloma",,zorro,0.02890775751013207
-2026-11-14 12:00:00,2026-11-14,12:00,HIT,"elefante,camello,delfin,caiman,iguana,pescado,carnero,leon,gallo,tigre","burro,caiman",caiman,elefante,0.02836622221001715
-2026-11-14 13:00:00,2026-11-14,13:00,MISS,"zorro,delfin,camello,iguana,ballena,mono,leon,gallina,pescado,perico","culebra,gato",,zorro,0.0286486840122294
-2026-11-14 14:00:00,2026-11-14,14:00,HIT,"zorro,elefante,delfin,camello,iguana,leon,perico,mono,carnero,pescado","leon,mono","leon,mono",zorro,0.028655505234924016
-2026-11-14 15:00:00,2026-11-14,15:00,MISS,"elefante,zorro,iguana,delfin,ballena,gallina,camello,perico,carnero,gallo","burro,leon",,elefante,0.028563477794074407
-2026-11-14 16:00:00,2026-11-14,16:00,HIT,"zorro,delfin,elefante,iguana,perico,ballena,carnero,gallo,gallina,aguila","toro,zorro",zorro,zorro,0.02827498926060028
-2026-11-14 17:00:00,2026-11-14,17:00,HIT,"iguana,delfin,perico,elefante,ballena,lapa,aguila,zamuro,gallo,cochino","aguila,vaca",aguila,iguana,0.028389486218933006
-2026-11-14 18:00:00,2026-11-14,18:00,HIT,"delfin,iguana,perico,elefante,ballena,lapa,oso,gallo,carnero,cochino","burro,delfin",delfin,delfin,0.02834604912551358
-2026-11-14 19:00:00,2026-11-14,19:00,HIT,"gallina,iguana,perico,elefante,ardilla,cochino,oso,lapa,gallo,zamuro","perico,vaca",perico,gallina,0.028156694953627284
+﻿
