@@ -1,1 +1,10 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-11-16 08:00:00,2026-11-16,08:00,HIT,"culebra,oso,zorro,elefante,jirafa,ardilla,gato,caiman,burro,vaca,perico,gallina,toro,cochino","alacran,burro",burro
+2026-11-16 09:00:00,2026-11-16,09:00,HIT,"gato,oso,culebra,caiman,jirafa,zorro,ardilla,elefante,toro,vaca,paloma,perico,pescado,cochino","jirafa,zorro","jirafa,zorro"
+2026-11-16 10:00:00,2026-11-16,10:00,MISS,"gato,elefante,vaca,toro,ballena,caiman,ardilla,pescado,perico,lapa,cochino,carnero,gallo,camello","aguila,caballo",
+2026-11-16 11:00:00,2026-11-16,11:00,HIT,"culebra,toro,oso,elefante,vaca,caiman,perico,ballena,lapa,cochino,ardilla,gallina,pescado,carnero","carnero,chivo",carnero
+2026-11-16 12:00:00,2026-11-16,12:00,HIT,"gato,oso,culebra,vaca,perico,elefante,ardilla,caiman,paloma,lapa,gallo,camello,pescado,gallina","caiman,cebra",caiman
+2026-11-16 13:00:00,2026-11-16,13:00,HIT,"gato,oso,toro,vaca,ardilla,perico,culebra,gallina,paloma,cochino,leon,perro,ballena,rana","paloma,toro","paloma,toro"
+2026-11-16 14:00:00,2026-11-16,14:00,MISS,"gato,leon,perico,culebra,oso,elefante,ardilla,perro,gallina,ballena,delfin,rana,cochino,pescado","aguila,mono",
+2026-11-16 15:00:00,2026-11-16,15:00,HIT,"vaca,leon,elefante,perico,gato,oso,iguana,cochino,gallina,ardilla,rana,ballena,lapa,gallo","cochino,culebra",cochino
+2026-11-16 16:00:00,2026-11-16,16:00,HIT,"vaca,elefante,leon,burro,gato,oso,perico,ardilla,delfin,perro,iguana,ciempies,lapa,venado","chivo,perro",perro

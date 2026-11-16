@@ -1,1 +1,10 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-11-16 08:00:00,2026-11-16,08:00,HIT,"culebra,jirafa,oso,gato,zorro,elefante,vaca,ardilla,burro,caiman","alacran,burro",burro,culebra,0.028459167814969155
+2026-11-16 09:00:00,2026-11-16,09:00,HIT,"culebra,gato,oso,elefante,caiman,jirafa,zorro,ardilla,vaca,perico","jirafa,zorro","jirafa,zorro",culebra,0.02834614220309233
+2026-11-16 10:00:00,2026-11-16,10:00,MISS,"gato,elefante,vaca,toro,ardilla,caiman,perico,ballena,cochino,pescado","aguila,caballo",,gato,0.028485203973556552
+2026-11-16 11:00:00,2026-11-16,11:00,MISS,"culebra,oso,toro,vaca,elefante,perico,caiman,ballena,cochino,paloma","carnero,chivo",,culebra,0.02829403740736794
+2026-11-16 12:00:00,2026-11-16,12:00,HIT,"culebra,oso,gato,vaca,elefante,caiman,perico,paloma,ardilla,lapa","caiman,cebra",caiman,culebra,0.028227597263008324
+2026-11-16 13:00:00,2026-11-16,13:00,HIT,"gato,oso,toro,vaca,perico,ardilla,culebra,cochino,gallina,ballena","paloma,toro",toro,gato,0.028255351603816852
+2026-11-16 14:00:00,2026-11-16,14:00,MISS,"gato,leon,perico,elefante,culebra,oso,perro,ardilla,ballena,cochino","aguila,mono",,gato,0.02820826102576353
+2026-11-16 15:00:00,2026-11-16,15:00,MISS,"vaca,leon,gato,elefante,perico,oso,gallina,ballena,iguana,ardilla","cochino,culebra",,vaca,0.02819604653863496
+2026-11-16 16:00:00,2026-11-16,16:00,MISS,"vaca,leon,gato,elefante,perico,burro,oso,ardilla,delfin,iguana","chivo,perro",,vaca,0.028174118236738405
