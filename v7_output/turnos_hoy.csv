@@ -9,3 +9,5 @@
 2026-11-15 15:00:00,2026-11-15,15:00,HIT,"ardilla,zamuro,culebra,iguana,cochino,elefante,delfin,paloma,zorro,gallina","ciempies,iguana",iguana,ardilla,0.028036084402928006
 2026-11-15 16:00:00,2026-11-15,16:00,HIT,"oso,culebra,gato,cochino,zamuro,ardilla,elefante,delfin,zorro,caiman","delfin,leon",delfin,oso,0.02828977153541062
 2026-11-15 17:00:00,2026-11-15,17:00,HIT,"oso,gato,culebra,ardilla,cochino,zamuro,elefante,zorro,caiman,paloma","aguila,zamuro",zamuro,oso,0.028540155738669866
+2026-11-15 18:00:00,2026-11-15,18:00,MISS,"oso,culebra,gato,zorro,jirafa,ardilla,caiman,cochino,paloma,vaca","caballo,delfin",,oso,0.028525496131164917
+2026-11-15 19:00:00,2026-11-15,19:00,MISS,"oso,culebra,zorro,ardilla,elefante,jirafa,paloma,vaca,caiman,gallina","cebra,mono",,oso,0.028519943480583905
