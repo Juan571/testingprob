@@ -1,3 +1,11 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
 2026-11-18 08:00:00,2026-11-18,08:00,HIT,"jirafa,caballo,cebra,aguila,mono,toro,chivo,carnero,burro,oso,culebra,pavo,paloma,cochino","caballo,gato",caballo
 2026-11-18 09:00:00,2026-11-18,09:00,HIT,"jirafa,aguila,chivo,burro,toro,carnero,cebra,culebra,cochino,pavo,ardilla,lapa,oso,venado","leon,venado",venado
+2026-11-18 10:00:00,2026-11-18,10:00,MISS,"aguila,chivo,toro,cebra,mono,burro,carnero,culebra,cochino,ciempies,zorro,pavo,ardilla,raton","pescado,rana",
+2026-11-18 11:00:00,2026-11-18,11:00,MISS,"jirafa,mono,aguila,toro,chivo,burro,carnero,cebra,culebra,ciempies,cochino,paloma,vaca,gallina","camello,perico",
+2026-11-18 12:00:00,2026-11-18,12:00,HIT,"jirafa,aguila,mono,toro,burro,chivo,carnero,culebra,cochino,paloma,pavo,ciempies,vaca,gallina","jirafa,paloma","jirafa,paloma"
+2026-11-18 13:00:00,2026-11-18,13:00,MISS,"burro,cochino,aguila,chivo,toro,cebra,ciempies,perro,carnero,gallina,vaca,mono,ardilla,raton","elefante,lapa",
+2026-11-18 14:00:00,2026-11-18,14:00,HIT,"mono,aguila,burro,cochino,toro,chivo,zorro,culebra,carnero,vaca,perro,ciempies,gallina,ballena","aguila,culebra","aguila,culebra"
+2026-11-18 15:00:00,2026-11-18,15:00,HIT,"mono,perro,burro,cochino,chivo,vaca,zorro,toro,carnero,gallina,delfin,ciempies,alacran,cebra","ardilla,cochino",cochino
+2026-11-18 16:00:00,2026-11-18,16:00,HIT,"mono,perro,burro,vaca,delfin,carnero,tigre,toro,zorro,ciempies,caballo,cebra,zamuro,gallina","aguila,burro",burro
+2026-11-18 17:00:00,2026-11-18,17:00,MISS,"perro,mono,zorro,delfin,vaca,ciempies,caballo,carnero,toro,zamuro,alacran,gallina,cebra,ballena","aguila,leon",
