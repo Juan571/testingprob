@@ -1,1 +1,3 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-11-18 08:00:00,2026-11-18,08:00,HIT,"jirafa,aguila,cebra,mono,caballo,chivo,toro,carnero,burro,oso","caballo,gato",caballo,jirafa,0.028841656580535467
+2026-11-18 09:00:00,2026-11-18,09:00,MISS,"jirafa,aguila,burro,toro,chivo,cebra,carnero,cochino,paloma,culebra","leon,venado",,jirafa,0.028822215956145605
