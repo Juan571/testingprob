@@ -1,2 +1,11 @@
 ﻿datetime,date,time,status,top_list,real_animals,hit_animals
 2026-11-19 08:00:00,2026-11-19,08:00,MISS,"mono,delfin,caballo,vaca,chivo,zorro,perro,carnero,cebra,caiman,ciempies,zamuro,iguana,ballena","ardilla,culebra",
+2026-11-19 09:00:00,2026-11-19,09:00,HIT,"delfin,mono,caballo,chivo,perro,caiman,tigre,zorro,perico,iguana,cebra,vaca,gato,zamuro","culebra,perico",perico
+2026-11-19 10:00:00,2026-11-19,10:00,HIT,"perro,mono,delfin,caballo,zorro,zamuro,pescado,cebra,carnero,chivo,gato,gallina,caiman,ciempies","gallo,mono",mono
+2026-11-19 11:00:00,2026-11-19,11:00,HIT,"delfin,perro,iguana,zamuro,caiman,chivo,cebra,gato,zorro,toro,tigre,ciempies,ballena,carnero","carnero,perro","carnero,perro"
+2026-11-19 12:00:00,2026-11-19,12:00,MISS,"caiman,gato,aguila,caballo,zorro,cebra,chivo,pescado,tigre,venado,iguana,raton,gallina,ciempies","perico,rana",
+2026-11-19 13:00:00,2026-11-19,13:00,MISS,"delfin,caballo,chivo,caiman,zamuro,gato,aguila,zorro,cebra,ciempies,pescado,iguana,tigre,venado","gallina,lapa",
+2026-11-19 14:00:00,2026-11-19,14:00,HIT,"caballo,aguila,delfin,gato,zamuro,tigre,chivo,pescado,cebra,leon,ciempies,venado,toro,pavo","elefante,pescado",pescado
+2026-11-19 15:00:00,2026-11-19,15:00,MISS,"caballo,aguila,leon,iguana,zorro,delfin,chivo,cebra,tigre,gato,ballena,pavo,cochino,toro","perico,pescado",
+2026-11-19 16:00:00,2026-11-19,16:00,HIT,"aguila,caballo,caiman,delfin,zamuro,iguana,zorro,cebra,leon,chivo,gato,tigre,cochino,toro","gallina,leon",leon
+2026-11-19 17:00:00,2026-11-19,17:00,HIT,"aguila,caballo,delfin,zamuro,jirafa,gato,chivo,caiman,ciempies,cebra,cochino,burro,camello,oso","oso,toro",oso
