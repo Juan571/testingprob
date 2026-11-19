@@ -9,3 +9,5 @@
 2026-11-18 15:00:00,2026-11-18,15:00,HIT,"mono,burro,chivo,perro,cochino,vaca,toro,carnero,ciempies,zorro","ardilla,cochino",cochino,mono,0.028721022086957256
 2026-11-18 16:00:00,2026-11-18,16:00,HIT,"mono,perro,burro,delfin,toro,vaca,zorro,ciempies,carnero,tigre","aguila,burro",burro,mono,0.028253804507727572
 2026-11-18 17:00:00,2026-11-18,17:00,MISS,"perro,mono,delfin,vaca,ciempies,zorro,caballo,carnero,ballena,toro","aguila,leon",,perro,0.02807039604496175
+2026-11-18 18:00:00,2026-11-18,18:00,MISS,"delfin,mono,zorro,caballo,vaca,perro,toro,ciempies,chivo,zamuro","alacran,jirafa",,delfin,0.027903591846299414
+2026-11-18 19:00:00,2026-11-18,19:00,MISS,"mono,delfin,perro,caballo,vaca,chivo,cebra,zorro,gallina,tigre","ardilla,leon",,mono,0.028006890747209297
