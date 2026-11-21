@@ -8,3 +8,6 @@
 2026-11-20 14:00:00,2026-11-20,14:00,MISS,"jirafa,ardilla,perico,caiman,perro,mono,burro,alacran,zamuro,gato","elefante,oso",,jirafa,0.028149386607866315
 2026-11-20 15:00:00,2026-11-20,15:00,HIT,"ardilla,jirafa,perico,mono,alacran,perro,tigre,gato,burro,iguana","ardilla,carnero",ardilla,ardilla,0.028228909718739953
 2026-11-20 16:00:00,2026-11-20,16:00,MISS,"perico,jirafa,perro,mono,caiman,rana,burro,zamuro,tigre,alacran","cebra,cochino",,perico,0.028238787108142257
+2026-11-20 17:00:00,2026-11-20,17:00,MISS,"perico,jirafa,alacran,perro,pescado,burro,culebra,mono,caiman,gato",camello,,perico,0.028513656266611166
+2026-11-20 18:00:00,2026-11-20,18:00,HIT,"perico,jirafa,pescado,culebra,perro,alacran,caiman,delfin,tigre,rana","caballo,tigre",tigre,perico,0.028684963163213523
+2026-11-20 19:00:00,2026-11-20,19:00,MISS,"perico,pescado,jirafa,culebra,gallina,perro,rana,delfin,alacran,zamuro","iguana,vaca",,perico,0.028763567573050923
