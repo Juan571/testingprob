@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-11-20 08:00:00,2026-11-20,08:00,MISS,"aguila,jirafa,caballo,cebra,delfin,venado,alacran,chivo,cochino,burro","ballena,culebra",,aguila,0.02888501357671228
-2026-11-20 09:00:00,2026-11-20,09:00,HIT,"aguila,caballo,caiman,cochino,burro,zorro,camello,chivo,cebra,alacran","caballo,zorro","caballo,zorro",aguila,0.028514866461497788
-2026-11-20 10:00:00,2026-11-20,10:00,MISS,"aguila,jirafa,caiman,ardilla,cochino,burro,alacran,camello,delfin,zamuro","caballo,vaca",,aguila,0.028746241668226244
-2026-11-20 11:00:00,2026-11-20,11:00,HIT,"aguila,jirafa,cochino,caiman,delfin,ardilla,iguana,zamuro,chivo,burro","chivo,leon",chivo,aguila,0.028635293961819734
-2026-11-20 12:00:00,2026-11-20,12:00,HIT,"aguila,jirafa,ardilla,caiman,delfin,cebra,camello,venado,zamuro,perico","camello,cochino",camello,aguila,0.028964056246623748
-2026-11-20 13:00:00,2026-11-20,13:00,HIT,"aguila,jirafa,ardilla,caiman,delfin,gato,perro,mono,burro,tigre","aguila,ballena",aguila,aguila,0.028512413598933486
-2026-11-20 14:00:00,2026-11-20,14:00,MISS,"jirafa,ardilla,perico,caiman,perro,mono,burro,alacran,zamuro,gato","elefante,oso",,jirafa,0.028149386607866315
-2026-11-20 15:00:00,2026-11-20,15:00,HIT,"ardilla,jirafa,perico,mono,alacran,perro,tigre,gato,burro,iguana","ardilla,carnero",ardilla,ardilla,0.028228909718739953
-2026-11-20 16:00:00,2026-11-20,16:00,MISS,"perico,jirafa,perro,mono,caiman,rana,burro,zamuro,tigre,alacran","cebra,cochino",,perico,0.028238787108142257
-2026-11-20 17:00:00,2026-11-20,17:00,MISS,"perico,jirafa,alacran,perro,pescado,burro,culebra,mono,caiman,gato",camello,,perico,0.028513656266611166
-2026-11-20 18:00:00,2026-11-20,18:00,HIT,"perico,jirafa,pescado,culebra,perro,alacran,caiman,delfin,tigre,rana","caballo,tigre",tigre,perico,0.028684963163213523
-2026-11-20 19:00:00,2026-11-20,19:00,MISS,"perico,pescado,jirafa,culebra,gallina,perro,rana,delfin,alacran,zamuro","iguana,vaca",,perico,0.028763567573050923
+﻿
