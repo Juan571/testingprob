@@ -1,1 +1,7 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-11-21 08:00:00,2026-11-21,08:00,HIT,"perico,culebra,jirafa,pescado,leon,lapa,mono,rana,delfin,venado,caiman,alacran,gato,burro","chivo,lapa",lapa
+2026-11-21 09:00:00,2026-11-21,09:00,HIT,"perico,culebra,pescado,jirafa,rana,perro,delfin,mono,leon,gallina,venado,gallo,zamuro,alacran","caiman,pescado",pescado
+2026-11-21 10:00:00,2026-11-21,10:00,MISS,"perico,culebra,jirafa,leon,gallina,mono,gallo,delfin,rana,perro,alacran,gato,zorro,burro","ardilla,camello",
+2026-11-21 11:00:00,2026-11-21,11:00,HIT,"perico,culebra,leon,jirafa,rana,mono,gallina,perro,zorro,delfin,alacran,toro,burro,elefante","lapa,zorro",zorro
+2026-11-21 12:00:00,2026-11-21,12:00,HIT,"perico,culebra,leon,aguila,elefante,rana,toro,perro,venado,mono,jirafa,gato,alacran,delfin","delfin,zorro",delfin
+2026-11-21 13:00:00,2026-11-21,13:00,MISS,"perico,culebra,leon,elefante,rana,gato,toro,perro,aguila,jirafa,alacran,caballo,burro,mono","ardilla,paloma",

@@ -1,1 +1,7 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-11-21 08:00:00,2026-11-21,08:00,HIT,"perico,culebra,jirafa,pescado,leon,rana,lapa,mono,alacran,venado","chivo,lapa",lapa,perico,0.029024657267963456
+2026-11-21 09:00:00,2026-11-21,09:00,HIT,"perico,culebra,pescado,leon,jirafa,delfin,mono,rana,perro,gallina","caiman,pescado",pescado,perico,0.029049785176956947
+2026-11-21 10:00:00,2026-11-21,10:00,MISS,"perico,culebra,leon,gallina,perro,jirafa,rana,mono,delfin,gallo","ardilla,camello",,perico,0.029457020580404572
+2026-11-21 11:00:00,2026-11-21,11:00,MISS,"perico,culebra,leon,perro,mono,rana,gallina,jirafa,delfin,alacran","lapa,zorro",,perico,0.02897960825896903
+2026-11-21 12:00:00,2026-11-21,12:00,HIT,"perico,culebra,leon,perro,rana,elefante,jirafa,delfin,aguila,venado","delfin,zorro",delfin,perico,0.029124530416559023
+2026-11-21 13:00:00,2026-11-21,13:00,MISS,"perico,culebra,leon,elefante,rana,toro,gato,aguila,perro,jirafa","ardilla,paloma",,perico,0.02904861371068442
