@@ -5,3 +5,9 @@
 2026-11-21 11:00:00,2026-11-21,11:00,MISS,"perico,culebra,leon,perro,mono,rana,gallina,jirafa,delfin,alacran","lapa,zorro",,perico,0.02897960825896903
 2026-11-21 12:00:00,2026-11-21,12:00,HIT,"perico,culebra,leon,perro,rana,elefante,jirafa,delfin,aguila,venado","delfin,zorro",delfin,perico,0.029124530416559023
 2026-11-21 13:00:00,2026-11-21,13:00,MISS,"perico,culebra,leon,elefante,rana,toro,gato,aguila,perro,jirafa","ardilla,paloma",,perico,0.02904861371068442
+2026-11-21 14:00:00,2026-11-21,14:00,HIT,"perico,leon,culebra,elefante,gallina,aguila,jirafa,rana,caballo,oso","alacran,culebra",culebra,perico,0.02878030277423346
+2026-11-21 15:00:00,2026-11-21,15:00,MISS,"perico,elefante,caballo,aguila,gallina,rana,oso,gato,toro,leon","pescado,vaca",,perico,0.028670759306852714
+2026-11-21 16:00:00,2026-11-21,16:00,HIT,"leon,perico,caballo,elefante,aguila,rana,ballena,cochino,jirafa,carnero","ballena,tigre",ballena,leon,0.02893967305043902
+2026-11-21 17:00:00,2026-11-21,17:00,HIT,"perico,caballo,elefante,oso,gallina,carnero,jirafa,cochino,rana,toro","gallina,zorro",gallina,perico,0.02850452113728497
+2026-11-21 18:00:00,2026-11-21,18:00,HIT,"leon,caballo,elefante,perico,aguila,jirafa,toro,camello,cochino,rana","ballena,toro",toro,leon,0.02860166911732672
+2026-11-21 19:00:00,2026-11-21,19:00,HIT,"caballo,leon,elefante,perico,aguila,cochino,camello,oso,rana,jirafa","cochino,elefante","cochino,elefante",caballo,0.028468094811370828
