@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
-2026-11-22 08:00:00,2026-11-22,08:00,MISS,"caballo,leon,aguila,camello,perico,jirafa,carnero,rana,oso,venado","cochino,delfin",,caballo,0.02842700219679339
-2026-11-22 09:00:00,2026-11-22,09:00,HIT,"caballo,leon,camello,perico,aguila,oso,jirafa,rana,lapa,venado","paloma,rana",rana,caballo,0.028403071381980033
-2026-11-22 10:00:00,2026-11-22,10:00,HIT,"camello,caballo,aguila,carnero,ardilla,oso,lapa,jirafa,chivo,cebra","cebra,leon",cebra,camello,0.02862870733768366
-2026-11-22 11:00:00,2026-11-22,11:00,HIT,"aguila,perico,caballo,lapa,carnero,oso,ardilla,culebra,jirafa,chivo","caiman,chivo",chivo,aguila,0.028075994712269955
-2026-11-22 12:00:00,2026-11-22,12:00,HIT,"camello,aguila,ardilla,perico,oso,carnero,jirafa,culebra,caballo,iguana",carnero,carnero,camello,0.028858570114572425
-2026-11-22 13:00:00,2026-11-22,13:00,HIT,"camello,ardilla,aguila,lapa,perico,caballo,oso,culebra,jirafa,iguana","oso,zorro",oso,camello,0.02896215818124681
-2026-11-22 14:00:00,2026-11-22,14:00,MISS,"ardilla,camello,aguila,lapa,culebra,caballo,perico,jirafa,vaca,gallo","elefante,mono",,ardilla,0.028631885490785873
-2026-11-22 15:00:00,2026-11-22,15:00,MISS,"ardilla,camello,lapa,culebra,aguila,pescado,perico,vaca,iguana,cochino","mono,venado",,ardilla,0.028814716319239167
-2026-11-22 16:00:00,2026-11-22,16:00,MISS,"ardilla,camello,culebra,lapa,aguila,cochino,vaca,perico,iguana,tigre","ballena,pescado",,ardilla,0.02893041839623262
-2026-11-22 17:00:00,2026-11-22,17:00,MISS,"camello,lapa,cochino,caballo,vaca,aguila,perico,ardilla,iguana,tigre","elefante,venado",,camello,0.028844374327316465
-2026-11-22 18:00:00,2026-11-22,18:00,HIT,"camello,ardilla,lapa,caballo,culebra,vaca,perico,aguila,tigre,cochino","culebra,rana",culebra,camello,0.028954572153741448
-2026-11-22 19:00:00,2026-11-22,19:00,MISS,"ardilla,lapa,camello,caballo,vaca,cochino,gallina,iguana,tigre,aguila","ciempies,oso",,ardilla,0.02864530888719934
+﻿

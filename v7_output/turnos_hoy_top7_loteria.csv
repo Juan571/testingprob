@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-11-22 08:00:00,2026-11-22,08:00,MISS,"aguila,leon,caballo,perico,camello,rana,carnero,oso,jirafa,iguana,lapa,gato,cebra,venado","cochino,delfin",
-2026-11-22 09:00:00,2026-11-22,09:00,HIT,"leon,camello,caballo,perico,aguila,rana,oso,lapa,jirafa,caiman,iguana,mono,ardilla,burro","paloma,rana",rana
-2026-11-22 10:00:00,2026-11-22,10:00,HIT,"caballo,camello,aguila,ardilla,oso,lapa,carnero,jirafa,chivo,cebra,culebra,caiman,iguana,leon","cebra,leon","cebra,leon"
-2026-11-22 11:00:00,2026-11-22,11:00,HIT,"caballo,aguila,perico,oso,lapa,ardilla,carnero,culebra,jirafa,venado,gallo,chivo,camello,caiman","caiman,chivo","caiman,chivo"
-2026-11-22 12:00:00,2026-11-22,12:00,HIT,"camello,ardilla,aguila,perico,oso,caballo,carnero,jirafa,gallo,culebra,iguana,mono,pescado,pavo",carnero,carnero
-2026-11-22 13:00:00,2026-11-22,13:00,HIT,"camello,ardilla,aguila,perico,lapa,oso,caballo,culebra,pescado,jirafa,mono,iguana,raton,cochino","oso,zorro",oso
-2026-11-22 14:00:00,2026-11-22,14:00,HIT,"ardilla,camello,lapa,aguila,culebra,caballo,perico,gallo,jirafa,vaca,perro,tigre,cochino,elefante","elefante,mono",elefante
-2026-11-22 15:00:00,2026-11-22,15:00,MISS,"ardilla,lapa,camello,culebra,aguila,perico,cochino,pescado,tigre,vaca,iguana,gallo,alacran,gato","mono,venado",
-2026-11-22 16:00:00,2026-11-22,16:00,MISS,"ardilla,camello,culebra,cochino,lapa,aguila,perico,vaca,tigre,gallo,iguana,perro,delfin,burro","ballena,pescado",
-2026-11-22 17:00:00,2026-11-22,17:00,MISS,"camello,lapa,cochino,caballo,ardilla,aguila,vaca,perico,tigre,iguana,gallo,gallina,alacran,jirafa","elefante,venado",
-2026-11-22 18:00:00,2026-11-22,18:00,HIT,"camello,ardilla,lapa,caballo,aguila,vaca,perico,culebra,iguana,alacran,cochino,gallina,tigre,toro","culebra,rana",culebra
-2026-11-22 19:00:00,2026-11-22,19:00,MISS,"ardilla,lapa,camello,caballo,vaca,cochino,iguana,tigre,gallina,aguila,zorro,gallo,alacran,delfin","ciempies,oso",
+﻿
