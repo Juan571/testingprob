@@ -1,1 +1,11 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-11-23 08:00:00,2026-11-23,08:00,MISS,"ardilla,lapa,vaca,camello,cochino,perico,iguana,gallina,tigre,aguila,delfin,caballo,jirafa,leon","oso,zorro",
+2026-11-23 09:00:00,2026-11-23,09:00,MISS,"lapa,ardilla,camello,cochino,vaca,caballo,perico,tigre,delfin,leon,aguila,caiman,toro,gallo","chivo,jirafa",
+2026-11-23 10:00:00,2026-11-23,10:00,MISS,"ardilla,camello,lapa,perico,caballo,delfin,gallina,vaca,tigre,alacran,toro,aguila,paloma,gallo","ballena,leon",
+2026-11-23 11:00:00,2026-11-23,11:00,MISS,"camello,lapa,cochino,caballo,ardilla,perico,vaca,gallina,iguana,toro,cebra,gallo,aguila,paloma","culebra,mono",
+2026-11-23 12:00:00,2026-11-23,12:00,HIT,"lapa,ardilla,cochino,camello,vaca,toro,delfin,tigre,gallina,perico,aguila,gallo,cebra,alacran","cochino,paloma",cochino
+2026-11-23 13:00:00,2026-11-23,13:00,HIT,"ardilla,vaca,camello,lapa,delfin,gallina,pescado,caballo,toro,tigre,caiman,carnero,perico,alacran","caballo,paloma",caballo
+2026-11-23 14:00:00,2026-11-23,14:00,HIT,"vaca,camello,lapa,ardilla,pescado,toro,delfin,gallina,tigre,carnero,perico,alacran,caiman,elefante","leon,vaca",vaca
+2026-11-23 15:00:00,2026-11-23,15:00,HIT,"camello,elefante,lapa,pescado,oso,ardilla,zorro,carnero,delfin,iguana,cebra,caiman,perico,gallo","camello,delfin","camello,delfin"
+2026-11-23 16:00:00,2026-11-23,16:00,HIT,"zorro,elefante,pescado,oso,lapa,ardilla,tigre,toro,caiman,iguana,gallina,rana,perico,aguila","elefante,perico","elefante,perico"
+2026-11-23 17:00:00,2026-11-23,17:00,HIT,"zorro,oso,ardilla,lapa,toro,carnero,cebra,gallina,pescado,iguana,ballena,alacran,aguila,gato","ballena,caiman",ballena

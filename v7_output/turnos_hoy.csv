@@ -1,1 +1,11 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-11-23 08:00:00,2026-11-23,08:00,MISS,"ardilla,lapa,camello,vaca,cochino,perico,caballo,gallina,iguana,tigre","oso,zorro",,ardilla,0.02877980932310708
+2026-11-23 09:00:00,2026-11-23,09:00,MISS,"ardilla,lapa,camello,cochino,perico,caballo,vaca,delfin,tigre,leon","chivo,jirafa",,ardilla,0.028630962945140306
+2026-11-23 10:00:00,2026-11-23,10:00,MISS,"ardilla,camello,lapa,gallina,caballo,perico,vaca,delfin,paloma,tigre","ballena,leon",,ardilla,0.02852329585786501
+2026-11-23 11:00:00,2026-11-23,11:00,MISS,"lapa,camello,cochino,ardilla,perico,vaca,gallina,caballo,paloma,toro","culebra,mono",,lapa,0.028342106141610538
+2026-11-23 12:00:00,2026-11-23,12:00,HIT,"lapa,cochino,camello,ardilla,vaca,delfin,gallina,toro,tigre,perico","cochino,paloma",cochino,lapa,0.02820402797112133
+2026-11-23 13:00:00,2026-11-23,13:00,HIT,"ardilla,camello,lapa,gallina,delfin,vaca,toro,caballo,tigre,cebra","caballo,paloma",caballo,ardilla,0.028045221342228338
+2026-11-23 14:00:00,2026-11-23,14:00,HIT,"vaca,lapa,ardilla,camello,gallina,pescado,tigre,delfin,elefante,toro","leon,vaca",vaca,vaca,0.027816413821256238
+2026-11-23 15:00:00,2026-11-23,15:00,HIT,"camello,lapa,elefante,pescado,ardilla,zorro,carnero,delfin,cebra,oso","camello,delfin","camello,delfin",camello,0.02796907491049239
+2026-11-23 16:00:00,2026-11-23,16:00,HIT,"pescado,elefante,zorro,ardilla,tigre,toro,oso,lapa,caiman,gallina","elefante,perico",elefante,pescado,0.028095855713969078
+2026-11-23 17:00:00,2026-11-23,17:00,MISS,"zorro,oso,carnero,ardilla,lapa,gallina,tigre,toro,cebra,pescado","ballena,caiman",,zorro,0.028273636915864372
