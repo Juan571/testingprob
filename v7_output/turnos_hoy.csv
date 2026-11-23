@@ -7,3 +7,7 @@
 2026-11-22 13:00:00,2026-11-22,13:00,HIT,"camello,ardilla,aguila,lapa,perico,caballo,oso,culebra,jirafa,iguana","oso,zorro",oso,camello,0.02896215818124681
 2026-11-22 14:00:00,2026-11-22,14:00,MISS,"ardilla,camello,aguila,lapa,culebra,caballo,perico,jirafa,vaca,gallo","elefante,mono",,ardilla,0.028631885490785873
 2026-11-22 15:00:00,2026-11-22,15:00,MISS,"ardilla,camello,lapa,culebra,aguila,pescado,perico,vaca,iguana,cochino","mono,venado",,ardilla,0.028814716319239167
+2026-11-22 16:00:00,2026-11-22,16:00,MISS,"ardilla,camello,culebra,lapa,aguila,cochino,vaca,perico,iguana,tigre","ballena,pescado",,ardilla,0.02893041839623262
+2026-11-22 17:00:00,2026-11-22,17:00,MISS,"camello,lapa,cochino,caballo,vaca,aguila,perico,ardilla,iguana,tigre","elefante,venado",,camello,0.028844374327316465
+2026-11-22 18:00:00,2026-11-22,18:00,HIT,"camello,ardilla,lapa,caballo,culebra,vaca,perico,aguila,tigre,cochino","culebra,rana",culebra,camello,0.028954572153741448
+2026-11-22 19:00:00,2026-11-22,19:00,MISS,"ardilla,lapa,camello,caballo,vaca,cochino,gallina,iguana,tigre,aguila","ciempies,oso",,ardilla,0.02864530888719934
