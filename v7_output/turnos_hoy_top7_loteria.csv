@@ -5,3 +5,9 @@
 2026-11-24 11:00:00,2026-11-24,11:00,MISS,"zorro,chivo,rana,venado,pescado,lapa,iguana,mono,cochino,oso,carnero,culebra,alacran,gallina","jirafa,pavo",
 2026-11-24 12:00:00,2026-11-24,12:00,HIT,"carnero,zorro,chivo,oso,mono,rana,pescado,cochino,tigre,aguila,lapa,vaca,ballena,ciempies","pescado,zorro","pescado,zorro"
 2026-11-24 13:00:00,2026-11-24,13:00,HIT,"mono,carnero,chivo,cochino,rana,camello,lapa,culebra,tigre,ballena,iguana,ciempies,alacran,raton","jirafa,tigre",tigre
+2026-11-24 14:00:00,2026-11-24,14:00,MISS,"oso,mono,ballena,cochino,carnero,camello,rana,chivo,vaca,lapa,caballo,alacran,ciempies,elefante","aguila,paloma",
+2026-11-24 15:00:00,2026-11-24,15:00,HIT,"oso,ballena,venado,cochino,chivo,elefante,iguana,rana,carnero,culebra,camello,alacran,vaca,caballo","alacran,caiman",alacran
+2026-11-24 16:00:00,2026-11-24,16:00,MISS,"oso,venado,cochino,caballo,rana,ballena,culebra,mono,carnero,chivo,camello,vaca,delfin,iguana","gato,leon",
+2026-11-24 17:00:00,2026-11-24,17:00,HIT,"oso,ballena,chivo,carnero,mono,camello,lapa,cochino,culebra,vaca,elefante,ciempies,delfin,iguana","elefante,perico",elefante
+2026-11-24 18:00:00,2026-11-24,18:00,MISS,"oso,cochino,chivo,ballena,camello,lapa,venado,culebra,vaca,caballo,carnero,delfin,mono,gallina","pescado,raton",
+2026-11-24 19:00:00,2026-11-24,19:00,HIT,"chivo,mono,cochino,vaca,ballena,camello,culebra,delfin,rana,caballo,carnero,zorro,iguana,gallina","camello,delfin","camello,delfin"
