@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-11-26 08:00:00,2026-11-26,08:00,MISS,"elefante,ardilla,delfin,zorro,ballena,oso,cebra,carnero,caiman,paloma,toro,camello,pavo,tigre","caballo,pescado",
+2026-11-26 09:00:00,2026-11-26,09:00,HIT,"elefante,delfin,zorro,caiman,ballena,paloma,camello,carnero,cebra,cochino,pavo,toro,burro,culebra","alacran,camello",camello
+2026-11-26 10:00:00,2026-11-26,10:00,MISS,"elefante,zorro,ardilla,caiman,oso,delfin,carnero,ballena,paloma,pavo,cochino,toro,iguana,culebra","tigre,zamuro",
+2026-11-26 11:00:00,2026-11-26,11:00,HIT,"oso,zorro,caiman,ballena,carnero,paloma,pavo,delfin,cebra,culebra,cochino,ciempies,ardilla,toro","oso,vaca",oso
