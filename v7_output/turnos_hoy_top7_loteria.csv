@@ -3,3 +3,6 @@
 2026-11-27 09:00:00,2026-11-27,09:00,MISS,"alacran,leon,cochino,elefante,pavo,vaca,delfin,caballo,mono,ballena,paloma,raton,perico,ciempies","ardilla,iguana",
 2026-11-27 10:00:00,2026-11-27,10:00,MISS,"alacran,leon,paloma,pavo,delfin,elefante,vaca,cochino,raton,caballo,venado,perico,mono,rana","ardilla,cebra",
 2026-11-27 11:00:00,2026-11-27,11:00,HIT,"alacran,vaca,leon,paloma,pavo,delfin,cochino,mono,caballo,perico,elefante,raton,perro,venado",elefante,elefante
+2026-11-27 12:00:00,2026-11-27,12:00,HIT,"alacran,paloma,vaca,leon,pavo,perico,venado,delfin,caballo,cochino,mono,ballena,carnero,gato","cochino,perro",cochino
+2026-11-27 13:00:00,2026-11-27,13:00,HIT,"alacran,paloma,leon,caballo,pavo,perico,raton,delfin,venado,rana,mono,caiman,ciempies,carnero","aguila,alacran",alacran
+2026-11-27 14:00:00,2026-11-27,14:00,HIT,"paloma,vaca,perico,caballo,delfin,pavo,gallo,rana,venado,mono,gato,zamuro,caiman,carnero","alacran,perico",perico
