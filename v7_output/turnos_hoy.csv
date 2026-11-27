@@ -1,1 +1,5 @@
-﻿
+﻿datetime,date,time,status,top10,real_animals,hit_animals,top1,top1_probability
+2026-11-27 08:00:00,2026-11-27,08:00,HIT,"alacran,jirafa,cochino,delfin,pavo,elefante,vaca,rana,raton,venado","jirafa,pescado",jirafa,alacran,0.02823251412841947
+2026-11-27 09:00:00,2026-11-27,09:00,MISS,"leon,alacran,cochino,pavo,elefante,delfin,vaca,paloma,perico,ballena","ardilla,iguana",,leon,0.02838533460334455
+2026-11-27 10:00:00,2026-11-27,10:00,MISS,"alacran,leon,pavo,vaca,paloma,cochino,elefante,delfin,caballo,perico","ardilla,cebra",,alacran,0.028554699483931967
+2026-11-27 11:00:00,2026-11-27,11:00,MISS,"alacran,leon,vaca,paloma,pavo,cochino,caballo,perico,delfin,raton",elefante,,alacran,0.028494450494975235
