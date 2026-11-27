@@ -14,6 +14,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 from typing import Dict, List
 
 import requests
@@ -68,9 +69,18 @@ ANIMAL_ALIASES = {
     "loro": "perico",
 }
 
+# Loterías guardadas: nombre en resultados.csv -> clase CSS del <h3> en la web.
+# Lotto Activo Int sortea a las hh:30 (desde 2022).
+LOTTERY_CLASSES = {
+    "lottoactivo": "lottoactivo",
+    "lagranjita": "lagranjita",
+    "lottoactivoint": "lottoactivordint",
+}
+
 
 def normalize_animal(name: str) -> str:
-    a = name.strip().lower()
+    a = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    a = a.strip().lower()
     return ANIMAL_ALIASES.get(a, a)
 
 
@@ -106,7 +116,7 @@ def fetch_date_html(date_str: str, cookies: Dict[str, str] | None = None) -> str
     raise RuntimeError(f"No se pudo descargar {url}: {last_error}")
 
 
-def extract_for_lottery(soup: BeautifulSoup, lottery_class: str) -> List[Dict]:
+def extract_for_lottery(soup: BeautifulSoup, lottery_class: str, lottery_name: str | None = None) -> List[Dict]:
     results = []
     h3 = soup.find("h3", class_=lottery_class)
     if not h3:
@@ -129,15 +139,15 @@ def extract_for_lottery(soup: BeautifulSoup, lottery_class: str) -> List[Dict]:
         # usa el número oficial del animal (corrige '00' Ballena -> 37)
         number = ANIMAL_NUM.get(animal, number)
         time_txt = h5.get_text(strip=True) if h5 else ""
-        results.append({"lottery": lottery_class, "number": number, "animal": animal, "time": time_txt})
+        results.append({"lottery": lottery_name or lottery_class, "number": number, "animal": animal, "time": time_txt})
     return results
 
 
 def parse_html_for_date(html: str, lotteries: List[str]) -> List[Dict]:
     soup = BeautifulSoup(html, "html.parser")
     all_results = []
-    for cl in lotteries:
-        all_results.extend(extract_for_lottery(soup, cl))
+    for name in lotteries:
+        all_results.extend(extract_for_lottery(soup, LOTTERY_CLASSES.get(name, name), name))
     return all_results
 
 
@@ -159,19 +169,38 @@ def parse_datetime_from_row(date_s: str, time_s: str) -> datetime.datetime | Non
 
 
 def read_last_datetime(csv_file: str) -> datetime.datetime | None:
+    last = read_last_by_lottery(csv_file)
+    return max(last.values()) if last else None
+
+
+def read_last_by_lottery(csv_file: str) -> Dict[str, datetime.datetime]:
+    """Último sorteo registrado de cada lotería."""
+    last: Dict[str, datetime.datetime] = {}
     if not os.path.exists(csv_file):
-        return None
-    last_dt = None
+        return last
     with open(csv_file, newline='', encoding='utf-8') as f:
-        r = csv.DictReader(f)
-        for row in r:
-            date_s = row.get("date", "").strip()
-            time_s = row.get("time", "").strip()
-            dt = parse_datetime_from_row(date_s, time_s)
-            if dt:
-                if last_dt is None or dt > last_dt:
-                    last_dt = dt
-    return last_dt
+        for row in csv.DictReader(f):
+            dt = parse_datetime_from_row(row.get("date", "").strip(), row.get("time", "").strip())
+            lot = row.get("lottery", "").strip()
+            if dt and (lot not in last or dt > last[lot]):
+                last[lot] = dt
+    return last
+
+
+def row_key(date_s: str, lottery: str, time_s: str):
+    """Clave única de un sorteo (la hora se normaliza para comparar)."""
+    dt = parse_datetime_from_row(date_s, time_s)
+    return (lottery, dt) if dt else (lottery, date_s, time_s)
+
+
+def read_keys(csv_file: str) -> set:
+    keys = set()
+    if os.path.exists(csv_file):
+        with open(csv_file, newline='', encoding='utf-8') as f:
+            for row in csv.DictReader(f):
+                keys.add(row_key(row.get("date", "").strip(), row.get("lottery", "").strip(),
+                                 row.get("time", "").strip()))
+    return keys
 
 
 def append_rows(csv_file: str, rows: List[Dict]):
@@ -228,18 +257,29 @@ def main():
     args = p.parse_args()
 
     csv_file = args.file
-    last_dt = read_last_datetime(csv_file)
-    if last_dt is None:
+    last_by_lottery = read_last_by_lottery(csv_file)
+    if not last_by_lottery:
         print(f"{csv_file} not found or has no valid datetime rows. Run scrape_loterias.py first.")
         sys.exit(1)
 
     now = datetime.datetime.now() + datetime.timedelta(hours=1)
-    print(f"Last recorded draw: {last_dt}. Fetching new results up to {now}...")
+    lotteries = list(LOTTERY_CLASSES)
 
-    lotteries = ["lottoactivo", "lagranjita"]
+    # Se vuelve a pedir desde el último día de la lotería más atrasada y se
+    # añaden solo los sorteos que no estén ya en el CSV (clave fecha+lotería+hora).
+    # Así no se pierde un resultado aunque una lotería publique antes que otra.
+    # Tope: como mucho se re-piden los últimos 7 días (si una lotería deja de
+    # publicarse, no se vuelven a descargar todos los días en cada ejecución).
+    known = [last_by_lottery[l] for l in lotteries if l in last_by_lottery]
+    start_date = min(known).date() if known else max(last_by_lottery.values()).date()
+    start_date = max(start_date, min(max(last_by_lottery.values()).date(),
+                                     now.date() - datetime.timedelta(days=7)))
+    print("Last recorded draws: " + ", ".join(f"{l} {last_by_lottery.get(l)}" for l in lotteries)
+          + f". Fetching from {start_date} up to {now}...")
+
+    existing = read_keys(csv_file)
     new_rows: List[Dict] = []
 
-    start_date = last_dt.date()
     end_date = now.date()  # include today
     for d in daterange(start_date, end_date):
         ds = d.strftime("%Y-%m-%d")
@@ -252,7 +292,9 @@ def main():
         for item in parsed:
             item_time = item.get("time", "").strip()
             dt = parse_datetime_from_row(ds, item_time)
-            if dt and last_dt < dt <= now:
+            key = row_key(ds, item["lottery"], item_time)
+            if dt and dt <= now and key not in existing:
+                existing.add(key)
                 new_rows.append({"date": ds, "lottery": item["lottery"], "number": item["number"], "animal": item["animal"], "time": item_time})
         time.sleep(0.3)
 

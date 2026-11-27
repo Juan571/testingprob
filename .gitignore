@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Artefactos de Pages (la salida de V7 se conserva en Git).
+/v8_output/
+/_site/

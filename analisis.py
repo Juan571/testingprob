@@ -287,6 +287,8 @@ def load_data():
         .astype(str)
         .str.strip()
     )
+    # V7 conserva sus dos loterías aunque el histórico compartido incluya V8.
+    df = df[df["lottery"].isin(("lagranjita", "lottoactivo"))].copy()
 
     df["animal"] = (
         df["animal"]

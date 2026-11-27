@@ -21,11 +21,12 @@ concurrency:
 env:
   # Zona horaria de la lotería (ajústala si es necesario)
   TZ: America/Caracas
+  OPENBLAS_NUM_THREADS: "2"
 
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -47,14 +48,13 @@ jobs:
       - name: Scrape new results
         run: python scrape_incremental.py --file resultados.csv
 
-      - name: Run analysis (generates dashboard)
-        run: python analisis.py
+      - name: Run V7 and V8 analyses
+        run: |
+          python analisis.py
+          python analisis_v8.py
 
       - name: Prepare site for GitHub Pages
-        run: |
-          mkdir -p _site
-          cp v7_output/dashboard.html _site/index.html
-          cp v7_output/*.csv _site/ 2>/dev/null || true
+        run: python preparar_pages.py
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
