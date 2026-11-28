@@ -1,13 +1,1 @@
-﻿datetime,date,time,status,top_list,real_animals,hit_animals
-2026-11-27 08:00:00,2026-11-27,08:00,HIT,"pavo,cochino,jirafa,elefante,alacran,delfin,vaca,raton,cebra,perico,venado,rana,ballena,mono","jirafa,pescado",jirafa
-2026-11-27 09:00:00,2026-11-27,09:00,MISS,"alacran,leon,cochino,elefante,pavo,vaca,delfin,caballo,mono,ballena,paloma,raton,perico,ciempies","ardilla,iguana",
-2026-11-27 10:00:00,2026-11-27,10:00,MISS,"alacran,leon,paloma,pavo,delfin,elefante,vaca,cochino,raton,caballo,venado,perico,mono,rana","ardilla,cebra",
-2026-11-27 11:00:00,2026-11-27,11:00,HIT,"alacran,vaca,leon,paloma,pavo,delfin,cochino,mono,caballo,perico,elefante,raton,perro,venado",elefante,elefante
-2026-11-27 12:00:00,2026-11-27,12:00,HIT,"alacran,paloma,vaca,leon,pavo,perico,venado,delfin,caballo,cochino,mono,ballena,carnero,gato","cochino,perro",cochino
-2026-11-27 13:00:00,2026-11-27,13:00,HIT,"alacran,paloma,leon,caballo,pavo,perico,raton,delfin,venado,rana,mono,caiman,ciempies,carnero","aguila,alacran",alacran
-2026-11-27 14:00:00,2026-11-27,14:00,HIT,"paloma,vaca,perico,caballo,delfin,pavo,gallo,rana,venado,mono,gato,zamuro,caiman,carnero","alacran,perico",perico
-2026-11-27 15:00:00,2026-11-27,15:00,HIT,"vaca,paloma,caballo,delfin,venado,gallo,mono,pavo,gato,zamuro,carnero,caiman,camello,chivo","carnero,leon",carnero
-2026-11-27 16:00:00,2026-11-27,16:00,HIT,"gallo,vaca,paloma,caballo,caiman,pavo,mono,raton,zorro,camello,pescado,zamuro,gato,venado","alacran,zamuro",zamuro
-2026-11-27 17:00:00,2026-11-27,17:00,HIT,"vaca,delfin,caiman,paloma,caballo,gallo,pavo,chivo,mono,raton,gato,oso,camello,ballena","gato,rana",gato
-2026-11-27 18:00:00,2026-11-27,18:00,MISS,"gallo,oso,zorro,pavo,chivo,paloma,vaca,caiman,mono,delfin,camello,raton,burro,jirafa","aguila,perro",
-2026-11-27 19:00:00,2026-11-27,19:00,HIT,"gallo,paloma,pescado,jirafa,caiman,oso,zorro,delfin,caballo,mono,pavo,camello,venado,lapa","oso,paloma","oso,paloma"
+﻿
