@@ -1,1 +1,8 @@
-﻿
+﻿datetime,date,time,status,top_list,real_animals,hit_animals
+2026-11-28 08:00:00,2026-11-28,08:00,HIT,"jirafa,vaca,gallo,camello,venado,tigre,caballo,caiman,delfin,lapa,raton,ciempies,chivo,burro",camello,camello
+2026-11-28 09:00:00,2026-11-28,09:00,HIT,"lapa,vaca,pavo,tigre,jirafa,pescado,caiman,zorro,caballo,toro,chivo,raton,delfin,burro","perro,vaca",vaca
+2026-11-28 10:00:00,2026-11-28,10:00,MISS,"gallo,pescado,tigre,jirafa,zorro,pavo,caiman,lapa,delfin,raton,caballo,chivo,burro,venado","carnero,leon",
+2026-11-28 11:00:00,2026-11-28,11:00,HIT,"gallo,jirafa,zorro,pescado,pavo,lapa,caiman,raton,iguana,chivo,burro,caballo,venado,culebra","burro,cochino",burro
+2026-11-28 12:00:00,2026-11-28,12:00,MISS,"jirafa,zorro,lapa,pescado,toro,tigre,caiman,ardilla,venado,delfin,raton,gallo,ciempies,iguana","burro,mono",
+2026-11-28 13:00:00,2026-11-28,13:00,HIT,"gallo,jirafa,caiman,pescado,zorro,lapa,tigre,toro,ardilla,raton,alacran,elefante,iguana,delfin","pescado,vaca",pescado
+2026-11-28 14:00:00,2026-11-28,14:00,HIT,"gallo,jirafa,zorro,alacran,tigre,lapa,chivo,caiman,elefante,delfin,perico,caballo,pavo,raton","caballo,ciempies",caballo
